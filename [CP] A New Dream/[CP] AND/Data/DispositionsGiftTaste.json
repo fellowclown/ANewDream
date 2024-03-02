@@ -1,0 +1,664 @@
+{
+"Changes": [
+   {
+"LogName": "Barron Dispositions",
+"Action": "EditData",
+"Target": "Data/Characters",
+"Entries": {
+"FC.Barron": {
+"DisplayName":"{{i18n:FC.Barron}}",
+"Breather": true,
+"Language":"Default",
+"Gender":"Female",
+"Age":"Adult",
+"Manner":"Polite",
+"SocialAnxiety":"Outgoing",
+"Optimism":"Positive",
+"BirthSeason":"winter",
+"Birthday":"16",
+"HomeRegion":"Town",
+"IsDarkSkinned":true,
+"CanSocialize":true,
+"CanBeRomanced":true,
+"CanReceiveGifts":true,
+"CanCommentOnPurchasedShopItems":false,
+"CanGreetNearbyCharacters":true,
+"CanVisitIsland":true,
+"LoveInterest":null,
+"Calendar":"HiddenUntilMet",
+"SocialTab":"UnknownUntilMet",
+"SocialTabIconSourceRect":null,
+"SpouseAdopts":false,
+"SpouseWantsChildren":true,
+"SpouseGiftJealousy":true,
+"IntroductionsQuest":true,
+"ItemDeliveryQuests":true,
+"PerfectionScore":false,
+"EndSlideShow":"TrailingGroup",
+"DumpsterDiveEmote":"28",
+"DumpsterDiveFriendshipEffect":"-2",
+"FlowerDanceCanDance":true,
+"KissSpriteIndex": 28,
+"HiddenProfileEmoteSound": null,
+"HiddenProfileEmoteDuration": -1,
+"HiddenProfileEmoteStartFrame": 37,
+"HiddenProfileEmoteFrameCount": 3,
+"HiddenProfileEmoteFrameDuration": 360.0,
+"ShakePortraits": [
+    11,12
+],
+"SpouseRoom": {
+"MapAsset": "{{ModID}}_BarronSpouseRoom"
+},
+"SpousePatio":{
+"MapAsset": "{{ModID}}_BarronPatio",
+},
+
+"SpouseFloors": [ 
+      "2",
+      "1",
+      "3",
+      "2",
+      "3",
+      "2",
+      "6",
+      "4",
+      "6",
+      "4",
+      "5",
+      "6",
+      "4",
+      "7",
+      "7",
+      "1",
+      "0",
+      "6",
+      "1",
+      "0",
+      "7"],
+"SpouseWallpapers": [],
+"FriendsAndFamily": {
+     "FC.Phoebe": "{{i18n:BioMother}}",
+},
+"WinterStarGifts": [
+],
+"WinterStarParticipant": true,
+"UnlockConditions": null,
+"SpawnIfMissing": true,
+"Home": [
+{
+"Id": "Default",
+"Condition": null,
+"Location": "{{ModID}}_TravelingTrailer",
+"Tile": {
+"X": 20,
+"Y": 13
+},
+"Direction": "right"
+}
+],
+"Appearance": [
+    {
+"ID": "{{ModID}}.Barron_spring",
+"Season": "spring",
+"Portrait": "{{InternalAssetKey: Assets/Npcs/Portraits/FC.Barron/FC.Barron_spring.png}}",
+"Sprite": "{{InternalAssetKey: Assets/Npcs/Characters/FC.Barron/FC.Barron_spring.png}}"
+},
+{
+"ID": "{{ModID}}.Barron_summer",
+"Season": "summer",
+"Portrait": "{{InternalAssetKey: Assets/Npcs/Portraits/FC.Barron/FC.Barron_summer.png}}",
+"Sprite": "{{InternalAssetKey: Assets/Npcs/Characters/FC.Barron/FC.Barron_summer.png}}"
+},
+{
+"ID": "{{ModID}}.Barron_fall",
+"Season": "fall",
+"Portrait": "{{InternalAssetKey: Assets/Npcs/Portraits/FC.Barron/FC.Barron_fall.png}}",
+"Sprite": "{{InternalAssetKey: Assets/Npcs/Characters/FC.Barron/FC.Barron_fall.png}}"
+},
+{
+"ID": "{{ModID}}.Barron_winter",
+"Season": "winter",
+"Portrait": "{{InternalAssetKey:Assets/Npcs/Portraits/FC.Barron/FC.Barron_winter.png}}",
+"Sprite": "{{InternalAssetKey: Assets/Npcs/Characters/FC.Barron/FC.Barron_winter.png}}"
+},
+{
+"ID": "{{ModID}}.Barron_flowerfestival",
+"Condition": "EVENT_ID festival_spring24",
+"Portrait": "{{InternalAssetKey: Assets/Npcs/Portraits/FC.Barron/Festivals/flower dance.png}}",
+"Sprite": "{{InternalAssetKey: Assets/Npcs/Characters/FC.Barron/Festivals/flower dance.png}}",
+"Precedence": -10,
+},
+{
+"ID": "{{ModID}}.Barron_spiritseve",
+"Condition": "EVENT_ID festival_fall27",
+"Portrait": "{{InternalAssetKey: Assets/Npcs/Portraits/FC.Barron/Festivals/spirit's eve.png}}",
+"Sprite": "{{InternalAssetKey: Assets/Npcs/Characters/FC.Barron/Festivals/spirit's eve.png}}",
+"Precedence": -10,
+},
+{
+"ID": "{{ModID}}.Barron_SwimWear",
+"IsIslandAttire": true,
+"Portrait": "{{InternalAssetKey: Assets/Npcs/Portraits/FC.Barron/FC.Barron_SwimWear.png}}",
+"Sprite": "{{InternalAssetKey: Assets/Npcs/Characters/FC.Barron/FC.Barron_SwimWear.png}}",
+"Precedence": -10,
+},
+],
+}
+}
+},
+   {
+"LogName": "Phoebe Dispositions",
+"Action": "EditData",
+"Target": "Data/Characters",
+"When": {
+        "HasSeenEvent |contains={{ModID}}_PhoebesIntroduction": "true",
+            },
+"Entries": {
+"FC.Phoebe": {
+"DisplayName":"{{i18n:FC.Phoebe}}",
+"Breather": true,
+"Language":"Default",
+"Gender":"Female",
+"Age":"Adult",
+"Manner":"Rude",
+"SocialAnxiety":"Outgoing",
+"Optimism":"Positive",
+"BirthSeason":"summer",
+"Birthday":"6",
+"HomeRegion":"Town",
+"IsDarkSkinned":true,
+"CanSocialize":true,
+"CanBeRomanced":false,
+"CanReceiveGifts":true,
+"CanCommentOnPurchasedShopItems":true,
+"CanGreetNearbyCharacters":true,
+"CanVisitIsland":true,
+"LoveInterest":null,
+"Calendar":"HiddenUntilMet",
+"SocialTab":"UnknownUntilMet",
+"SocialTabIconSourceRect":null,
+"SpouseAdopts":null,
+"SpouseWantsChildren":null,
+"SpouseGiftJealousy":false,
+"IntroductionsQuest":true,
+"ItemDeliveryQuests":true,
+"PerfectionScore":false,
+"EndSlideShow":"TrailingGroup",
+"DumpsterDiveEmote":"28",
+"DumpsterDiveFriendshipEffect":-2,
+"FlowerDanceCanDance":false,
+"KissSpriteIndex": 0,
+"HiddenProfileEmoteSound": null,
+"HiddenProfileEmoteDuration": -1,
+"HiddenProfileEmoteStartFrame": 37,
+"HiddenProfileEmoteFrameCount": 3,
+"HiddenProfileEmoteFrameDuration": 360.0,
+"ShakePortraits": [
+    3,5
+],
+"SpouseRoom": {
+"MapAsset": null,
+},
+"SpousePatio":{
+"MapAsset": null,
+},
+
+"SpouseFloors": [],
+"SpouseWallpapers": [],
+"FriendsAndFamily": {
+    "FC.Barron": "{{i18n:BioDaughter}}",
+    "Marlon": "{{i18n:OldFriend}}",
+},
+"WinterStarGifts": [],
+"WinterStarParticipant": true,
+"UnlockConditions": null,
+"SpawnIfMissing": true,
+"Home": [
+{
+"Id": "Default",
+"Condition": null,
+"Location": "{{ModID}}_TravelingTrailer",
+"Tile": {
+"X": 12,
+"Y": 11
+},
+"Direction": "right"
+}
+],
+"Appearance": [
+    {
+"ID": "{{ModID}}.Phoebe_spring",
+"Season": "spring",
+"Portrait": "{{InternalAssetKey: Assets/Npcs/Portraits/FC.Phoebe/FC.Phoebe_spring.png}}",
+"Sprite": "{{InternalAssetKey: Assets/Npcs/Characters/FC.Phoebe/FC.Phoebe_spring.png}}"
+},
+{
+"ID": "{{ModID}}.Phoebe_summer",
+"Season": "summer",
+"Portrait": "{{InternalAssetKey: Assets/Npcs/Portraits/FC.Phoebe/FC.Phoebe_summer.png}}",
+"Sprite": "{{InternalAssetKey: Assets/Npcs/Characters/FC.Phoebe/FC.Phoebe_summer.png}}"
+},
+{
+"ID": "{{ModID}}.Phoebe_fall",
+"Season": "fall",
+"Portrait": "{{InternalAssetKey: Assets/Npcs/Portraits/FC.Phoebe/FC.Phoebe_fall.png}}",
+"Sprite": "{{InternalAssetKey: Assets/Npcs/Characters/FC.Phoebe/FC.Phoebe_fall.png}}"
+},
+{
+"ID": "{{ModID}}.Phoebe_winter",
+"Season": "winter",
+"Portrait": "{{InternalAssetKey:Assets/Npcs/Portraits/FC.Phoebe/FC.Phoebe_winter.png}}",
+"Sprite": "{{InternalAssetKey: Assets/Npcs/Characters/FC.Phoebe/FC.Phoebe_winter.png}}"
+},
+{
+"ID": "{{ModID}}.Phoebe_SwimWear",
+"IsIslandAttire": true,
+"Portrait": "{{InternalAssetKey: Assets/Npcs/Portraits/FC.Phoebe/FC.Phoebe_SwimWear.png}}",
+"Sprite": "{{InternalAssetKey: Assets/Npcs/Characters/FC.Phoebe/FC.Phoebe_SwimWear.png}}",
+"Precedence": -10,
+},
+],
+}
+}
+},
+   {
+"LogName": "John Dispositions",
+"Action": "EditData",
+"Target": "Data/Characters",
+"Entries": {
+"FC.John": {
+"DisplayName":"{{i18n:FC.John}}",
+"Breather": true,
+"Language":"Default",
+"Gender":"Male",
+"Age":"Adult",
+"Manner":"Polite",
+"SocialAnxiety":"Outgoing",
+"Optimism":"Positive",
+"BirthSeason":"fall",
+"Birthday":"17",
+"HomeRegion":"Town",
+"IsDarkSkinned":true,
+"CanSocialize":true,
+"CanBeRomanced":true,
+"CanReceiveGifts":true,
+"CanCommentOnPurchasedShopItems":false,
+"CanGreetNearbyCharacters":false,
+"CanVisitIsland":true,
+"LoveInterest":null,
+"Calendar":"HiddenUntilMet",
+"SocialTab":"UnknownUntilMet",
+"SocialTabIconSourceRect":null,
+"SpouseAdopts":false,
+"SpouseWantsChildren":true,
+"SpouseGiftJealousy":true,
+"IntroductionsQuest":true,
+"ItemDeliveryQuests":true,
+"PerfectionScore":false,
+"EndSlideShow":"TrailingGroup",
+"DumpsterDiveEmote":"28",
+"DumpsterDiveFriendshipEffect":"-2",
+"FlowerDanceCanDance":true,
+"KissSpriteIndex": 47,
+"HiddenProfileEmoteSound": null,
+"HiddenProfileEmoteDuration": -1,
+"HiddenProfileEmoteStartFrame": 37,
+"HiddenProfileEmoteFrameCount": 3,
+"HiddenProfileEmoteFrameDuration": 360.0,
+"ShakePortraits": [
+   8
+],
+"SpouseRoom": {
+"MapAsset": "{{ModID}}_JohnSpouseRoom"
+},
+"SpousePatio":{
+"MapAsset": "{{ModID}}_JohnPatio",
+},
+
+"SpouseFloors": [ 
+      "2",
+      "1",
+      "3",
+      "2",
+      "3",
+      "2",
+      "6",
+      "4",
+      "6",
+      "4",
+      "5",
+      "6",
+      "4",
+      "7",
+      "7",
+      "1",
+      "0",
+      "6",
+      "1",
+      "0",
+      "7"],
+"SpouseWallpapers": [],
+"FriendsAndFamily": {
+},
+"WinterStarGifts": [
+],
+"WinterStarParticipant": true,
+"UnlockConditions": null,
+"SpawnIfMissing": true,
+"Home": [
+{
+"Id": "Default",
+"Condition": null,
+"Location": "{{ModID}}_JohnsTempRoom",
+"Tile": {
+"X": 3,
+"Y": 7
+},
+"Direction": "right"
+},
+{
+"Id": "{{ModID}}_MovedToTempleJohn",
+"Condition": "PLAYER_HAS_MAIL {{ModID}}_Temple.Mail",
+"Location": "{{ModID}}_Temple",
+"Tile": { "X": 15, "Y": 8 
+},
+"Direction": "down"
+},
+],
+"Appearance": [
+
+ {
+"ID": "spring",
+"Condition": "SEASON Spring",
+"Portrait": "{{InternalAssetKey: Assets/Npcs/Portraits/FC.John/FC.John_spring.png}}",
+"Sprite": "{{InternalAssetKey: Assets/Npcs/Characters/FC.John/FC.John_spring.png}}"
+},
+{
+"ID": "summer",
+"Condition": "SEASON Summer",
+"Portrait": "{{InternalAssetKey: Assets/Npcs/Portraits/FC.John/FC.John_summer.png}}",
+"Sprite": "{{InternalAssetKey: Assets/Npcs/Characters/FC.John/FC.John_summer.png}}"
+},
+{
+"ID": "fall",
+"Condition": "SEASON Fall",
+"Portrait": "{{InternalAssetKey: Assets/Npcs/Portraits/FC.John/FC.John_fall.png}}",
+"Sprite": "{{InternalAssetKey: Assets/Npcs/Characters/FC.John/FC.John_fall.png}}"
+},
+{
+"ID": "winter",
+"Condition": "SEASON Winter",
+"Portrait": "{{InternalAssetKey: Assets/Npcs/Portraits/FC.John/FC.John_winter.png}}",
+"Sprite": "{{InternalAssetKey: Assets/Npcs/Characters/FC.John/FC.John_winter.png}}"
+},
+{
+"ID": "eggfestival",
+"Condition": "EVENT_ID festival_spring13",
+"Portrait": "{{InternalAssetKey: Assets/Npcs/Portraits/FC.John/Festivals/egg festival.png}}",
+"Sprite": "{{InternalAssetKey: Assets/Npcs/Characters/FC.John/Festivals/egg festival.png}}",
+"Precedence": -10,
+
+},
+{
+"ID": "flowerfestival",
+"Condition": "EVENT_ID festival_spring24",
+"Portrait": "{{InternalAssetKey: Assets/Npcs/Portraits/FC.John/Festivals/flower dance.png}}",
+"Sprite": "{{InternalAssetKey: Assets/Npcs/Characters/FC.John/Festivals/flower dance.png}}",
+"Precedence": -10,
+},
+{
+"ID": "luau",
+"Condition": "EVENT_ID festival_summer11",
+"Portrait": "{{InternalAssetKey: Assets/Npcs/Portraits/FC.John/Festivals/luau.png}}",
+"Sprite": "{{InternalAssetKey: Assets/Npcs/Characters/FC.John/Festivals/luau.png}}",
+"Precedence": -10,
+},
+{
+"ID": "moonjelly",
+"Condition": "EVENT_ID festival_summer28",
+"Portrait": "{{InternalAssetKey: Assets/Npcs/Portraits/FC.John/Festivals/dance of the moonlight jellies.png}}",
+"Sprite": "{{InternalAssetKey: Assets/Npcs/Characters/FC.John/Festivals/dance of the moonlight jellies.png}}",
+"Precedence": -10,
+},
+{
+"ID": "fair",
+"Condition": "EVENT_ID festival_fall16",
+"Portrait": "{{InternalAssetKey: Assets/Npcs/Portraits/FC.John/Festivals/stardew valley fair.png}}",
+"Sprite": "{{InternalAssetKey: Assets/Npcs/Characters/FC.John/Festivals/stardew valley fair.png}}",
+"Precedence": -10,
+},
+{
+"ID": "spiritseve",
+"Condition": "EVENT_ID festival_fall27",
+"Portrait": "{{InternalAssetKey: Assets/Npcs/Portraits/FC.John/Festivals/spirit's eve.png}}",
+"Sprite": "{{InternalAssetKey: Assets/Npcs/Characters/FC.John/Festivals/spirit's eve.png}}",
+"Precedence": -10,
+},
+{
+"ID": "icefestival",
+"Condition": "EVENT_ID festival_winter8",
+"Portrait": "{{InternalAssetKey: Assets/Npcs/Portraits/FC.John/Festivals/festival of ice.png}}",
+"Sprite": "{{InternalAssetKey: Assets/Npcs/Characters/FC.John/Festivals/festival of ice.png}}",
+"Precedence": -10,
+},
+{
+"ID": "winterstar",
+"Condition": "EVENT_ID festival_winter25",
+"Portrait": "{{InternalAssetKey: Assets/Npcs/Portraits/FC.John/Festivals/feast of the winter star.png}}",
+"Sprite": "{{InternalAssetKey: Assets/Npcs/Characters/FC.John/Festivals/feast of the winter star.png}}",
+"Precedence": -10,
+},
+{
+"ID": "SwimWear",
+"IsIslandAttire": true,
+"Portrait": "{{InternalAssetKey: Assets/Npcs/Portraits/FC.John/FC.John_SwimWear.png}}",
+"Sprite": "{{InternalAssetKey: Assets/Npcs/Characters/FC.John/FC.John_SwimWear.png}}",
+"Precedence": -10,
+},
+{
+"ID": "JohnJob",
+"Condition": "LOCATION_NAME Here {{ModID}}_Temple", 
+"Portrait": "{{InternalAssetKey: Assets/Npcs/Portraits/FC.John/FC.John_Job.png}}",
+"Sprite": "{{InternalAssetKey: Assets/Npcs/Characters/FC.John/FC.John_Job.png}}",
+"Precedence": -10,
+},
+],
+}
+}
+},
+ {
+"LogName": "Popper Dispositions",
+"Action": "EditData",
+"Target": "Data/Characters",
+"Entries": {
+"FC.Popper": {
+"DisplayName":"{{i18n:FC.Popper}}",
+"Breather": false,
+"Language":"Default",
+"Gender":"Male",
+"Age":"Adult",
+"Manner":"Rude",
+"SocialAnxiety":"Outgoing",
+"Optimism":"Positive",
+"BirthSeason":"winter",
+"Birthday":"13",
+"HomeRegion":"Town",
+"IsDarkSkinned":false,
+"CanSocialize":true,
+"CanBeRomanced":false,
+"CanReceiveGifts":true,
+"CanCommentOnPurchasedShopItems":false,
+"CanGreetNearbyCharacters":false,
+"CanVisitIsland":true,
+"LoveInterest":null,
+"Calendar":"HiddenUntilMet",
+"SocialTab":"UnknownUntilMet",
+"SocialTabIconSourceRect":null,
+"SpouseAdopts":false,
+"SpouseWantsChildren":false,
+"SpouseGiftJealousy":false,
+"IntroductionsQuest":false,
+"ItemDeliveryQuests":false,
+"PerfectionScore":false,
+"EndSlideShow":"TrailingGroup",
+"DumpsterDiveEmote":"12",
+"DumpsterDiveFriendshipEffect":"-5",
+"FlowerDanceCanDance":true,
+"KissSpriteIndex": 47,
+"HiddenProfileEmoteSound": null,
+"HiddenProfileEmoteDuration": -1,
+"HiddenProfileEmoteStartFrame": 37,
+"HiddenProfileEmoteFrameCount": 3,
+"HiddenProfileEmoteFrameDuration": 360.0,
+"ShakePortraits": [
+  5,11
+],
+"SpouseRoom": {
+"MapAsset": null,
+},
+"SpousePatio":{
+"MapAsset": null,
+},
+
+"SpouseFloors": [ 
+   ],
+"SpouseWallpapers": [],
+"FriendsAndFamily": {
+},
+"WinterStarGifts": [
+],
+"WinterStarParticipant": false,
+"UnlockConditions": null,
+"SpawnIfMissing": true,
+"Home": [
+
+{
+"Id": "Default",
+"Condition": null,
+"Location": "{{ModID}}_PoppersNest",
+"Tile": {
+"X": 2,
+"Y": 3
+},
+"Direction": "right"
+},
+{
+"Id": "{{ModID}}_MovedToTemplePop",
+"Condition": "PLAYER_HAS_SEEN_EVENT Current {{ModID}}_PopsNewHome",
+"Location": "{{ModID}}_Temple",
+"Tile": { "X": 12, "Y": 11 
+},
+"Direction": "left"
+},
+],
+"Appearance": [
+ {
+"ID": "FC.PopperAssets",
+"Portrait": "{{InternalAssetKey: Assets/Npcs/Portraits/FC.Popper/FC.Popper.png}}",
+"Sprite": "{{InternalAssetKey: Assets/Npcs/Characters/FC.Popper/FC.Popper.png}}"
+},
+],
+}
+}
+},
+
+ {
+"LogName": "GiftTastes",
+"Action": "EditData",
+"Target": "Data/NPCGiftTastes",
+"Entries": {
+"FC.John": "{{i18n:John.gift.love}}/{{ModID}}_Seaglass 715 720 524/{{i18n:John.gift.like}}/66 68 608 610/{{i18n:John.gift.dislike}}/597 219 238 238/{{i18n:John.gift.hate}}/199 242 284/{{i18n:John.gift.neutral}}/-4 279/ ",
+"FC.Popper": "{{i18n:Popper.gift.love}}/{{ModID}}_Button 78 105 138  167 168 69/{{i18n:Popper.gift.like}}/174 229 118 123 279/{{i18n:Popper.gift.dislike}}/143 157 152 222 238 238/{{i18n:Popper.gift.hate}}/248 260 264 284/{{i18n:Popper.gift.neutral}}/250 256/ ",
+"FC.Barron": "{{i18n:Barron.gift.love}}/Fellowclown.TD_GemBirdPatties 60 84 208/{{i18n:Barron.gift.like}}/211 307 340/{{i18n:Barron.gift.dislike}}/399 403 416/{{i18n:Barron.gift.hate}}/426 445 542/{{i18n:Barron.gift.neutral}}/346 350/ ",
+"FC.Phoebe": "{{i18n:Phoebe.gift.love}}/Fellowclown.TD_GemBirdPatties 86 90 110/{{i18n:Phoebe.gift.like}}/149 202 205/{{i18n:Phoebe.gift.dislike}}/215 218 224/{{i18n:Phoebe.gift.hate}}/239 397 307/{{i18n:Phoebe.gift.neutral}}/303 346/ ",
+}
+ },
+  {
+            "LogName": "Add gift tastes data",
+            "Action": "EditData",
+            "Target": "Data/NPCGiftTastes",
+            "TextOperations": [
+                //Universal gift tastes
+                {
+"Operation": "Append",
+"Target": [
+    "Entries",
+    "Universal_Love"
+],
+"Value": "Fellowclown.TD_TastyPastry {{ModID}}_SeaglassFlowerDisplay",
+"Delimiter": " "
+      },
+              {
+"Operation": "Append",
+"Target": [
+    "Entries",
+    "Universal_Like"
+],
+"Value": "{{ModID}}_Seaglass {{ModID}}_FrostedCake {{ModID}}_HotCereal {{ModID}}_WhiteTruffle {{ModID}}_CheesyWhiteRisotto",
+"Delimiter": " "
+      },
+              {
+"Operation": "Append",
+"Target": [
+    "Entries",
+    "Universal_Neutral"
+],
+"Value": "{{ModID}}_Button",
+"Delimiter": " "
+      },
+            {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "Universal_Dislike"
+                    ],
+                    "Value": "Fellowclown.TD_GemBirdPatties",
+                    "Delimiter": " "
+      },
+              {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "Universal_Hate"
+                    ],
+                    "Value": "Fellowclown.TD_VoidJuice Fellowclown.TD_GemBirdMeat",
+                    "Delimiter": " "
+      },
+   ]
+},
+ {
+"LogName": "TempActor Portraits",
+"Action": "Load",
+"Target": "Characters/FC.Window,Characters/FC.FlamesTrailer,Portraits/FC.DezerieCammi,Characters/FC.DezerieCammi,Characters/FC.PopperSteal,Characters/FC.Danni,Portraits/FC.Danni,Characters/FC.Cori,Portraits/FC.Cori,Characters/FC.TrashCan,Characters/FC.Radio,Characters/FC.WanderingHog,Characters/FC.BabyHog,Portraits/FC.BabyHog,Characters/FC.MamaHog,Portraits/FC.MamaHog,Characters/FC.Roger,Portraits/FC.Roger,Characters/FC.SteelyBoat,Characters/FC.SeaGlassBag,Characters/FC.BeetPlot,Characters/FC.MaverickAND,Portraits/FC.MaverickAND",
+"FromFile": "Assets/Npcs/TempActors/{{TargetPathOnly}}/{{TargetWithoutPath}}.png",
+},
+{
+"LogName": "TempActor Portraits",
+"Action": "Load",
+"Target": "Characters/FC.Ladder,",
+"FromFile": "Assets/Npcs/TempActors/{{TargetPathOnly}}/Seasonal Actors/{{TargetWithoutPath}}_{{season}}.png",
+},
+  /************************************************
+ PORTRAITS AND CHARACtERS
+ ************************************************/
+  {
+"LogName": "Base Portraits and Characters",
+"Action": "Load",
+"Target": "Portraits/FC.John,Characters/FC.John,Portraits/FC.Barron,Characters/FC.Barron,Portraits/FC.Phoebe,Characters/FC.Phoebe",
+"FromFile": "Assets/Npcs/{{TargetPathOnly}}/{{TargetWithoutPath}}/{{TargetWithoutPath}}_Spring.png", 
+ },
+   {
+"LogName": "Base Portraits and Characters",
+"Action": "Load",
+"Target": "Portraits/FC.Popper,Characters/FC.Popper,Portraits/FC.Jinx,Characters/FC.Jinx,Characters/FC.Bubba,Portraits/FC.Bubba",
+"FromFile": "Assets/Npcs/{{TargetPathOnly}}/{{TargetWithoutPath}}/{{TargetWithoutPath}}.png", 
+ },
+   {
+"LogName": "Base Portraits and Characters",
+"Action": "Load",
+"Target": "Characters/FC.John_Job,Portraits/FC.John_Job",
+"FromFile": "Assets/Npcs/{{TargetPathOnly}}/FC.John/{{TargetWithoutPath}}.png", 
+ },
+]
+}

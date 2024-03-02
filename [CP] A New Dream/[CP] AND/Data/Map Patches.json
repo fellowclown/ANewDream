@@ -1,0 +1,152 @@
+{
+"Changes": [
+  {
+    "Action": "EditMap",
+    "Target": "Maps/Fellowclown.PC_Marketpalooza",
+    "FromFile": "Assets/Maps/Map Patches/PhoebesMarketEdit.tbin",
+    "ToArea": { "X":9, "Y": 14, "Width": 2, "Height":2},
+    "Update": "OnTimeChange",
+    "When": {
+          "HasSeenEvent |contains={{ModID}}_PhoebesIntroduction": "true",
+           "HasMod |contains=Fellowclown.PC": true
+            }
+        },
+ //////map edits
+  {
+    "Action": "EditMap",
+    "Target": "Maps/EastScarp_Village",
+    "FromFile": "Assets/Maps/Map Patches/PlayHouseOutdoor.tbin",
+    "ToArea": { "X":48, "Y": 62, "Width": 3, "Height":3 },
+     "Update": "OnTimeChange",
+    "When": {
+  "HasSeenEvent |contains={{ModID}}_PhoebesIntroduction": "true",
+            }
+        },
+  {
+    "Action": "EditMap",
+    "Target": "Maps/{{ModID}}_TravelingTrailer",
+    "FromFile": "Assets/Maps/Map Patches/PhoebeBed.tbin",
+    "ToArea": { "X":3, "Y": 8, "Width": 5, "Height": 5 },
+    "Update": "OnTimeChange",
+    "When": {
+          "HasSeenEvent |contains={{ModID}}_PhoebesIntroduction": "true"
+            }
+        },
+ /////Trailer is in east scarpe before event is seen
+ {
+    "Action": "EditMap",
+    "Target": "Maps/EastScarp_Village",
+    "FromFile": "Assets/Maps/Map Patches/LibraryOutdoorUnmet.tmx",
+    "PatchMode":"overlay",
+    "ToArea": { "X": 3, "Y": 65, "Width": 9, "Height": 5 },
+    "Update": "OnTimeChange",
+    "When": {
+          "DayOfWeek": "Tuesday, Thursday,Saturday,Sunday",
+            }
+        },
+         /////Trailer is in east scarpe after event is seen
+  {
+    "Action": "EditMap",
+    "Target": "Maps/EastScarp_Village",
+    "FromFile": "Assets/Maps/Map Patches/LibraryOutdoor.tmx",
+    "PatchMode":"overlay",
+    "ToArea": { "X": 3, "Y": 65, "Width": 9, "Height": 5 },
+      "Update": "OnTimeChange",
+    "When": {
+          "DayOfWeek": "Tuesday, Thursday,Saturday,Sunday",
+          "HasSeenEvent |contains={{ModID}}_BarronIntroduction": "true"
+            }
+        }, 
+          {
+    "Action": "EditMap",
+    "Target": "Maps/Fellowclown.PC_RefugeEfforts",
+    "FromFile": "Assets/Maps/Map Patches/RefugeTravelingTrailerOutdoor.tbin",
+    "ToArea": { "X": 2, "Y": 41, "Width": 9, "Height": 5 },
+      "Update": "OnTimeChange",
+    "When": {
+          "DayOfWeek": "Monday, Wednesday,Friday",
+          "HasSeenEvent |contains={{ModID}}_PhoebesIntroduction": "true",
+             "HasMod |contains=Fellowclown.PC": true
+            }
+        }, 
+        {
+            "Action": "EditMap",
+            "Target": "Maps/{{ModID}}_TravelingTrailer",
+                 "Update": "OnTimeChange",
+            "MapProperties": {
+                "Warp": "10 19 EastScarp_Village 7 70"
+            },
+            "AddWarps": [
+                "10 19 Fellowclown.PC_RefugeEfforts 5 46"
+            ],
+        "When": {
+          "DayOfWeek": "Monday, Wednesday,Friday",
+          "HasSeenEvent |contains={{ModID}}_PhoebesIntroduction": "true",
+             "HasMod |contains=Fellowclown.PC": true
+
+            }
+        },
+  {
+    "Action": "EditMap",
+    "Target": "Maps/{{ModID}}_TempleRuins",
+    "Update": "OnTimeChange, OnLocationChange",
+    "FromFile": "Assets/Maps/Locational Maps/{{ModID}}_Temple.tbin",
+    "When": {
+          "HasFlag |contains={{ModID}}_Temple.Mail": true,
+            }
+        },
+ {
+    "Action": "EditMap",
+    "Target": "Maps/EastScarp_Village",
+    "Update": "OnTimeChange, OnLocationChange",
+    "FromFile": "Assets/Maps/Map Patches/TOYRestored.tbin",
+    "ToArea": { "X":66, "Y": 64, "Width": 13, "Height":15 },
+    "When": {
+          "HasFlag |contains={{ModID}}_Temple.Mail": true,
+          "Year": "2"
+            }
+        },
+   {
+    "Action": "EditMap",
+    "Target": "Maps/EastScarp_Village",
+    "FromFile": "Assets/Maps/Map Patches/TOYRuins.tbin",
+    "ToArea": { "X":66, "Y": 64, "Width": 13, "Height":15 },
+       "When": {
+          "HasFlag |contains={{ModID}}_Temple.Mail": false,
+            }
+        },
+  {
+    "Action": "EditMap",
+    "Target": "Maps/EastScarp_VillageInn",
+     "Update": "OnTimeChange, OnLocationChange",
+    "FromFile": "Assets/Maps/Map Patches/JohnsRoomDoor.tbin",
+    "ToArea": { "X":22, "Y": 17, "Width": 3, "Height":3 },
+    "When": {
+          "HasSeenEvent |contains={{ModID}}_JohnIntroduction": true,
+            }
+        },
+          {
+    "Action": "EditMap",
+    "Target": "Maps/EastScarp_VillageInn",
+    "FromFile": "Assets/Maps/Map Patches/MovedDoor.tbin",
+    "ToArea": { "X":28, "Y": 2, "Width": 3, "Height":4 },
+    "When": {
+          "HasSeenEvent |contains={{ModID}}_TheTemple": true,
+            }
+        },
+{
+   "Action": "EditMap",
+   "Target": "Maps/EastScarp_Village",
+   "FromFile": "Assets/Maps/Map Patches/PoppersNest.tbin",
+     "ToArea": { "X":74, "Y":117, "Width": 1, "Height": 2},
+   "TextOperations": [
+  {
+ "Operation": "Append",
+ "Target": ["MapProperties", "NPCWarp"],
+ "Value": "74 117 {{ModID}}_PoppersNest 2 4",
+ "Delimiter": " "
+  }
+  ]
+},
+]
+}

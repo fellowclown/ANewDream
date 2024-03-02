@@ -1,0 +1,89 @@
+{
+    "Changes": [
+                  {
+         "Action": "EditMap",
+         "Target": "Maps/Forest",
+        
+         "MapTiles": [
+            {
+               "Position": { "X": 99, "Y": 19},
+               "Layer": "Back",
+               "SetProperties": {
+                  "CustomCompanions":  "Spawn 1 Fellowclown.DreamAnimals.WanderingHog"
+               },
+                 "When": {
+                "HasSeenEvent |contains=Custom_Fellowclown_MotherHog": "true",
+            },
+         },
+            {
+               "Position": { "X": 98, "Y": 17},
+               "Layer": "Back",
+               "SetProperties": {
+                  "CustomCompanions":  "Spawn 1 Fellowclown.DreamAnimals.WanderingHog"
+               },
+                 "When": {
+                "HasSeenEvent |contains=Custom_Fellowclown_MotherHog": "true",
+            },
+         },
+            {
+               "Position": { "X": 95, "Y": 18},
+               "Layer": "Back",
+               "SetProperties": {
+                  "CustomCompanions":  "Spawn 1 Fellowclown.DreamAnimals.WanderingHog"
+               },
+                 "When": {
+                "HasSeenEvent |contains=Custom_Fellowclown_MotherHog": "true",
+            },
+         },
+         ]
+      },
+              {
+         "Action": "EditMap",
+         "Target": "Maps/{{ModID}}_TravelingTrailer",
+          "When": {
+                 "Relationship:FC.Barron": "Unmet,Friendly"
+            },
+         "MapTiles": [
+            {
+               "Position": { "X": 17, "Y": 11 },
+               "Layer": "Back",
+               "SetProperties": {
+                  "CustomCompanions":  "Spawn 1 Fellowclown.DreamAnimals.FC.Jinx"
+               }
+            },
+         ]
+      },
+                    {
+         "Action": "EditMap",
+         "Target": "Maps/Farm",
+          "When": {
+                 "Relationship:FC.Barron": "Married,Engaged"
+            },
+         "MapTiles": [
+            {
+               "Position": { "X": 71, "Y": 9},
+               "Layer": "Back",
+               "SetProperties": {
+                  "CustomCompanions":  "Spawn 1 Fellowclown.DreamAnimals.FC.Jinx"
+               }
+            },
+         ]
+      },
+                  {
+         "Action": "EditMap",
+         "Target": "Maps/{{ModID}}_TravelingTrailer",
+          "When": {
+                "HasFlag |contains={{ModID}}_BubbasBirth.Mail": "true",
+            },
+         "MapTiles": [
+            {
+               "Position": { "X": 20, "Y": 14},
+               "Layer": "Back",
+               "SetProperties": {
+                  "CustomCompanions":  "Spawn 1 Fellowclown.DreamAnimals.FC.Bubba"
+               }
+            },
+         ]
+      }
+]
+}

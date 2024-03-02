@@ -1,0 +1,12 @@
+﻿{
+  "Name": "DreamAnimals",
+  "Author": "Fellowclown",
+  "Version": "1.0.0",
+  "Description": "Adds a few of DreamMods's animals.",
+  "UniqueID": "Fellowclown.DreamAnimals",
+  "UpdateKeys": [],
+  "ContentPackFor": {
+    "UniqueID": "PeacefulEnd.CustomCompanions",
+    "MinimumVersion": "1.6.5"
+  }
+}

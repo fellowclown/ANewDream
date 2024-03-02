@@ -1,0 +1,245 @@
+{
+"Changes": [
+	 {
+"LogName": "Load Location Maps",
+"Action":"Load",
+"Target":"Maps/{{ModID}}_BarronSpouseRoom,Maps/{{ModID}}_BarronPatio,Maps/{{ModID}}_TravelingTrailer,Maps/{{ModID}}_PlayHouse,Maps/{{ModID}}_Temple,Maps/{{ModID}}_JohnSpouseRoom,Maps/{{ModID}}_JohnPatio,Maps/{{ModID}}_JohnsTempRoom,Maps/{{ModID}}_TempleRuins,Maps/{{ModID}}_PoppersNest",
+"FromFile":"Assets/Maps/Locational Maps/{{TargetWithoutPath}}.tbin"
+},
+     {
+"LogName": "Load Location Maps",
+"Action":"Load",
+"Target":"Maps/{{ModID}}_TempleHouseParty,Maps/{{ModID}}_Heart2Platonic,Maps/{{ModID}}_LoresRoad,Maps/{{ModID}}_SecretMineRoom",
+"FromFile":"Assets/Maps/Event Maps/{{TargetWithoutPath}}.tbin"
+},
+{
+"LogName": "TravelingLibrary",
+"Action": "EditData",
+"Target": "Data/Locations",
+"Entries": {
+"{{ModID}}_TravelingTrailer": {
+"DisplayName": "{{i18n:MapName.TravelingTrailer}}",
+"CreateOnLoad": {
+"MapPath": "Maps/{{ModID}}_TravelingTrailer"
+},
+"DefaultArrivalTile": {
+"X": 10,
+"Y": 18
+},
+"ExcludeFromNpcPathfinding": false,
+"ArtifactSpots": [],
+"FishAreas": {},
+"Fish": [],
+"Forage":  [],
+"CustomFields": {}
+}
+}
+},
+{
+"LogName": "PlayHouse",
+"Action": "EditData",
+"Target": "Data/Locations",
+"Entries": {
+"{{ModID}}_PlayHouse": {
+"DisplayName": "{{i18n:MapName.PlayHouse}}",
+"CreateOnLoad": {
+"MapPath": "Maps/{{ModID}}_PlayHouse"
+},
+"DefaultArrivalTile": {
+"X": 5,
+"Y": 14
+},
+"ExcludeFromNpcPathfinding": false,
+"ArtifactSpots": [],
+"FishAreas": {},
+"Fish": [],
+"Forage":  [],
+"CustomFields": {}
+}
+}
+},
+{
+"LogName": "Johns Temp Room",
+"Action": "EditData",
+"Target": "Data/Locations",
+"Entries": {
+"{{ModID}}_JohnsTempRoom": {
+"DisplayName": "{{i18n:FC.MapName.JohnsRoom}}",
+"CreateOnLoad": {
+"MapPath": "Maps/{{ModID}}_JohnsTempRoom"
+},
+"DefaultArrivalTile": {
+"X": 5,
+"Y": 9
+},
+"ExcludeFromNpcPathfinding": false,
+"ArtifactSpots": [],
+"FishAreas": {},
+"Fish": [],
+"Forage":  [],
+"CustomFields": {}
+}
+}
+},
+{
+"LogName": "Johns Temple",
+"Action": "EditData",
+"Target": "Data/Locations",
+"Entries": {
+"{{ModID}}_TempleRuins": {
+"DisplayName": "{{i18n:FC.MapName.TempleRuins}}",
+"CreateOnLoad": {
+"MapPath": "Maps/{{ModID}}_TempleRuins"
+},
+"DefaultArrivalTile": {
+"X": 7,
+"Y": 24
+},
+"ExcludeFromNpcPathfinding": false,
+"ArtifactSpots": [],
+"FishAreas": {},
+"Fish": [],
+"Forage":  [],
+"CustomFields": {}
+}
+}
+},
+{
+"LogName": "Johns Temple",
+"Action": "EditData",
+"Target": "Data/Locations",
+"Entries": {
+"{{ModID}}_Temple": {
+"DisplayName": "{{i18n:FC.MapName.TempleRestored}}",
+"CreateOnLoad": {
+"MapPath": "Maps/{{ModID}}_Temple"
+},
+"DefaultArrivalTile": {
+"X": 7,
+"Y": 24
+},
+"ExcludeFromNpcPathfinding": false,
+"ArtifactSpots": [],
+"FishAreas": {},
+"Fish": [],
+"Forage":  [],
+"CustomFields": {}
+}
+}
+},
+{
+"LogName": "PoppersNest",
+"Action": "EditData",
+"Target": "Data/Locations",
+"Entries": {
+"{{ModID}}_PoppersNest": {
+"DisplayName": "{{i18n:FC.MapName.RatNest}}",
+"CreateOnLoad": {
+"MapPath": "Maps/{{ModID}}_PoppersNest"
+},
+"DefaultArrivalTile": {
+"X": 0,
+"Y": 2
+},
+"ExcludeFromNpcPathfinding": false,
+"ArtifactSpots": [],
+"FishAreas": {},
+"Fish": [],
+"Forage":  [],
+"CustomFields": {}
+}
+}
+},
+{
+    "Action": "EditData",
+    "Target": "Data/Locations",
+    "TargetField": [ "Beach", "Forage" ],
+    "Entries": {
+        "(O){{ModID}}_Seaglass": {
+            "ItemId": "(O){{ModID}}_Seaglass",
+            "Chance": "0.01"
+        }
+    }
+},
+{
+    "Action": "EditData",
+    "Target": "Data/Locations",
+    "TargetField": [ "EastScarp_Village", "Forage" ],
+    "Entries": {
+        "(O){{ModID}}_Button": {
+            "ItemId": "(O){{ModID}}_Button",
+            "Chance": "0.01"
+        }
+    }
+},
+  {
+"LogName": "Map Strings Edit",
+"Action": "EditData",
+"Target": "Strings/StringsFromMaps",
+"Entries": {
+"TravelingLibrary.DriverSeat": "{{i18n:TravelingLibrary.DriverSeat}}",
+"EastScarpe.PoppersNest": "{{i18n:EastScarpe.PoppersNest}}",
+"InnRoom.MiniFridge": "{{i18n:InnRoom.MiniFridge}}",
+"InnRoom.Coffee": "{{i18n:InnRoom.Coffee}}",
+"InnRoom.Journal":"{{i18n:InnRoom.Journal}}",
+"Temple.Ruined":"{{i18n:Temple.Ruined}}",
+"Temple.NewWindow":"{{i18n:Temple.NewWindow}}",
+"Temple.Fountain":"{{i18n:Temple.Fountain}}",
+"Temple.RabbitStatue":"{{i18n:Temple.RabbitStatue}}",
+"Temple.OldWindow":"{{i18n:Temple.OldWindow}}",
+"Temple.OldSign":"{{i18n:Temple.OldSign}}",
+"Temple.BookCase":"{{i18n:Temple.BookCase}}",
+"Temple.Table":"{{i18n:Temple.BookCase}}",
+"Temple.Stage":"{{i18n:Temple.Stage}}",
+"Temple.Podium":"{{i18n:Temple.Podium}}",
+"Temple.YobaAlter":"{{i18n:Temple.YobaAlter}}",
+"Temple.Confessional":"{{i18n:Temple.Confessional}}",
+"Temple.AlterWine":"{{i18n:Temple.AlterWine}}",
+"Temple.StudyAlter":"{{i18n:Temple.StudyAlter}}",
+"Temple.Panio":"{{i18n:Temple.Panio}}",
+"Temple.WallDrawers":"{{i18n:Temple.WallDrawers}}",
+"Temple.Noodles.01":"{{i18n:Temple.Noodles.01}}",
+"Temple.Noodles.02":"{{i18n:Temple.Noodles.02}}",
+"Temple.Noodles.03":"{{i18n:Temple.Noodles.03}}",
+"Temple.FirePlace":"{{i18n:Temple.FirePlace}}",
+"Temple.SinkAndDishes":"{{i18n:Temple.SinkAndDishes}}",
+"Temple.Stove":"{{i18n:Temple.Stove}}",
+"Temple.Fridge":"{{i18n:Temple.Fridge}}",
+"TravelingLibrary.Books": "{{i18n:TravelingLibrary.Books}}",
+"Patio.JinxHouse": "{{i18n:Patio.JinxHouse}}",
+"TravelingLibrary.Sign": "{{i18n:TravelingLibrary.Sign}}",
+"TravelingLibrary.Book1": "{{i18n:TravelingLibrary.Book1}}",
+"TravelingLibrary.Book2": "{{i18n:TravelingLibrary.Book2}}",
+"TravelingLibrary.Book3": "{{i18n:TravelingLibrary.Book3}}",
+"TravelingLibrary.Book4": "{{i18n:TravelingLibrary.Book4}}",
+"TravelingLibrary.Book5": "{{i18n:TravelingLibrary.Book5}}",
+"TravelingLibrary.Book6": "{{i18n:TravelingLibrary.Book6}}",
+"TravelingLibrary.Book7": "{{i18n:TravelingLibrary.Book7}}",
+"TravelingLibrary.Book8": "{{i18n:TravelingLibrary.Book8}}",
+"TravelingLibrary.Book9": "{{i18n:TravelingLibrary.Book9}}",
+"TravelingLibrary.Book10": "{{i18n:TravelingLibrary.Book10}}",
+"TravelingLibrary.Book11": "{{i18n:TravelingLibrary.Book11}}",
+"TravelingLibrary.Book12": "{{i18n:TravelingLibrary.Book12}}",
+"TravelingLibrary.Book13": "{{i18n:TravelingLibrary.Book13}}",
+"TravelingLibrary.PileOBooks": "{{i18n:TravelingLibrary.PileOBooks}}",
+"TravelingLibrary.PC1": "{{i18n:TravelingLibrary.PC1}}",
+"TravelingLibrary.PC2": "{{i18n:TravelingLibrary.PC2}}",
+"TravelingLibrary.WayfarerPlant": "{{i18n:TravelingLibrary.WayfarerPlant.{{season}}}}",
+"TravelingLibrary.Icebox": "{{i18n:TravelingLibrary.Icebox}}",
+"TravelingLibrary.Sink": "{{i18n:TravelingLibrary.Sink}}",
+"TravelingLibrary.Stove": "{{i18n:TravelingLibrary.Stove}}",
+"TravelingLibrary.Counter": "{{i18n:TravelingLibrary.Counter}}",
+"BarronSpouseRoomBooks.01": "{{i18n:BarronSpouseRoomBooks.01}}",
+"BarronSpouseRoomBooks.02": "{{i18n:BarronSpouseRoomBooks.02}}",
+"BarronSpouseRoomBooks.03": "{{i18n:BarronSpouseRoomBooks.03}}",
+"BarronSpouseRoomBooks.04": "{{i18n:BarronSpouseRoomBooks.04}}",
+"BarronSpouseRoomPC.01": "{{i18n:BarronSpouseRoomPC.01}}",
+"BarronSpouseRoomPlanter.01": "{{i18n:BarronSpouseRoomPlanter.01}}",
+"BarronSpouseRoomCrow.01": "{{i18n:BarronSpouseRoomCrow.01}}",
+"Farm.Jinx": "{{i18n:Farm.Jinx}}",
+"TravelingLibrary.Unmet": "{{i18n:TravelingLibrary.Unmet}}",
+"TravelingLibrary.Bunkbeds": "{{i18n:TravelingLibrary.Bunkbeds}}",
+}
+ },
+]
+}

@@ -1,0 +1,125 @@
+{
+  "Name": "FC.Jinx",
+  "Type": "Walking",
+  "FrameSizeWidth": 32,
+  "FrameSizeHeight": 32,
+  "TileSheetPath": "Characters\\FC.Jinx",
+  "TravelSpeed":2,
+ "DialogueSequence": [
+   {
+    "Text": "Jinx.dialogue.Intro",
+    "DisplayOnce": true,
+    "PortraitIndex": 2
+  },
+  {
+    "Text": "Jinx.dialogue.1",
+    "PortraitIndex": 1
+  },
+
+  {
+    "Text": "Jinx.dialogue.2",
+    "PortraitIndex": 1
+  }
+],
+    "Portrait": {
+  "PortraitDisplayName": "Jinx",
+  "FrameSizeWidth": 64,
+  "FrameSizeHeight": 64,
+  "FrameIndex": 0
+  },
+
+  "IdleBehavior": "Wander",
+  "MaxIdleDistance": 2000,
+  "MaxDistanceBeforeTeleport": -1,
+
+  "EnableBreathing": false,
+  "EnableFarmerCollision": true,
+  "EnableShadow": true,
+  "Shadow": {
+    "OffsetX": 0,
+    "OffsetY": 8,
+    "Scale": 1,
+    "Alpha": 255
+  },
+    "Sounds": [
+    {
+      "SoundName": "Fellowclown.AND_Thylacine",
+      "WhenToPlay": "Idle",
+      "Pitch": 1200,
+      "MinPitchRandomness": -200,
+      "MaxPitchRandomness": 201,
+      "TimeBetweenSound": 7000,
+      "ChanceOfPlaying": 0.25
+    }
+  ],
+
+  "DirectionChangeChanceWhileMoving": 0.003,
+  "DirectionChangeChanceWhileIdle": 0.05,
+  "ChanceForHalting": 0.1,
+  "MinHaltTime": 8000,
+  "MaxHaltTime": 20000,
+
+
+  "DownAnimation": {
+    "StartingFrame":0,
+    "NumberOfFrames": 4,
+    "Duration": 300,
+
+    "IdleAnimation": {
+      "StartingFrame": 0,
+      "NumberOfFrames": 1,
+      "Duration": 700
+    }
+  },
+
+  "RightAnimation": {
+    "StartingFrame": 4,
+    "NumberOfFrames": 4,
+    "Duration": 300,
+
+    "IdleAnimation": {
+      "StartingFrame": 4,
+      "NumberOfFrames": 1,
+      "Duration": 700
+    }
+  },
+
+  "UpAnimation": {
+    "StartingFrame": 8,
+    "NumberOfFrames": 4,
+    "Duration": 300,
+
+    "IdleAnimation": {
+      "StartingFrame": 8,
+      "NumberOfFrames": 1,
+      "Duration": 700
+    }
+  },
+
+  "LeftAnimation": {
+    "StartingFrame": 12,
+    "NumberOfFrames": 4,
+    "Duration": 300,
+
+    "IdleAnimation": {
+      "StartingFrame": 12,
+      "NumberOfFrames": 1,
+      "Duration": 700
+    }
+  },
+
+  "OverheadTextCheckInterval": 30000,
+  "OverheadTextChance": 0.1,
+  "OverheadTexts": [
+    {
+      "Text": "Jinx.overhead.1",
+      "ChanceWeight": 0.1,
+      "TextLifetime": 3000
+    },
+    {
+      "Text": "Jinx.overhead.2",
+      "ChanceWeight": 0.2,
+      "TextLifetime": 3000
+    },
+  ]
+}

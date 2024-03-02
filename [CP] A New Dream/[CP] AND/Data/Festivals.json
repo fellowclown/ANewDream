@@ -1,0 +1,793 @@
+{
+    "Changes": [
+        {
+            "Action": "EditData",
+            "Target": "Data/Festivals/spring13",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "Set-Up_additionalCharacters"
+                    ],
+                    "Value": "FC.John 38 73 3/FC.Popper 48 55 3",
+                    "Delimiter": "/"
+                },
+                     {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "MainEvent_additionalCharacters"
+                    ],
+                    "Value": "FC.John 38 73 3/FC.Popper 48 55 3",
+                    "Delimiter": "/"
+                },
+
+                       {
+             "Operation": "Append",
+             "Target": ["Fields", "set-up", 5],
+             "Value": "/animate FC.John false true 360 16 16 16 16 16 16 16 16 16 16 17 17 18 18 19 19 19 19 18 18 17 17 16 16 16 16 16/animate FC.Popper false true 260 20 20 20 21 21 21 20 20 20 20 21 21 21 22 22 22 23 23 23 23 23 23 23 23 23 22 22 21 21 21"
+            },
+            {
+             "Operation": "Append",
+             "Target": ["Fields", "mainEvent", 5],
+             "Value": "/animate FC.John false true 360 16 16 16 16 16 16 16 16 16 16 17 17 18 18 19 19 19 19 18 18 17 17 16 16 16 16 16/animate FC.Popper false true 260 20 20 20 21 21 21 20 20 20 20 21 21 21 22 22 22 23 23 23 23 23 23 23 23 23 22 22 22 21 21 21"
+            },
+        ]
+    },
+
+       {
+            "Action": "EditData",
+            "Target": "Data/Festivals/spring24",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "Set-Up_additionalCharacters"
+                    ],
+                    "Value": "FC.John 13 17 2/FC.Popper 5 18 1",
+                    "Delimiter": "/"
+                },
+                     {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "MainEvent_additionalCharacters"
+                    ],
+                    "Value": "FC.John 13 17 2/FC.Popper 5 18 1",
+                    "Delimiter": "/"
+                },
+            {
+             "Operation": "Append",
+             "Target": ["Fields", "set-up", 5],
+             "Value": "/"
+            },
+            {
+             "Operation": "Append",
+             "Target": ["Fields", "mainEvent", 5],
+             "Value": ""
+            }
+        ]
+    },
+    {
+            "Action": "EditData",
+            "Target": "Data/Festivals/summer11",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "Set-Up_additionalCharacters"
+                    ],
+                    "Value": "FC.John 22 33 2/FC.Popper 10 5 2",
+                    "Delimiter": "/"
+                },
+                     {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "MainEvent_additionalCharacters"
+                    ],
+                    "Value": "FC.John 22 33 2/FC.Popper 10 5 2",
+                    "Delimiter": "/"
+                },
+            {
+             "Operation": "Append",
+             "Target": ["Fields", "set-up", 5],
+             "Value": "/"
+            },
+            {
+             "Operation": "Append",
+             "Target": ["Fields", "mainEvent", 5],
+             "Value": ""
+            },
+
+                       {
+             "Operation": "Append",
+             "Target": ["Fields", "set-up", 5],
+             "Value": "/animate FC.John false true 360 16 16 16/animate FC.Popper false true 260 20 20 20 21 21 21 20 20 20 20 21 21 21 22 22 22 23 23 23 23 23 23 23 23 23 22 22 21 21 21"
+            },
+            {
+             "Operation": "Append",
+             "Target": ["Fields", "mainEvent", 5],
+             "Value": "/animate FC.John false true 360 16 16 16animate FC.Popper false true 260 20 20 20 21 21 21 20 20 20 20 21 21 21 22 22 22 23 23 23 23 23 23 23 23 23 22 22 22 21 21 21",
+             "When": {
+          "HasSeenEvent |contains={{ModID}}_JohnIntroduction": "true",
+           "HasMod |contains=Fellowclown.SW": true
+            }
+        },
+         
+        ]
+    },
+    {
+            "Action": "EditData",
+            "Target": "Data/Festivals/summer28",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "Set-Up_additionalCharacters"
+                    ],
+                    "Value": "FC.John 16 26 2/FC.Popper 37 31 1",
+                    "Delimiter": "/"
+                },
+                     {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "MainEvent_additionalCharacters"
+                    ],
+                    "Value": "FC.John 16 26 2/FC.Popper 37 31 1",
+                    "Delimiter": "/"
+                },
+          
+                       {
+             "Operation": "Append",
+             "Target": ["Fields", "set-up", 5],
+             "Value": "/animate FC.John false true 360 16 16 16 16 16 16 16 16 16 16 17 17 18 18 19 19 19 19 18 18 17 17 16 16 16 16 16/animate FC.Popper false true 360 20 20 20 21 21 21 20 20 20 20 21 21 21 22 22 22 23 23 23 23 23 23 23 23 23 22 22 21 21 21"
+            },
+            {
+             "Operation": "Append",
+             "Target": ["Fields", "mainEvent", 5],
+             "Value": "/animate FC.John false true 360 16 16 16 16 16 16 16 16 16 16 17 17 18 18 19 19 19 19 18 18 17 17 16 16 16 16 16/animate FC.Popper false true 360 20 20 20 21 21 21 20 20 20 20 21 21 21 22 22 22 23 23 23 23 23 23 23 23 23 22 22 22 21 21 21",
+             "When": {
+          "HasSeenEvent |contains={{ModID}}_JohnIntroduction": "true",
+           "HasMod |contains=Fellowclown.SW": true
+            }
+        },
+         
+          
+        ]
+    },
+    {
+            "Action": "EditData",
+            "Target": "Data/Festivals/fall3",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "Set-Up_additionalCharacters"
+                    ],
+                    "Value": "FC.John 26 24 1/FC.Popper 14 38 2",
+                    "Delimiter": "/"
+                },
+                     {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "MainEvent_additionalCharacters"
+                    ],
+                    "Value": "FC.John  33 2731/FC.Popper 33 10 3",
+                    "Delimiter": "/",
+                     "When": {
+          "HasSeenEvent |contains={{ModID}}_JohnIntroduction": "true",
+           "HasMod |contains=Fellowclown.SW": true
+            }
+        },
+        ]
+    },
+       {
+            "Action": "EditData",
+            "Target": "Data/Festivals/fall16",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "Set-Up_additionalCharacters"
+                    ],
+                    "Value": "FC.John 69 91 3/FC.Popper 59 93 2",
+                    "Delimiter": "/"
+                },
+                 {
+             "Operation": "Append",
+             "Target": ["Fields", "set-up", 5],
+             "Value": "/animate FC.Popper false true 360 20 20 20 21 21 21 20 20 20 20 21 21 21 22 22 22 23 23 23 23 23 23 23 23 23 22 22 22 21 21 21",
+                    "When": {
+          "HasSeenEvent |contains={{ModID}}_JohnIntroduction": "true",
+           "HasMod |contains=Fellowclown.SW": true
+            }
+        },
+        ]
+    },
+       {
+            "Action": "EditData",
+            "Target": "Data/Festivals/fall27",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "Set-Up_additionalCharacters"
+                    ],
+                    "Value": "FC.John 36 72 3/FC.Popper 10 53 2",
+                    "Delimiter": "/"
+                },    
+            {
+             "Operation": "Append",
+             "Target": ["Fields", "set-up", 5],
+             "Value": "/animate FC.Popper false true 360 20 20 20 21 21 21",
+                    "When": {
+          "HasSeenEvent |contains={{ModID}}_JohnIntroduction": "true",
+           "HasMod |contains=Fellowclown.SW": true
+            }
+        },
+        ]
+    },
+       {
+            "Action": "EditData",
+            "Target": "Data/Festivals/winter8",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "Set-Up_additionalCharacters"
+                    ],
+                    "Value": "FC.John 47 31 2/FC.Popper 45 37 1",
+                    "Delimiter": "/"
+                },
+                     {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "MainEvent_additionalCharacters"
+                    ],
+                    "Value": "FC.John 47 31 2/FC.Popper 45 37 1",
+                    "Delimiter": "/",
+                       "When": {
+          "HasSeenEvent |contains={{ModID}}_JohnIntroduction": "true",
+           "HasMod |contains=Fellowclown.SW": true
+            }
+        },
+        ]
+    },
+       {
+            "Action": "EditData",
+            "Target": "Data/Festivals/winter25",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "Set-Up_additionalCharacters"
+                    ],
+                    "Value": "FC.John 18 82 2/FC.Popper 18 87 1",
+                    "Delimiter": "/"
+                },
+                     {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "MainEvent_additionalCharacters"
+                    ],
+                    "Value": "FC.John 18 82 2/FC.Popper 18 87 1",
+                    "Delimiter": "/",
+                     "When": {
+          "HasSeenEvent |contains={{ModID}}_JohnIntroduction": "true",
+           "HasMod |contains=Fellowclown.SW": true
+            }
+        },
+        ]
+    },
+    {
+            "Action": "EditData",
+            "Target": "Data/Festivals/spring13",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "Set-Up_additionalCharacters"
+                    ],
+                    "Value": "FC.Barron 23 66 2",
+                    "Delimiter": "/"
+                },
+                     {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "MainEvent_additionalCharacters"
+                    ],
+                    "Value": "FC.Barron 23 66 2",
+                    "Delimiter": "/"
+                },
+            {
+             "Operation": "Append",
+             "Target": ["Fields", "set-up", 5],
+             "Value": "/animate FC.Barron false true 360 23 23 23 23 23 23 23 23 23 23 23 24 25 25 25 25 25 25 25 24 23/positionOffset FC.Barron 20 0"
+            },
+            {
+             "Operation": "Append",
+             "Target": ["Fields", "mainEvent", 5],
+             "Value": "/animate FC.Barron false true 360 23 23 23 23 23 23 23 23 23 23 23 24 25 25 25 25 25 25 25 24 23/positionOffset FC.Barron 20 0",
+                         "When": {
+          "HasSeenEvent |contains={{ModID}}_BarronIntroduction": "true"
+            },
+        },
+        ]
+    },
+
+            {
+            "Action": "EditData",
+            "Target": "Data/Festivals/spring24",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "Set-Up_additionalCharacters"
+                    ],
+                    "Value": "FC.Barron 21 10 2",
+                    "Delimiter": "/"
+                },
+                     {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "MainEvent_additionalCharacters"
+                    ],
+                    "Value": "FC.Barron 21 10 2",
+                    "Delimiter": "/",
+                         "When": {
+          "HasSeenEvent |contains={{ModID}}_BarronIntroduction": "true"
+            },
+        },
+        ]
+    },
+            {
+            "Action": "EditData",
+            "Target": "Data/Festivals/summer11",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "Set-Up_additionalCharacters"
+                    ],
+                    "Value": "FC.Barron 17 31 1",
+                    "Delimiter": "/"
+                },
+                     {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "MainEvent_additionalCharacters"
+                    ],
+                    "Value": "FC.Barron 17 31 2",
+                    "Delimiter": "/"
+                },
+            {
+             "Operation": "Append",
+             "Target": ["Fields", "set-up", 5],
+             "Value": "/animate FC.Barron false true 260 18 18 19 19 20 20 19 19"
+            },
+            {
+             "Operation": "Append",
+             "Target": ["Fields", "mainEvent", 5],
+             "Value": "/animate FC.Barron false true 360 18 18 19 19 20 20 19 19",
+                         "When": {
+          "HasSeenEvent |contains={{ModID}}_BarronIntroduction": "true"
+            },
+        },
+        ]
+    },  
+            {
+            "Action": "EditData",
+            "Target": "Data/Festivals/summer28",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "Set-Up_additionalCharacters"
+                    ],
+                    "Value": "FC.Barron 22 32 2",
+                    "Delimiter": "/"
+                },
+                     {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "MainEvent_additionalCharacters"
+                    ],
+                    "Value": "FC.Barron 22 32 2",
+                    "Delimiter": "/",
+                         "When": {
+          "HasSeenEvent |contains={{ModID}}_BarronIntroduction": "true"
+            },
+        },
+        ]
+    },
+                {
+            "Action": "EditData",
+            "Target": "Data/Festivals/fall3",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "Set-Up_additionalCharacters"
+                    ],
+                    "Value": "FC.Barron 28 29 2",
+                    "Delimiter": "/"
+                },
+                 {
+             "Operation": "Append",
+             "Target": ["Fields", "set-up", 5],
+             "Value": "/animate FC.Barron false true 360 23 23 23 23 23 23 23 23 23 23 23 24 25 25 25 25 25 25 25 24 23/positionOffset FC.Barron 20 0"
+            },
+                     {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "MainEvent_additionalCharacters"
+                    ],
+                    "Value": "FC.Barron 31 27 3",
+                    "Delimiter": "/",
+                         "When": {
+          "HasSeenEvent |contains={{ModID}}_BarronIntroduction": "true"
+            },
+        },
+        ]
+    },
+            
+      
+            {
+            "Action": "EditData",
+            "Target": "Data/Festivals/fall16",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "Set-Up_additionalCharacters"
+                    ],
+                    "Value": "FC.Barron 71 99 2",
+                    "Delimiter": "/"
+                },
+            {
+             "Operation": "Append",
+             "Target": ["Fields", "set-up", 5],
+             "Value": "/animate FC.Barron false true 360 21 21 21 22 22 22 22 22 22 22 22 22 22 22 22 22 21 21/positionOffset FC.Barron 5 0",
+                         "When": {
+          "HasSeenEvent |contains={{ModID}}_BarronIntroduction": "true"
+            },
+        },
+        ]
+    },
+            {
+            "Action": "EditData",
+            "Target": "Data/Festivals/fall27",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "Set-Up_additionalCharacters"
+                    ],
+                    "Value": "FC.Barron 29 26 3",
+                    "Delimiter": "/"
+                },
+                     {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "MainEvent_additionalCharacters"
+                    ],
+                    "Value": "FC.Barron 29 26 3",
+                    "Delimiter": "/",
+                         "When": {
+          "HasSeenEvent |contains={{ModID}}_BarronIntroduction": "true"
+            },
+        },
+        ]
+    },
+            {
+            "Action": "EditData",
+            "Target": "Data/Festivals/winter8",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "Set-Up_additionalCharacters"
+                    ],
+                    "Value": "FC.Barron 35 26 2",
+                    "Delimiter": "/"
+                },
+                     {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "MainEvent_additionalCharacters"
+                    ],
+                    "Value": "FC.Barron 35 26 2",
+                    "Delimiter": "/"
+                },
+            {
+             "Operation": "Append",
+             "Target": ["Fields", "set-up", 5],
+             "Value": "/animate FC.Barron false true 360 21 21 21 22 22 22 22 22 22 22 22 22 22 22 22 22 21 21/positionOffset FC.Barron 0 -10/addTemporaryActor FC.Jinx 32 32 34 22 3 false Character"
+            },
+            {
+             "Operation": "Append",
+             "Target": ["Fields", "mainEvent", 5],
+             "Value": "/animate FC.Barron false true 360 21 21 21 22 22 22 22 22 22 22 22 22 22 22 22 22 21 21/positionOffset FC.Barron 0 -10/addTemporaryActor FC.Jinx 32 32 34 22 3 false Character",
+                         "When": {
+          "HasSeenEvent |contains={{ModID}}_BarronIntroduction": "true"
+            },
+        },
+        ]
+    },
+            {
+            "Action": "EditData",
+            "Target": "Data/Festivals/winter25",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "Set-Up_additionalCharacters"
+                    ],
+                    "Value": "FC.Barron 19 79 1",
+                    "Delimiter": "/"
+                },
+                     {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "MainEvent_additionalCharacters"
+                    ],
+                    "Value": "FC.Barron 19 79 1",
+                    "Delimiter": "/",
+                         "When": {
+          "HasSeenEvent |contains={{ModID}}_BarronIntroduction": "true"
+            },
+        },
+    ]
+    },
+    {
+            "Action": "EditData",
+            "Target": "Data/Festivals/spring13",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "Set-Up_additionalCharacters"
+                    ],
+                    "Value": "FC.Phoebe 34 71 2",
+                    "Delimiter": "/"
+                },
+                     {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "MainEvent_additionalCharacters"
+                    ],
+                    "Value": "FC.Phoebe 34 71 2",
+                    "Delimiter": "/",
+                         "When": {
+          "HasSeenEvent |contains={{ModID}}_SixHearts": "true"
+            },
+        },
+        ]
+    },
+
+            {
+            "Action": "EditData",
+            "Target": "Data/Festivals/spring24",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "Set-Up_additionalCharacters"
+                    ],
+                    "Value": "FC.Phoebe 5 10 2",
+                    "Delimiter": "/"
+                },
+                     {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "MainEvent_additionalCharacters"
+                    ],
+                    "Value": "FC.Phoebe 5 10 2",
+                    "Delimiter": "/",
+                         "When": {
+          "HasSeenEvent |contains={{ModID}}_SixHearts": "true"
+            },
+        },
+        ]
+    },
+            {
+            "Action": "EditData",
+            "Target": "Data/Festivals/summer11",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "Set-Up_additionalCharacters"
+                    ],
+                    "Value": "FC.Phoebe 20 31 2",
+                    "Delimiter": "/"
+                },
+                     {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "MainEvent_additionalCharacters"
+                    ],
+                    "Value": "FC.Phoebe 20 31 2",
+                    "Delimiter": "/",
+                         "When": {
+          "HasSeenEvent |contains={{ModID}}_SixHearts": "true"
+            },
+        },
+        ]
+    },  
+            {
+            "Action": "EditData",
+            "Target": "Data/Festivals/summer28",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "Set-Up_additionalCharacters"
+                    ],
+                    "Value": "FC.Phoebe 21 32 2",
+                    "Delimiter": "/"
+                },
+                     {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "MainEvent_additionalCharacters"
+                    ],
+                    "Value": "FC.Phoebe 21 32 2",
+                    "Delimiter": "/",
+                         "When": {
+          "HasSeenEvent |contains={{ModID}}_SixHearts": "true"
+            },
+        },
+        ]
+    },
+        {
+            "Action": "EditData",
+            "Target": "Data/Festivals/fall3",
+        
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "Set-Up_additionalCharacters"
+                    ],
+                    "Value": "FC.Phoebe 9 15 2",
+                    "Delimiter": "/"
+                },
+                     {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "MainEvent_additionalCharacters"
+                    ],
+                    "Value": "FC.Phoebe 9 15 2",
+                    "Delimiter": "/",
+                         "When": {
+          "HasSeenEvent |contains={{ModID}}_SixHearts": "true"
+            },
+        },
+        ]
+    },
+      
+            {
+            "Action": "EditData",
+            "Target": "Data/Festivals/fall16",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "Set-Up_additionalCharacters"
+                    ],
+                    "Value": "FC.Phoebe 72 99 2",
+                    "Delimiter": "/",
+                         "When": {
+          "HasSeenEvent |contains={{ModID}}_SixHearts": "true"
+            },
+        },
+        ]
+    },
+            {
+            "Action": "EditData",
+            "Target": "Data/Festivals/fall27",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "Set-Up_additionalCharacters"
+                    ],
+                    "Value": "FC.Phoebe 23 62 1",
+                    "Delimiter": "/",
+                         "When": {
+          "HasSeenEvent |contains={{ModID}}_SixHearts": "true"
+            },
+        },
+        ]
+    },
+            {
+            "Action": "EditData",
+            "Target": "Data/Festivals/winter8",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "Set-Up_additionalCharacters"
+                    ],
+                    "Value": "FC.Phoebe 49 44 3",
+                    "Delimiter": "/"
+                },
+                     {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "MainEvent_additionalCharacters"
+                    ],
+                    "Value": "FC.Phoebe 49 44 3",
+                    "Delimiter": "/",
+                         "When": {
+          "HasSeenEvent |contains={{ModID}}_SixHearts": "true"
+            },
+        },
+        ]
+    },
+            {
+            "Action": "EditData",
+            "Target": "Data/Festivals/winter25",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "Set-Up_additionalCharacters"
+                    ],
+                    "Value": "FC.Phoebe 21 77 2",
+                    "Delimiter": "/",
+                         "When": {
+          "HasSeenEvent |contains={{ModID}}_SixHearts": "true"
+            },
+        },
+        ]
+    },
+  ]
+}

@@ -1,0 +1,60 @@
+{
+    "Changes": [
+  {
+"Action": "EditData",
+"Target": "Data/Events/EastScarp_Village",
+"Entries": {
+  ////Intro////
+"{{ModID}}_BarronIntroduction/d Mon/d Wed/d Fri/t 600 2300": "ragtime/-1000 -1000/farmer 0 71 1 FC.Barron -3000 -3000 1/viewport 12 71 clamp true/skippable/addConversationTopic FC.BusFire 7/addTemporaryActor FC.Window 32 32 5 67 2 false Character/animate FC.Window false true 1000 0 1 /positionOffset FC.Window -13 0/positionOffset FC.Window 0 43/move farmer 6 0 1/pause 100/message \"{{i18n:BarronsIntroduction.00}}\"/pause 100/faceDirection farmer 3/faceDirection farmer 0/pause 100/jump farmer 5/pause 300/speak FC.Barron \"{{i18n:BarronsIntroduction.01}}\"/pause 300/startJittering/question fork0 \"{{i18n:BarronsIntroduction.02}}#{{i18n:BarronsIntroduction.03}}#{{i18n:BarronsIntroduction.04}}#\"/fork FC.RushInside/pause 300/faceDirection farmer 1/emote farmer 16/pause 100/faceDirection farmer 0/shake FC.Window 1000/playSound wateringCan/pause 100/playSound woodyHit/pause 200/emote farmer 28/message \"{{i18n:BarronsIntroduction.05}}\"/pause 200/warp FC.Window -3000 -3000/pause 200/warp FC.Barron 7 70/faceDirection FC.Barron 2/playSound doorOpen/pause 100/emote FC.Barron 28/pause 100/textabovehead FC.Barron \"{{i18n:BarronsIntroduction.06}}\"/pause 300/speak FC.Barron \"{{i18n:BarronsIntroduction.07}}\"/quickQuestion {{i18n:BarronsIntroduction.08}}#{{i18n:BarronsIntroduction.09}}#{{i18n:BarronsIntroduction.10}}(break)speak FC.Barron \"{{i18n:BarronsIntroduction.}}\"11\\friendship FC.Barron 5(break)speak FC.Barron \"{{i18n:BarronsIntroduction.12}}\"/pause 200/speak FC.Barron \"{{i18n:BarronsIntroduction.13}}\"/viewport move 0 -1 6000000/pause 800/globalFade/viewport -1000 -1000/end",
+
+"FC.RushInside": "speed farmer 5/move farmer 1 0 2/move farmer 0 -1 0/pause 1500/globalFade/viewport -1000 -1000/warp farmer 10 18/faceDirection farmer 3/warp FC.Barron 4 18/changeToTemporaryMap {{ModID}}_TravelingTrailer/viewport 15 14/addTemporaryActor FC.FlamesTrailer 16 16 6 16 2 false Character/animate FC.FlamesTrailer false true 350 0 1 2 1 0/showFrame FC.Barron 29/shake FC.Barron 15000/pause 300/faceDirection farmer 3/emote farmer 16/speed farmer 5/move farmer -4 0 0/startJittering/showFrame farmer 22/pause 250/playSound wateringCan/pause 1000/stopAnimation FC.FlamesTrailer 3/faceDirection farmer 3/pause 900/emote FC.Barron 28/pause 200/showFrame FC.Barron 4/pause 300/speak FC.Barron \"{{i18n:BarronsIntroduction.14}}\"/pause 300/speak FC.Barron \"{{i18n:BarronsIntroduction.15}}\"/pause 10/speak FC.Barron \"{{i18n:BarronsIntroduction.16}}\"/friendship FC.Barron 10/pause 500/viewport move 0 -1 6000000/pause 800/globalFade/viewport -1000 -1000/end",
+
+}
+},
+  {
+"Action": "EditData",
+"Target": "Data/Events/ArchaeologyHouse",
+"Entries": {
+
+"{{ModID}}_BarronResearch/e {{ModID}}_BarronIntroduction/e {{ModID}}_JohnIntroduction/t 900 1500/f FC.Barron 250": "SettlingIn/-1000 -1000/farmer 9 14 1 FC.Barron 11 9 0 Penny 17 9 2 Vincent 16 10 1 Jas 19 10 3 Elliott 22 9 3 FC.John 10 11 3 FC.Alan?? 15 5 2/viewport 15 11 clamp true/skippable/advancedMove FC.Alan? true -5 0 4 2000 5 0 4 2000/move farmer 3 0 3/pause 100/textabovehead FC.Barron \"{{i18n:BarronsResearch.00}}\"/pause 200/faceDirection Penny 3/faceDirection Penny 2/faceDirection farmer 0/move farmer 0 -3 0/pause 100/textabovehead FC.John \"{{i18n:BarronsResearch.001}}\"/pause 100/faceDirection FC.John 1/emote FC.John 16/pause 400/faceDirection FC.Barron 2/pause 100/speak FC.Barron \"{{i18n:BarronsResearch.02}}\"/pause 300/quickQuestion {{i18n:BarronsResearch.03}}#{{i18n:BarronsResearch.04}}#{{i18n:BarronsResearch.05}}(break)speak FC.Barron \"{{i18n:BarronsResearch.06}}\"\\friendship FC.Barron 5(break)speak FC.Barron \"{{i18n:BarronsResearch.07}}\"/pause 100/speak FC.John \"{{i18n:BarronsResearch.08}}\"/pause 100/speak FC.Barron \"{{i18n:BarronsResearch.09}}\"/pause 200/speak FC.Barron \"{{i18n:BarronsResearch.10}}\"/pause 500/viewport move 0 -1 6000000/pause 800/globalFade/viewport -1000 -1000/end",
+
+}
+},
+  {
+"Action": "EditData",
+"Target": "Data/Events/Mine",
+"Entries": {
+/////2 hearts
+
+"{{ModID}}_PesterMarlon/f FC.Barron 500/d Tue/d Thu/d Sat/d Sun/t 1200 1900/e {{ModID}}_BarronResearch": "communityCenter/-1000 -1000/farmer -3000 -3000 0 Marlon -3000 -3000 1 FC.Barron -3000 -3000 3/viewport 10 8 clamp true/skippable/addConversationTopic FC.FindingPhoebe 7/changeToTemporaryMap {{ModID}}_SecretMineRoom/viewport 10 8 clamp true/warp farmer 6 6/warp FC.Barron 7 10/warp Marlon 11 10/faceDirection Marlon 2/faceDirection FC.Barron 1/faceDirection farmer 2/pause 400/emote Marlon 8/pause 300/speak Marlon \"{{i18n:PesterMarlon.00}}\"/pause 600/move FC.Barron 2 0 2/speak FC.Barron \"{{i18n:PesterMarlon.01}}\"/pause 300/showFrame FC.Barron 30/positionOffset FC.Barron 0 30/showFrame FC.Barron 31/speak FC.Barron \"{{i18n:PesterMarlon.02}}\"/pause 400/showFrame FC.Barron 32/pause 600/showFrame FC.Barron 30/pause 300/speak Marlon \"{{i18n:PesterMarlon.03}}\"/pause 300/speak FC.Barron \"{{i18n:PesterMarlon.04}}\"/pause 400/speak Marlon \"{{i18n:PesterMarlon.05}}\"/pause 300/showFrame FC.Barron 32/pause 300/speak FC.Barron \"{{i18n:PesterMarlon.06}}\"/pause 300/speak Marlon \"{{i18n:PesterMarlon.07}}\"/pause 400/speak Marlon \"{{i18n:PesterMarlon.08}}\"/pause 300/pause 300/showFrame FC.Barron 30/speak FC.Barron \"{{i18n:PesterMarlon.09}}\"/pause 600/speak Marlon \"{{i18n:PesterMarlon.010}}\"/pause 400/speak Marlon \"{{i18n:PesterMarlon.011}}\"/pause 200/move farmer 0 3 1/speak Marlon \"{{i18n:PesterMarlon.012}}\"/pause 300/speak FC.Barron \"{{i18n:PesterMarlon.013}}\"/pause 100/speak FC.Barron \"{{i18n:PesterMarlon.014}}\"/pause 600/move farmer 2 0 2/pause 400/speak FC.Barron \"{{i18n:PesterMarlon.015}}\"/pause 400/speak Marlon \"{{i18n:PesterMarlon.016}}\"/pause 400/showFrame FC.Barron 32/pause 400/speak Marlon \"{{i18n:PesterMarlon.017}}\"/pause 300/emote FC.Barron 28/showFrame FC.Barron 30/pause 500/speak Marlon \"{{i18n:PesterMarlon.018}}\"/pause 400/speak Marlon \"{{i18n:PesterMarlon.019}}\"/pause 400/speak FC.Barron \"{{i18n:PesterMarlon.020}}\"/pause 400/question fork1 \"#{{i18n:PesterMarlon.021}}#{{i18n:PesterMarlon.022}}\"/fork FC.PesterMarlon/pause 800/emote FC.Barron 20/pause 300/speak FC.Barron \"{{i18n:PesterMarlon.023}}\"/viewport move 1 -1 6000000/globalFade/viewport -1000 -1000/friendship FC.Barron 20/end" 
+ }
+},  
+  {
+            "Action": "EditData",
+            "Target": "Data/Events/Temp",
+            "Entries": {
+            "FC.PesterMarlon": "pause 800/emote FC.Barron 20/pause 400/speak FC.Barron \"{{i18n:PesterMarlon.024}}\"/pause 300/speak FC.Barron \"{{i18n:PesterMarlon.025}}\"/viewport move 1 -1 6000000/globalFade/viewport -1000 -1000/friendship FC.Barron 60/end",       
+      }
+        },
+  {
+"Action": "EditData",
+"Target": "Data/Events/{{ModID}}_TravelingTrailer",
+"Entries": {
+/////phoebes intro
+
+"{{ModID}}_PhoebesIntroduction/e {{ModID}}_PesterMarlon/d Mon/d Wed/d Fri/t 700 1900": "breezy/-1000 -1000/farmer 10 18 0 FC.Phoebe 9 13 2 FC.Barron -3000 -3000 0/viewport 11 16 clamp true/skippable/addConversationTopic FC.PhoebeArrives 7/pause 1000/move farmer 0 -1 0/faceDirection farmer 1/faceDirection farmer 3/pause 100/emote farmer 28/pause 200/message \"{{i18n:PhoebesIntroduction.00}}\"/pause 200/move FC.Phoebe 0 3 2 true/doAction 9 15/playSound doorOpen/pause 100/emote farmer 16/move farmer 1 0 3/jump FC.Phoebe 4/emote FC.Phoebe 16/pause 100/speak FC.Phoebe \"{{i18n:PhoebesIntroduction.01}}\"/pause 100/textabovehead FC.Phoebe \"{{i18n:PhoebesIntroduction.02}}\"/pause 400/speak FC.Phoebe \"{{i18n:PhoebesIntroduction.03}}\"/pause 100/question fork0 \"{{i18n:PhoebesIntroduction.04}}#{{i18n:PhoebesIntroduction.05}}#{{i18n:PhoebesIntroduction.06}}#\"/fork FC.GetOutPhoebe/pause 100/emote FC.Phoebe 28/pause 100/speak FC.Phoebe \"{{i18n:PhoebesIntroduction.07}}\"/pause 100/warp FC.Barron 10 18/playSound doorOpen/pause 100/emote FC.Barron 16/pause 100/speak FC.Barron \"{{i18n:PhoebesIntroduction.08}}\"/pause 100/emote FC.Phoebe 28/speak FC.Barron \"{{i18n:PhoebesIntroduction.09}}\"/pause 100/emote FC.Barron 40/pause 100/textabovehead FC.Barron \"{{i18n:PhoebesIntroduction.10}}\"/pause 100/speak FC.Barron \"{{i18n:PhoebesIntroduction.11}}\"/pause 100/textabovehead FC.Phoebe \"{{i18n:PhoebesIntroduction.12}}\"/pause 300/speak FC.Phoebe \"{{i18n:PhoebesIntroduction.13}}\"/pause 200/speak FC.Barron \"{{i18n:PhoebesIntroduction.14}}\"/pause 500/viewport move 1 -1 6000000/globalFade/viewport -1000 -1000/friendship FC.Barron -5/end",  
+
+"FC.GetOutPhoebe": "emote FC.Phoebe 28/pause 100/speak FC.Phoebe \"{{i18n:PhoebesIntroduction.15}}\"/pause 100/warp FC.Barron 10 18/playSound doorOpen/pause 100/emote FC.Barron 16/pause 100/speak FC.Barron \"{{i18n:PhoebesIntroduction.16}}\"/emote farmer 36/pause 300/emote FC.Phoebe 16/speak FC.Phoebe \"{{i18n:PhoebesIntroduction.17}}\"/pause 200/speak FC.Barron \"{{i18n:PhoebesIntroduction.18}}\"/pause 500/viewport move 1 -1 6000000/globalFade/viewport -1000 -1000/friendship FC.Barron 5/end",
+}
+},
+              {
+            "Action": "EditData",
+            "Target": "Data/Events/{{ModID}}_TravelingTrailer",
+            "Entries": {
+  "{{ModID}}_JinxSituation/f FC.Phoebe 250/!z winter/t 700 1500/e {{ModID}}_PhoebesIntroduction": "archaeo/-1000 -1000/farmer 19 15 0 Jacob 19 12 1 FC.Phoebe 20 13 0 FC.Barron 21 12 3/viewport 13 15 clamp true/skippable/addConversationTopic FC.JinxIllness 7/addTemporaryActor FC.Jinx 32 32 20 11 3 false Character/animate FC.Jinx false true 360 16 16 16 17 17 17 18 18 18 19 19 19 18 18 18 17 17 17/positionOffset FC.Jinx -35 2/emote FC.Jinx 60/pause 300/playSound {{ModID}}_Thylacine/pause 900/emote FC.Jinx 12/pause 300/speak FC.Jinx \"{{i18n:BarronsIntroduction.JinxSituation.01}}\"/pause 300/message \"{{i18n:BarronsIntroduction.JinxSituation.02}}\"/pause 100/move farmer 0 -2 1/pause 200/emote farmer 8/pause 100/faceDirection Jacob 2/faceDirection FC.Barron 2/faceDirection FC.Phoebe 3/pause 200/speak FC.Phoebe \"{{i18n:BarronsIntroduction.JinxSituation.03}}\"/pause 300/faceDirection FC.Phoebe 0/faceDirection farmer 0/pause 100/speak FC.Phoebe \"{{i18n:BarronsIntroduction.JinxSituation.04}}\"/pause 200/speak Jacob \"{{i18n:BarronsIntroduction.JinxSituation.05}}\"/faceDirection FC.Barron 3/faceDirection Jacob 1/pause 100/speak FC.Barron \"{{i18n:BarronsIntroduction.JinxSituation.06}}\"/pause 200/speak FC.Barron \"{{i18n:BarronsIntroduction.JinxSituation.07}}\"/pause 100/speak FC.Barron \"{{i18n:BarronsIntroduction.JinxSituation.08}}\"/pause 200/speak FC.Phoebe \"{{i18n:BarronsIntroduction.JinxSituation.09}}\"/pause 200/speak Jacob \"{{i18n:BarronsIntroduction.JinxSituation.10}}\"/pause 200/speak FC.Barron \"{{i18n:BarronsIntroduction.JinxSituation.11}}\"/pause 100/speak Jacob \"{{i18n:BarronsIntroduction.JinxSituation.12}}\"/pause 200/speak FC.Phoebe \"{{i18n:BarronsIntroduction.JinxSituation.13}}\"/pause 200/emote Jacob 12/question fork0 \"{{i18n:BarronsIntroduction.JinxSituation.14}}#{{i18n:BarronsIntroduction.JinxSituation.15}}#{{i18n:BarronsIntroduction.JinxSituation.16}}#\"/fork FC.PhoebeRelax/pause 300/emote FC.Phoebe 60/pause 200/speak FC.Phoebe \"I know...$3#$b#Sorry I'm just worried I guess.$2#$b#I didn't know much about Thylacine's before, but now that FC.Barron has educated me I feel just very passionate about these beautiful animals.$2/pause 200/speak Jacob \"{{i18n:BarronsIntroduction.JinxSituation.17}}\"/pause 200/speak FC.Barron \"{{i18n:BarronsIntroduction.JinxSituation.18}}\"/friendship FC.Phoebe 10/friendship FC.Barron 5/viewport move 1 -1 6000000/globalFade/viewport -1000 -1000/end",
+
+  "FC.PhoebeRelax": "emote FC.Phoebe 12/pause 200/speak FC.Phoebe \"{{i18n:BarronsIntroduction.FC.PhoebeRelax.01}}\"/pause 300/speak Jacob \"{{i18n:BarronsIntroduction.FC.PhoebeRelax.02}}\"/pause 300/speak FC.Phoebe \"{{i18n:BarronsIntroduction.FC.PhoebeRelax.03}}\"/pause 200/speak FC.Barron \"{{i18n:BarronsIntroduction.FC.PhoebeRelax.04}}\"/friendship FC.Phoebe -5/friendship FC.Barron 10/viewport move 1 -1 6000000/globalFade/viewport -1000 -1000/end"
+  }
+        },
+]
+}
