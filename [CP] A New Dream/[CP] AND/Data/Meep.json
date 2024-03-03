@@ -92,7 +92,7 @@
             "Action": "EditMap",
             "Target": "Maps/{{ModID}}_TravelingTrailer",
              "When": {
-                      "HasSeenEvent |contains={{ModID}}_LostKeyEvent": false,
+                      "HasSeenEvent |contains={{ModID}}_TheBooksKey": false,
             },
             "MapTiles": [
                 {
@@ -115,7 +115,7 @@
             "Target": "Maps/{{ModID}}_TravelingTrailer",
             "Update": "OnTimeChange, OnLocationChange",
              "When": {
-                      "HasSeenEvent |contains={{ModID}}_LostKeyEvent": true,
+                      "HasSeenEvent |contains={{ModID}}_TheBooksKey": true,
             },
             "MapTiles": [
                 {

@@ -630,7 +630,7 @@
  {
 "LogName": "TempActor Portraits",
 "Action": "Load",
-"Target": "Characters/FC.Window,Characters/FC.FlamesTrailer,Portraits/FC.DezerieCammi,Characters/FC.DezerieCammi,Characters/FC.PopperSteal,Characters/FC.Danni,Portraits/FC.Danni,Characters/FC.Cori,Portraits/FC.Cori,Characters/FC.TrashCan,Characters/FC.Radio,Characters/FC.WanderingHog,Characters/FC.BabyHog,Portraits/FC.BabyHog,Characters/FC.MamaHog,Portraits/FC.MamaHog,Characters/FC.Roger,Portraits/FC.Roger,Characters/FC.SteelyBoat,Characters/FC.SeaGlassBag,Characters/FC.BeetPlot,Characters/FC.MaverickAND,Portraits/FC.MaverickAND",
+"Target": "Characters/FC.KingsRangoons,Characters/FC.Window,Characters/FC.FlamesTrailer,Portraits/FC.DezerieCammi,Characters/FC.DezerieCammi,Characters/FC.PopperSteal,Characters/FC.Danni,Portraits/FC.Danni,Characters/FC.Cori,Portraits/FC.Cori,Characters/FC.TrashCan,Characters/FC.Radio,Characters/FC.WanderingHog,Characters/FC.BabyHog,Portraits/FC.BabyHog,Characters/FC.MamaHog,Portraits/FC.MamaHog,Characters/FC.Roger,Portraits/FC.Roger,Characters/FC.SteelyBoat,Characters/FC.SeaGlassBag,Characters/FC.BeetPlot,Characters/FC.MaverickAND,Portraits/FC.MaverickAND",
 "FromFile": "Assets/Npcs/TempActors/{{TargetPathOnly}}/{{TargetWithoutPath}}.png",
 },
 {

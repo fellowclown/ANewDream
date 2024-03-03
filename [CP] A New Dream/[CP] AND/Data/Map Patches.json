@@ -1,8 +1,19 @@
 {
 "Changes": [
+    {
+    "Action": "EditMap",
+    "Target": "Maps/Fellowclown.ClownCore_OldGRaveYard",
+    "FromFile": "Assets/Maps/Map Patches/KingsEdit.tbin",
+    "ToArea": { "X":17, "Y": 16, "Width": 2, "Height":1},
+    "Update": "OnTimeChange",
+    "When": {
+          "HasSeenEvent |contains={{ModID}}_TheBooksKey": "true",
+           "HasMod |contains=Fellowclown.SW": true
+            }
+        },
   {
     "Action": "EditMap",
-    "Target": "Maps/Fellowclown.PC_Marketpalooza",
+    "Target": "Maps/Fellowclown.SW_Marketpalooza",
     "FromFile": "Assets/Maps/Map Patches/PhoebesMarketEdit.tbin",
     "ToArea": { "X":9, "Y": 14, "Width": 2, "Height":2},
     "Update": "OnTimeChange",
