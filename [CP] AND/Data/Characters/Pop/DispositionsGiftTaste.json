@@ -1,0 +1,109 @@
+{
+"Changes": [
+ {
+"LogName": "Popper Dispositions",
+"Action": "EditData",
+"Target": "Data/Characters",
+"Entries": {
+"FC.Popper": {
+"DisplayName":"{{i18n:FC.Popper}}",
+"Breather": false,
+"Language":"Default",
+"Gender":"Male",
+"Age":"Adult",
+"Manner":"Rude",
+"SocialAnxiety":"Outgoing",
+"Optimism":"Positive",
+"BirthSeason":"winter",
+"Birthday":"13",
+"HomeRegion":"Town",
+"IsDarkSkinned":false,
+"CanSocialize":true,
+"CanBeRomanced":false,
+"CanReceiveGifts":true,
+"CanCommentOnPurchasedShopItems":false,
+"CanGreetNearbyCharacters":false,
+"CanVisitIsland":true,
+"LoveInterest":null,
+"Calendar":"HiddenUntilMet",
+"SocialTab":"UnknownUntilMet",
+"SocialTabIconSourceRect":null,
+"SpouseAdopts":false,
+"SpouseWantsChildren":false,
+"SpouseGiftJealousy":false,
+"IntroductionsQuest":false,
+"ItemDeliveryQuests":false,
+"PerfectionScore":"{{ExcludePerfection}}",
+"EndSlideShow":"TrailingGroup",
+"DumpsterDiveEmote":"12",
+"DumpsterDiveFriendshipEffect":"-5",
+"FlowerDanceCanDance":true,
+"KissSpriteIndex": 47,
+"HiddenProfileEmoteSound": null,
+"HiddenProfileEmoteDuration": -1,
+"HiddenProfileEmoteStartFrame": 37,
+"HiddenProfileEmoteFrameCount": 3,
+"HiddenProfileEmoteFrameDuration": 360.0,
+"ShakePortraits": [
+  5,11
+],
+"SpouseRoom": {
+"MapAsset": null,
+},
+"SpousePatio":{
+"MapAsset": null,
+},
+
+"SpouseFloors": [ 
+   ],
+"SpouseWallpapers": [],
+"FriendsAndFamily": {
+},
+"WinterStarGifts": [
+],
+"WinterStarParticipant": false,
+"UnlockConditions": null,
+"SpawnIfMissing": true,
+ "EmoteOffset": { "X": 0, "Y": 45 },
+"MugShotSourceRect": { "X": 0, "Y": 9, "Width": 16, "Height": 24 },
+"Home": [
+
+{
+"Id": "Default",
+"Condition": "!PLAYER_HAS_SEEN_EVENT Current {{ModID}}_PopsNewHome",
+"Location": "{{ModID}}_PoppersNest",
+"Tile": {
+"X": 2,
+"Y": 3
+},
+"Direction": "right"
+},
+{
+"Id": "MovePopperToTemple",
+"Condition": "PLAYER_HAS_SEEN_EVENT Current {{ModID}}_PopsNewHome",
+"Location": "{{ModID}}_TempleRuins",
+"Tile": { "X": 12, "Y": 11 
+},
+"Direction": "left"
+},
+],
+"Appearance": [
+ {
+"ID": "FC.PopperAssets",
+"Portrait": "{{InternalAssetKey: Assets/Npcs/Portraits/FC.Popper/FC.Popper.png}}",
+"Sprite": "{{InternalAssetKey: Assets/Npcs/Characters/FC.Popper/FC.Popper.png}}"
+},
+],
+}
+}
+},
+ {
+"LogName": "GiftTastes",
+"Action": "EditData",
+"Target": "Data/NPCGiftTastes",
+"Entries": {
+"FC.Popper": "{{i18n:Popper.gift.love}}/{{ModID}}_Button 78 105 138 167/{{i18n:Popper.gift.like}}/174 229 118/{{i18n:Popper.gift.dislike}}/143 157 152 222/{{i18n:Popper.gift.hate}}/248 260 264 284/{{i18n:Popper.gift.neutral}}/250 256/ ",
+}
+ },
+]
+}

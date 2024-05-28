@@ -1,0 +1,73 @@
+{
+"Changes": [
+ {
+"LogName": "Animations",
+"Action": "EditData",
+"Target": "Data/animationDescriptions",
+"Entries": {
+    "{{ModID}}_PhoebeKneel3":"16/16/16",
+}
+ },
+  {
+"LogName": "Phoebe Schedule Dialogue Default",
+"Action": "EditData",
+"Target": "Strings/schedules/FC.Phoebe",
+  "Entries": {
+"Phoebe.GreenRain": "{{i18n:Phoebe.GreenRain}}",
+"Phoebe.DesertFestival": "{{i18n:Phoebe.DesertFestival}}",
+"Phoebe.TroutDerby": "{{i18n:Phoebe.TroutDerby}}",
+"Phoebe.SquidFest": "{{i18n:Phoebe.SquidFest}}",
+
+}
+ },
+ ////Tuesday, Thursday,Saturday,Sunday at east scarp
+ ////Monday, Wednesday,Friday at the refuge
+         {
+            "LogName": "Schedule Edit",
+"Action": "EditData",
+"Target": "Characters/schedules/FC.Phoebe",
+"Update": "OnTimeChange, OnLocationChange",
+"Entries": {
+"spring": "GOTO Tue",
+"Mon":"GOTO Tue",
+
+"Wed": "GOTO Thu",
+
+"Fri": "GOTO Sat",
+
+"Tue": "700 {{ModID}}_TravelingTrailer 22 13 2/1300 {{ModID}}_TravelingTrailer 3 18 0/1430 EastScarp_VillageInn 28 9 2/1600 EastScarp_Village 45 123 3/1900 EastScarp_Village 89 68 0/2130 {{ModID}}_TravelingTrailer 5 12 2",
+"Thu": "700 {{ModID}}_TravelingTrailer 22 13 2/1300 EastScarp_Village 87 105 1/1530 {{ModID}}_TravelingTrailer 23 12 0/1700 EastScarp_VillageIn 34 9 3/2130 {{ModID}}_TravelingTrailer 5 12 2",
+"Sat": "1000 {{ModID}}_TravelingTrailer 3 18 0/1200 EastScarp_Village 87 105 1/1530 {{ModID}}_TravelingTrailer 23 12 /1700 EastScarp_Village 45 123 3/2130 {{ModID}}_TravelingTrailer 5 12 2",
+"Sun": "1200 EastScarp_Village 87 105 1/1400 EastScarp_VillageInn 34 9 3/1600 {{ModID}}_TravelingTrailer 3 18 0/1800 {{ModID}}_TravelingTrailer 14 11 0/1900 {{ModID}}_TravelingTrailer 23 12 0/2130 {{ModID}}_TravelingTrailer 5 12 2",
+
+"rain": "700 {{ModID}}_TravelingTrailer 22 13 2/1300 {{ModID}}_TravelingTrailer 3 18 0/1600 {{ModID}}_TravelingTrailer 14 11 0/1900 {{ModID}}_TravelingTrailer 23 12 0/2130 {{ModID}}_TravelingTrailer 5 12 2",
+
+"GreenRain": "700 {{ModID}}_TravelingTrailer 3 18 0 \"Strings\\schedules\\FC.Phoebe:Phoebe.GreenRain\"",
+"DesertFestival": "610 Desert 16 9 2 \"Strings\\schedules\\FC.Phoebe:Phoebe.DesertFestival\"/2130 {{ModID}}_TravelingTrailer 5 12 2",
+"TroutDerby": "610 Forest 84 49 3 \"Strings\\schedules\\FC.Phoebe:Phoebe.TroutDerby\"/2130 {{ModID}}_TravelingTrailer 5 12 2",
+"SquidFest": "610 Beach 12 9 0 \"Strings\\schedules\\FC.Phoebe:Phoebe.SquidFest\"/2130 {{ModID}}_TravelingTrailer 5 12 2",
+
+"fall_27": "700 {{ModID}}_TravelingTrailer 22 13 2/1300 {{ModID}}_TravelingTrailer 3 18 0/1530 {{ModID}}_TravelingTrailer 23 12 0/2130 {{ModID}}_TravelingTrailer 5 12 2",
+},
+
+     "When": {
+ "HasSeenEvent |contains={{ModID}}_PhoebesIntroduction": true,
+}
+},
+         {
+            "LogName": "Schedule Edit",
+"Action": "EditData",
+"Target": "Characters/schedules/FC.Phoebe",
+"Update": "OnTimeChange, OnLocationChange",
+"Entries": {
+"Sun": "930 {{ModId}}_TempleRuins 17 22 3/1100 EastScarp_VillageInn 34 9 3/1500 {{ModID}}_TravelingTrailer 3 18 0/1700 {{ModID}}_TravelingTrailer 14 11 0/1900 {{ModID}}_TravelingTrailer 23 12 0/2000 {{ModID}}_TravelingTrailer 5 12 2",
+    },
+
+     "When": {
+"HasSeenEvent |contains={{ModID}}_PhoebesIntroduction": true,
+"HasSeenEvent |contains={{ModID}}_TheTemple": true,
+"HasFlag |contains={{ModID}}_Temple": true,
+}
+},
+]
+}

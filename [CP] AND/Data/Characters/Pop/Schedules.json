@@ -1,0 +1,73 @@
+{
+"Changes": [
+ {
+"LogName": "Animations",
+"Action": "EditData",
+"Target": "Data/animationDescriptions",
+"Entries": {
+    "{{ModId}}_PopRummage1": "16/16 17 17 18 18 19/19",
+    "{{ModId}}_PopSleep": "26/26/26",
+}
+ },
+  {
+"LogName": "Popper Schedule Dialogue Default",
+"Action": "EditData",
+"Target": "Strings/schedules/FC.Popper",
+  "Entries": {
+"Popper.GreenRain": "{{i18n:Popper.GreenRain}}",
+
+
+}
+ },
+ {
+"Action": "EditData",
+"Target": "Characters/schedules/FC.Popper",
+"Update": "OnTimeChange, OnLocationChange",
+"Entries": {
+"spring": "1100 EastScarp_Village {{Random:61 100 3,23 101 3,26 15 3}} {{ModID}}_PopRummage/1300 EastScarp_Lighthouse {{Random:5 6 3,17 4 3,7 9 3}}/1530 EastScarp_ClearingHouse {{Random:41 9 3,18 17 1,9 8 1}}/1900 EastScarp_DeepMountains {{Random:53 47 3,26 25 3,46 48 3}}/2230 {{ModID}}_PoppersNest 2 3 2",
+"summer": "1100 EastScarp_DeepMountains {{Random:55 38 0,47 15 0,8 26 0}}/1300 EastScarp_Village {{Random:25 24 3,33 32 3,26 49 3}}/1530 EastScarp_JacobBarn {{Random:13 10 1,14 4 0,21 5 3}}/1900 EastScarp_Village {{Random:28 46 0,51 98 2,29 119 2}}/2230 {{ModID}}_PoppersNest 2 3 2",
+"fall": "1100 EastScarp_Lighthouse {{Random:5 6 3,17 4 3,7 9 3}}/1300 EastScarp_Village {{Random:61 100 3,23 101 3,26 15 3}} {{ModID}}_PopRummage/1530 Town {{Random:48 70 3,53 63 3,90 91 2}} {{ModID}}_PopRummage/1900 Town {{Random:65 86 3,36 96 329 28 3}} {{ModID}}_PopRummage/2230 {{ModID}}_PoppersNest 2 3 2",
+"winter": "1130 EastScarp_VetHouse {{Random:6 11 1,29 13 0,30 5 0}}/1330 EastScarp_ClearingHouse {{Random:41 9 3,18 17 1,9 8 1}} {{ModID}}_PopRummage/1600 EastScarp_Village {{Random:61 100 3,23 101 3,26 15 3}} {{ModID}}_PopRummage/2000 EastScarp_Village {{Random:5 6 3,17 4 3,7 9 3}}/2400 {{ModID}}_PoppersNest 2 3 2",
+"rain": "1300 EastScarp_Village {{Random:28 46 0,51 98 2,29 119 2}}/1530 EastScarp_Lighthouse {{Random:5 6 3,17 4 3,7 9 3}} {{ModID}}_PopRummage/1700 EastScarp_Village {{Random:61 100 3,23 101 3,26 15 3}} {{ModID}}_PopRummage/2000 {{ModID}}_PoppersNest 2 3 2",
+"GreenRain": "700 EastScarp_Lighthouse {{Random:5 6 3,17 4 3,7 9 3}} \"Strings\\schedules\\FC.Popper:Popper.GreenRain\"",
+ },
+   "When": {
+ "HasSeenEvent |contains={{ModID}}_PopsBeachVisit": "true"            }
+        },
+          {
+"Action": "EditData",
+"Target": "Characters/schedules/FC.Popper",
+"Update": "OnTimeChange, OnLocationChange",
+"Entries": {
+"Mon":"1100 EastScarp_EDHouse {{Random:4 26 1,20 21 0,18 6 0}}/1300 EastScarp_Lighthouse {{Random:5 6 3,17 4 3,7 9 3}}/1530 EastScarp_ClearingHouse {{Random:41 9 3,18 17 1,9 8 1}}/1900 EastScarp_DeepMountains {{Random:53 47 3,26 25 3,46 48 3}}/2230 {{ModID}}_PoppersNest 2 3 2",
+},
+    "When": {
+                "HasMod |contains=TenebrousNova.EliDylan.CP": true,
+                 "HasSeenEvent |contains={{ModID}}_PopsBeachVisit": "true" 
+            }
+        },
+           {
+"Action": "EditData",
+"Target": "Characters/schedules/FC.Popper",
+"Update": "OnTimeChange, OnLocationChange",
+"Entries": {
+"Fri":"1000 EastScarp_RodneysHouse {{Random:4 13 3,11 26 1,8 29 1}}/1330 EastScarp_ClearingHouse {{Random:41 9 3,18 17 1,9 8 1}} {{ModID}}_PopRummage/1600 EastScarp_Village {{Random:61 100 3,23 101 3,26 15 3}} {{ModID}}_PopRummage/2000 EastScarp_Village {{Random:5 6 3,17 4 3,7 9 3}}/2400 {{ModID}}_PoppersNest 2 3 2",
+},"When": {
+                "HasMod |contains=TheFrenchDodo.RodneyOBrien": true,
+                 "HasSeenEvent |contains={{ModID}}_PopsBeachVisit": "true" 
+            }
+        },
+           {
+"Action": "EditData",
+"Target": "Characters/schedules/FC.Popper",
+"Update": "OnTimeChange, OnLocationChange",
+"Entries": {
+"Sun":"1100 EastScarp_MateoHome {{Random:8 5 0,5 9 1,3 5 0}}/1530 EastScarp_DruidTower {{Random:8 26 1,9 18 1,7 6 1}}/1900 EastScarp_Village {{Random:28 46 0,51 98 2,29 119 2}}/2230 {{ModID}}_PoppersNest 2 3 2",
+},
+"When": {
+                "HasMod |contains=DestyNova.Mateo.CP": true,
+                 "HasSeenEvent |contains={{ModID}}_PopsBeachVisit": "true" 
+            }
+        },
+]
+}

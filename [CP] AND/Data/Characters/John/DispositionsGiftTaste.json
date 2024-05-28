@@ -1,0 +1,170 @@
+{
+"Changes": [
+   {
+"LogName": "John Dispositions",
+"Action": "EditData",
+"Target": "Data/Characters",
+"Entries": {
+"FC.John": {
+"DisplayName":"{{i18n:FC.John}}",
+"Breather": true,
+"Language":"Default",
+"Gender":"Male",
+"Age":"Adult",
+"Manner":"Polite",
+"SocialAnxiety":"Outgoing",
+"Optimism":"Positive",
+"BirthSeason":"fall",
+"Birthday":"17",
+"HomeRegion":"Town",
+"IsDarkSkinned":true,
+"CanSocialize":true,
+"CanBeRomanced":true,
+"CanReceiveGifts":true,
+"CanCommentOnPurchasedShopItems":false,
+"CanGreetNearbyCharacters":false,
+"CanVisitIsland":true,
+"LoveInterest":null,
+"Calendar":"HiddenUntilMet",
+"SocialTab":"UnknownUntilMet",
+"SocialTabIconSourceRect":null,
+"SpouseAdopts":true,
+"SpouseWantsChildren":true,
+"SpouseGiftJealousy":true,
+"IntroductionsQuest":false,
+"ItemDeliveryQuests":true,
+"PerfectionScore":"{{ExcludePerfection}}",
+"EndSlideShow":"TrailingGroup",
+"DumpsterDiveEmote":"28",
+"DumpsterDiveFriendshipEffect":"-2",
+"FlowerDanceCanDance":true,
+"KissSpriteIndex": 46,
+"HiddenProfileEmoteSound": null,
+"HiddenProfileEmoteDuration": -1,
+"HiddenProfileEmoteStartFrame": 37,
+"HiddenProfileEmoteFrameCount": 3,
+"HiddenProfileEmoteFrameDuration": 360.0,
+"ShakePortraits": [
+   8
+],
+"SpouseRoom": {
+"MapAsset": "{{ModID}}_JohnSpouseRoom"
+},
+"SpousePatio":{
+"MapAsset": "{{ModID}}_JohnPatio",
+},
+
+"SpouseFloors": [ 
+      "2",
+      "1",
+      "3",
+      "2",
+      "3",
+      "2",
+      "6",
+      "4",
+      "6",
+      "4",
+      "5",
+      "6",
+      "4",
+      "7",
+      "7",
+      "1",
+      "0",
+      "6",
+      "1",
+      "0",
+      "7"],
+"SpouseWallpapers": [],
+"FriendsAndFamily": {
+},
+"WinterStarGifts": [
+],
+"WinterStarParticipant": true,
+"UnlockConditions": null,
+"SpawnIfMissing": true,
+"Home": [
+{
+"Id": "Default",
+"Condition": "!PLAYER_HAS_MAIL current {{ModID}}_Temple.Mail",
+"Location": "{{ModID}}_JohnsTempRoom",
+"Tile": {
+"X": 6,
+"Y": 8
+},
+"Direction": "right"
+},
+{
+"Id": "MovedToTempleJohn",
+"Condition": "PLAYER_HAS_MAIL current {{ModID}}_Temple.Mail",
+"Location": "{{ModID}}_TempleRuins",
+"Tile": { "X": 15, "Y": 8 
+},
+"Direction": "down"
+},
+],
+"Appearance": [
+
+ {
+"ID": "spring",
+"Condition": "SEASON Spring",
+"Portrait": "{{InternalAssetKey: Assets/Npcs/Portraits/FC.John/FC.John_spring.png}}",
+"Sprite": "{{InternalAssetKey: Assets/Npcs/Characters/FC.John/FC.John_spring.png}}"
+},
+{
+"ID": "winter",
+"Condition": "SEASON Winter",
+"Portrait": "{{InternalAssetKey: Assets/Npcs/Portraits/FC.John/FC.John_winter.png}}",
+"Sprite": "{{InternalAssetKey: Assets/Npcs/Characters/FC.John/FC.John_winter.png}}"
+},
+{
+"ID": "eggfestival",
+"Condition": "EVENT_ID festival_spring13",
+"Portrait": "{{InternalAssetKey: Assets/Npcs/Portraits/FC.John/Festivals/egg festival.png}}",
+"Sprite": "{{InternalAssetKey: Assets/Npcs/Characters/FC.John/Festivals/egg festival.png}}",
+"Precedence": -10,
+
+},
+{
+"ID": "flowerfestival",
+"Condition": "EVENT_ID festival_spring24",
+"Portrait": "{{InternalAssetKey: Assets/Npcs/Portraits/FC.John/Festivals/flower dance.png}}",
+"Sprite": "{{InternalAssetKey: Assets/Npcs/Characters/FC.John/Festivals/flower dance.png}}",
+"Precedence": -10,
+},
+{
+"ID": "spiritseve",
+"Condition": "EVENT_ID festival_fall3",
+"Portrait": "{{InternalAssetKey: Assets/Npcs/Portraits/FC.John/Festivals/spirit's eve.png}}",
+"Sprite": "{{InternalAssetKey: Assets/Npcs/Characters/FC.John/Festivals/spirit's eve.png}}",
+"Precedence": -10,
+},
+{
+"ID": "SwimWear",
+"IsIslandAttire": true,
+"Portrait": "{{InternalAssetKey: Assets/Npcs/Portraits/FC.John/FC.John_SwimWear.png}}",
+"Sprite": "{{InternalAssetKey: Assets/Npcs/Characters/FC.John/FC.John_SwimWear.png}}",
+"Precedence": -10,
+},
+{
+"ID": "JohnJob",
+"Condition": "LOCATION_NAME Here {{ModID}}_Temple", 
+"Portrait": "{{InternalAssetKey: Assets/Npcs/Portraits/FC.John/FC.John_Job.png}}",
+"Sprite": "{{InternalAssetKey: Assets/Npcs/Characters/FC.John/FC.John_Job.png}}",
+"Precedence": -10,
+},
+],
+}
+}
+},
+ {
+"LogName": "GiftTastes",
+"Action": "EditData",
+"Target": "Data/NPCGiftTastes",
+"Entries": {
+"FC.John": "{{i18n:John.gift.love}}/{{ModID}}_Seaglass {{ModID}}_SeaglassFlowerDisplay 715 720 524/{{i18n:John.gift.like}}/66 68 608 610/{{i18n:John.gift.dislike}}/597 219 238 238/{{i18n:John.gift.hate}}/199 242 284/{{i18n:John.gift.neutral}}/-4 279/ ",
+}
+ },
+ ]
+}

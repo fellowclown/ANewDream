@@ -1,0 +1,35 @@
+{
+"Changes": [
+   /************************************************
+ **  Dialogues
+ ************************************************/ 
+  {
+  "Action": "EditData",
+  "Target": "Characters/Dialogue/Robin",
+  "Entries": {
+"FC.FaintingIncident": "{{i18n:FaintingIncident.Robin}}",
+  }
+},
+{
+  "Action": "EditData",
+  "Target": "Characters/Dialogue/Marnie",
+  "Entries": {
+"FC.FaintingIncident": "{{i18n:FaintingIncident.Marnie}}",
+  }
+},
+{
+  "Action": "EditData",
+  "Target": "Characters/Dialogue/Jodi",
+  "Entries": {
+"FC.FaintingIncident": "{{i18n:FaintingIncident.Jodi}}",
+  }
+},
+{
+  "Action": "EditData",
+  "Target": "Characters/Dialogue/Harvey",
+  "Entries": {
+"FC.FaintingIncident": "{{i18n:FaintingIncident.Harvey}}",
+  }
+},
+]
+}

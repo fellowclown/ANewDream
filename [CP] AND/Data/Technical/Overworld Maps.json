@@ -1,0 +1,487 @@
+{
+  "Changes": [
+     {
+      "LogName": "NO SVE",
+      "Action": "EditData",
+      "Target": "Data/WorldMap",
+      "When": {
+        "HasMod |contains=FlashShifter.StardewValleyExpandedCP": false,
+           "HasFlag |contains={{ModID}}_Temple.Mail": false,
+      },
+      "TargetField": [ "EastScarp", "MapAreas" ],
+      "Entries": {
+        "JohnTemple": {
+          "Id": "JohnTemple",
+          "PixelArea": {
+            "X": 185,
+            "Y": 91,
+            "Width": 10,
+            "Height": 10
+          },
+          "Tooltips": [
+            {
+              "Id": "JohnTemple",
+              "Text": "{{i18n:FC.MapName.TempleRuins}}"
+            }
+          ],
+          "WorldPositions": [
+            {
+              "Id": "JohnTemple",
+              "LocationName": "Fellowclown.AND_TempleRuins",
+              "ExtendedTileArea": null,
+              "MapPixelArea": {
+                "X": 185,
+                "Y": 91,
+                "Width": 10,
+                "Height": 10
+              },
+              "ScrollText": "{{i18n:FC.MapName.TempleRuins}}"
+            },
+          ]
+        },
+      }
+    },
+         {
+      "LogName": "NO SVE",
+      "Action": "EditData",
+      "Target": "Data/WorldMap",
+      "When": {
+        "HasMod |contains=FlashShifter.StardewValleyExpandedCP": false,
+           "HasFlag |contains={{ModID}}_Temple.Mail": true,
+      },
+      "TargetField": [ "EastScarp", "MapAreas" ],
+      "Entries": {
+        "JohnTemple": {
+          "Id": "JohnTemple",
+          "PixelArea": {
+            "X": 185,
+            "Y": 91,
+            "Width": 10,
+            "Height": 10
+          },
+          "Tooltips": [
+            {
+              "Id": "JohnTemple",
+              "Text": "{{i18n:FC.MapName.TempleRestored}}"
+            }
+          ],
+          "WorldPositions": [
+            {
+              "Id": "JohnTemple",
+              "LocationName": "Fellowclown.AND_TempleRuins",
+              "ExtendedTileArea": null,
+              "MapPixelArea": {
+                "X": 185,
+                "Y": 91,
+                "Width": 10,
+                "Height": 10
+              },
+              "ScrollText": "{{i18n:FC.MapName.TempleRestored}}"
+            },
+          ]
+        },
+      }
+    },
+    {
+      "LogName": "NO SVE",
+      "Action": "EditData",
+      "Target": "Data/WorldMap",
+      "When": {
+        "HasMod |contains=FlashShifter.StardewValleyExpandedCP": false,
+      },
+      "TargetField": [ "EastScarp", "MapAreas" ],
+      "Entries": {
+        "BarronBus": {
+          "Id": "BarronBus",
+          "PixelArea": {
+            "X": 92,
+            "Y": 84,
+            "Width": 11,
+            "Height": 6
+          },
+          "Tooltips": [
+            {
+              "Id": "BarronBus",
+              "Text": "{{i18n:MapName.TravelingTrailer}}"
+            }
+          ],
+          "WorldPositions": [
+            {
+              "Id": "BarronBus",
+              "LocationName": "Fellowclown.AND_TravelingTrailer",
+              "ExtendedTileArea": null,
+              "MapPixelArea": {
+                "X": 92,
+                "Y": 84,
+                "Width": 11,
+                "Height": 6
+              },
+              "ScrollText": "{{i18n:MapName.BusDecker}}"
+            },
+            {
+              "ScrollTextZones": [],
+              "Id": "Default",
+              "LocationName": "EastScarp_Village",
+              "ScrollText": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "LogName": "Edit ES World Map NO SVE",
+      "Action": "EditImage",
+      "When": {
+        //"Season": "spring, summer, fall, winter",
+        "HasMod |contains=FlashShifter.StardewValleyExpandedCP": false
+      },
+      "Target": "Mods/Lemurkat.EastScarp/ESWorldMap",
+      "PatchMode": "Overlay",
+      "FromFile": "Assets/WorldMaps/ESmap_John.png",
+      "FromArea": {
+        "X": 0,
+        "Y": 0,
+        "Width": 304,
+        "Height": 222
+      },
+      "ToArea": {
+        "X": 0,
+        "Y": 0,
+        "Width": 304,
+        "Height": 222
+      }
+    },
+    {
+      "LogName": "Edit ES World Map NO SVE",
+      "Action": "EditImage",
+      "When": {
+        //"Season": "spring, summer, fall, winter",
+        "HasMod |contains=FlashShifter.StardewValleyExpandedCP": false,
+      },
+      "Target": "Mods/Lemurkat.EastScarp/ESWorldMap",
+      "PatchMode": "Overlay",
+      "FromFile": "Assets/WorldMaps/ESmap_Barron.png",
+      "FromArea": {
+        "X": 0,
+        "Y": 0,
+        "Width": 304,
+        "Height": 222
+      },
+      "ToArea": {
+        "X": 0,
+        "Y": 0,
+        "Width": 304,
+        "Height": 222
+      }
+    },
+    //Changes the Tooltip text for John's Temple after restoration
+    {
+      "LogName": "NO SVE",
+      "Action": "EditData",
+      "Target": "Data/WorldMap",
+      "When": {
+        "HasMod |contains=FlashShifter.StardewValleyExpandedCP": false,
+        "HasFlag |contains={{ModID}}_Temple.Mail": true,
+        "Year": "2"
+        //put condition/event seen here
+      },
+      "TargetField": [ "EastScarp", "MapAreas", "MainScarp", "ToolTips", "JohnTemple" ],
+      "Entries": {
+        "Text": "{{i18n:FC.MapName.TempleRestored}}"
+      }
+    },
+    {
+      "LogName": "YES SVE",
+      "Action": "EditData",
+      "Target": "Data/WorldMap",
+      "When": {
+        "HasMod |contains=FlashShifter.StardewValleyExpandedCP": true
+      },
+      "TargetField": [ "EastScarp", "MapAreas" ],
+      "Entries": {
+        "JohnTemple": {
+          "Id": "JohnTemple",
+          "PixelArea": {
+            "X": 105,
+            "Y": 91,
+            "Width": 10,
+            "Height": 10
+          },
+          "Tooltips": [
+            {
+              "Id": "JohnTemple",
+              "Text": "{{i18n:FC.MapName.TempleRuins}}"
+            }
+          ],
+          "WorldPositions": [
+            {
+              "Id": "JohnTemple",
+              "LocationName": "Fellowclown.AND_TempleRuins",
+              "ExtendedTileArea": null,
+              "MapPixelArea": {
+                "X": 105,
+                "Y": 91,
+                "Width": 10,
+                "Height": 10
+              },
+              "ScrollText": "{{i18n:FC.MapName.TempleRuins}}"
+            },
+            {
+              "Id": "JohnTempleRestored",
+              "LocationName": "Fellowclown.AND_Temple",
+              "MapPixelArea": {
+                "X": 105,
+                "Y": 91,
+                "Width": 10,
+                "Height": 10
+              },
+              "ScrollText": "{{i18n:FC.MapName.TempleRestored}}"
+            },
+            {
+              "ScrollTextZones": [],
+              "Id": "Default",
+              "LocationName": "EastScarp_Village",
+              "ScrollText": null
+            }
+          ]
+        },
+        "BarronBus": {
+          "Id": "BarronBus",
+          "PixelArea": {
+            "X": 12,
+            "Y": 84,
+            "Width": 11,
+            "Height": 6
+          },
+          "Tooltips": [
+            {
+              "Id": "BarronBus",
+              "Text": "{{i18n:MapName.TravelingTrailer}}"
+            }
+          ],
+          "WorldPositions": [
+            {
+              "Id": "BarronBus",
+              "LocationName": "Fellowclown.AND_TravelingTrailer",
+              "ExtendedTileArea": null,
+              "MapPixelArea": {
+                "X": 12,
+                "Y": 84,
+                "Width": 11,
+                "Height": 6
+              },
+              "ScrollText": "{{i18n:MapName.BusDecker}}"
+            },
+            {
+              "Id": "TravelingTrailerDecker",
+              "LocationName": "Fellowclown.AND_TravelingTrailerDecker",
+              "MapPixelArea": {
+                "X": 12,
+                "Y": 84,
+                "Width": 11,
+                "Height": 6
+              },
+              "ScrollText": "{{i18n:MapName.BusDecker}}"
+            },
+            {
+              "ScrollTextZones": [],
+              "Id": "Default",
+              "LocationName": "EastScarp_Village",
+              "ScrollText": null
+            }
+          ]
+        }
+      }
+    },
+       {
+      "LogName": "YES SVE",
+      "Action": "EditData",
+      "Target": "Data/WorldMap",
+      "When": {
+        "HasMod |contains=FlashShifter.StardewValleyExpandedCP": true,
+           "HasFlag |contains={{ModID}}_Temple.Mail": false,
+      },
+      "TargetField": [ "EastScarp", "MapAreas" ],
+      "Entries": {
+        "JohnTemple": {
+          "Id": "JohnTemple",
+          "PixelArea": {
+            "X": 105,
+            "Y": 91,
+            "Width": 10,
+            "Height": 10
+          },
+          "Tooltips": [
+            {
+              "Id": "JohnTemple",
+              "Text": "{{i18n:FC.MapName.TempleRuins}}"
+            }
+          ],
+          "WorldPositions": [
+            {
+              "Id": "JohnTemple",
+              "LocationName": "Fellowclown.AND_TempleRuins",
+              "ExtendedTileArea": null,
+              "MapPixelArea": {
+                "X": 105,
+                "Y": 91,
+                "Width": 10,
+                "Height": 10
+              },
+              "ScrollText": "{{i18n:FC.MapName.TempleRuins}}"
+            },
+          ]
+        },
+      }
+    },
+         {
+      "LogName": "YES SVE",
+      "Action": "EditData",
+      "Target": "Data/WorldMap",
+      "When": {
+        "HasMod |contains=FlashShifter.StardewValleyExpandedCP": true,
+           "HasFlag |contains={{ModID}}_Temple.Mail": true,
+      },
+      "TargetField": [ "EastScarp", "MapAreas" ],
+      "Entries": {
+        "JohnTemple": {
+          "Id": "JohnTemple",
+          "PixelArea": {
+            "X": 105,
+            "Y": 91,
+            "Width": 10,
+            "Height": 10
+          },
+          "Tooltips": [
+            {
+              "Id": "JohnTemple",
+              "Text": "{{i18n:FC.MapName.TempleRestored}}"
+            }
+          ],
+          "WorldPositions": [
+            {
+              "Id": "JohnTemple",
+              "LocationName": "Fellowclown.AND_TempleRuins",
+              "ExtendedTileArea": null,
+              "MapPixelArea": {
+                "X": 105,
+                "Y": 91,
+                "Width": 10,
+                "Height": 10
+              },
+              "ScrollText": "{{i18n:FC.MapName.TempleRestored}}"
+            },
+          ]
+        },
+      }
+    },
+    {
+      "LogName": "YES SVE",
+      "Action": "EditData",
+      "Target": "Data/WorldMap",
+      "When": {
+        "HasMod |contains=FlashShifter.StardewValleyExpandedCP": true,
+      },
+      "TargetField": [ "EastScarp", "MapAreas" ],
+      "Entries": {
+        "BarronBus": {
+          "Id": "BarronBus",
+          "PixelArea": {
+            "X": 12,
+            "Y": 84,
+            "Width": 11,
+            "Height": 6
+          },
+          "Tooltips": [
+            {
+              "Id": "BarronBus",
+              "Text": "{{i18n:MapName.TravelingTrailer}}"
+            }
+          ],
+          "WorldPositions": [
+            {
+              "Id": "BarronBus",
+              "LocationName": "Fellowclown.AND_TravelingTrailer",
+              "ExtendedTileArea": null,
+              "MapPixelArea": {
+                "X": 12,
+                "Y": 84,
+                "Width": 11,
+                "Height": 6
+              },
+              "ScrollText": "{{i18n:MapName.BusDecker}}"
+            },
+            {
+              "ScrollTextZones": [],
+              "Id": "Default",
+              "LocationName": "EastScarp_Village",
+              "ScrollText": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "LogName": "Edit ES World Map YES SVE",
+      "Action": "EditImage",
+      "When": {
+        //"Season": "spring, summer, fall, winter",
+        "HasMod |contains=FlashShifter.StardewValleyExpandedCP": true
+      },
+      "Target": "Mods/Lemurkat.EastScarp/ESWorldMap",
+      "PatchMode": "Overlay",
+      "FromFile": "Assets/WorldMaps/ESmap_JohnSVE.png",
+      "FromArea": {
+        "X": 0,
+        "Y": 0,
+        "Width": 224,
+        "Height": 222
+      },
+      "ToArea": {
+        "X": 0,
+        "Y": 0,
+        "Width": 224,
+        "Height": 222
+      }
+    },
+    {
+      "LogName": "Edit ES World Map YES SVE",
+      "Action": "EditImage",
+      "When": {
+        //"Season": "spring, summer, fall, winter",
+        "HasMod |contains=FlashShifter.StardewValleyExpandedCP": true,
+      },
+      "Target": "Mods/Lemurkat.EastScarp/ESWorldMap",
+      "PatchMode": "Overlay",
+      "FromFile": "Assets/WorldMaps/ESmap_BarronSVE.png",
+      "FromArea": {
+        "X": 0,
+        "Y": 0,
+        "Width": 224,
+        "Height": 222
+      },
+      "ToArea": {
+        "X": 0,
+        "Y": 0,
+        "Width": 224,
+        "Height": 222
+      }
+    },
+    //Changes the Tooltip text for John's Temple after restoration
+    {
+      "LogName": "YES SVE",
+      "Action": "EditData",
+      "Target": "Data/WorldMap",
+      "When": {
+        "HasMod |contains=FlashShifter.StardewValleyExpandedCP": true,
+        "HasFlag |contains={{ModID}}_Temple.Mail": true,
+        "Year": "2"
+        //put condition/event seen here
+      },
+      "TargetField": [ "EastScarp", "MapAreas", "MainScarp", "ToolTips", "JohnTemple" ],
+      "Entries": {
+        "Text": "{{i18n:FC.MapName.TempleRestored}}"
+      }
+    },
+  ]
+}

@@ -1,0 +1,126 @@
+{
+"Changes": [
+ {
+"LogName": "Jinx Dispositions",
+"Action": "EditData",
+"Target": "Data/Characters",
+"Entries": {
+"FC.Jinx": {
+"DisplayName":"{{i18n:FC.Jinx}}",
+"Breather": false,
+"Language":"Default",
+"Gender":"Female",
+"Age":"Adult",
+"Manner":"Polite",
+"SocialAnxiety":"Shy",
+"Optimism":"Positive",
+"BirthSeason":"spring",
+"Birthday":"6",
+"HomeRegion":"Town",
+"IsDarkSkinned":false,
+"CanSocialize":true,
+"CanBeRomanced":false,
+"CanReceiveGifts":true,
+"CanCommentOnPurchasedShopItems":false,
+"CanGreetNearbyCharacters":false,
+"CanVisitIsland":false,
+"LoveInterest":null,
+"Calendar":"HiddenUntilMet",
+"SocialTab":"UnknownUntilMet",
+"SocialTabIconSourceRect":null,
+"SpouseAdopts":false,
+"SpouseWantsChildren":false,
+"SpouseGiftJealousy":false,
+"IntroductionsQuest":false,
+"ItemDeliveryQuests":false,
+"PerfectionScore":"{{ExcludePerfection}}",
+"EndSlideShow":"TrailingGroup",
+"DumpsterDiveEmote":"32",
+"DumpsterDiveFriendshipEffect":"5",
+"FlowerDanceCanDance":false,
+"KissSpriteIndex": 47,
+"HiddenProfileEmoteSound": null,
+"HiddenProfileEmoteDuration": -1,
+"HiddenProfileEmoteStartFrame": 37,
+"HiddenProfileEmoteFrameCount": 3,
+"HiddenProfileEmoteFrameDuration": 360.0,
+"ShakePortraits": [
+  5,11
+],
+"SpouseRoom": {
+"MapAsset": null,
+},
+"SpousePatio":{
+"MapAsset": null,
+},
+
+"SpouseFloors": [ 
+   ],
+"SpouseWallpapers": [],
+"FriendsAndFamily": {
+},
+"WinterStarGifts": [
+],
+"WinterStarParticipant": false,
+"UnlockConditions": null,
+"SpawnIfMissing": true,
+"Home": [
+
+{
+"Id": "Default",
+"Condition": null,
+"Location": "{{ModID}}_TravelingTrailer",
+"Tile": {
+"X": 9,
+"Y": 16
+},
+"Direction": "right"
+},
+],
+      "Size": { "X": 32, "Y": 32 },
+                    "CustomFields": {
+                          "poohnhi.PoohCore/WideCharacter": "true",
+                        "poohnhi.PoohCore/HighCharacter": "true"
+                    },
+"Shadow":{ "Visible": false },
+"EmoteOffset": { "X": -35, "Y": 30 },
+"MugShotSourceRect": { "X": 116, "Y": 131, "Width": 13, "Height": 12 },
+"Appearance": [
+ {
+"ID": "{{ModID}}.Jinx_spring",
+"Season": "spring",
+"Portrait": "{{InternalAssetKey: Assets/Npcs/Portraits/FC.Jinx/FC.Jinx_spring.png}}",
+"Sprite": "{{InternalAssetKey: Assets/Npcs/Characters/FC.Jinx/FC.Jinx_spring.png}}"
+},
+{
+"ID": "{{ModID}}.Jinx_summer",
+"Season": "summer",
+"Portrait": "{{InternalAssetKey: Assets/Npcs/Portraits/FC.Jinx/FC.Jinx_summer.png}}",
+"Sprite": "{{InternalAssetKey: Assets/Npcs/Characters/FC.Jinx/FC.Jinx_summer.png}}"
+},
+{
+"ID": "{{ModID}}.Jinx_fall",
+"Season": "fall",
+"Portrait": "{{InternalAssetKey: Assets/Npcs/Portraits/FC.Jinx/FC.Jinx_fall.png}}",
+"Sprite": "{{InternalAssetKey: Assets/Npcs/Characters/FC.Jinx/FC.Jinx_fall.png}}"
+},
+{
+"ID": "{{ModID}}.Jinx_winter",
+"Season": "winter",
+"Portrait": "{{InternalAssetKey:Assets/Npcs/Portraits/FC.Jinx/FC.Jinx_winter.png}}",
+"Sprite": "{{InternalAssetKey: Assets/Npcs/Characters/FC.Jinx/FC.Jinx_winter.png}}"
+},
+],
+}
+}
+},
+ {
+"LogName": "GiftTastes",
+"Action": "EditData",
+"Target": "Data/NPCGiftTastes",
+"Entries": {
+"FC.Jinx": "{{i18n:Jinx.gift.love}}/139 140 142/{{i18n:Jinx.gift.like}}/143 144 145/{{i18n:Jinx.gift.dislike}}/146 147/{{i18n:Jinx.gift.hate}}/148/{{i18n:Jinx.gift.neutral}}/150/ ",
+}
+ },
+]
+}

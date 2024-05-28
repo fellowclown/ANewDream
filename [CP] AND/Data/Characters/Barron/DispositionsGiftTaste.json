@@ -1,0 +1,146 @@
+{
+"Changes": [
+   {
+"LogName": "Barron Dispositions",
+"Action": "EditData",
+"Target": "Data/Characters",
+"Entries": {
+"FC.Barron": {
+"DisplayName":"{{i18n:FC.Barron}}",
+"Breather": true,
+"Language":"Default",
+"Gender":"Female",
+"Age":"Adult",
+"Manner":"Polite",
+"SocialAnxiety":"Outgoing",
+"Optimism":"Positive",
+"BirthSeason":"winter",
+"Birthday":"16",
+"HomeRegion":"Town",
+"IsDarkSkinned":true,
+"CanSocialize":true,
+"CanBeRomanced":true,
+"CanReceiveGifts":true,
+"CanCommentOnPurchasedShopItems":false,
+"CanGreetNearbyCharacters":true,
+"CanVisitIsland":true,
+"LoveInterest":null,
+"Calendar":"HiddenUntilMet",
+"SocialTab":"UnknownUntilMet",
+"SocialTabIconSourceRect":null,
+"SpouseAdopts":false,
+"SpouseWantsChildren":true,
+"SpouseGiftJealousy":true,
+"IntroductionsQuest":false,
+"ItemDeliveryQuests":true,
+"PerfectionScore":"{{ExcludePerfection}}",
+"EndSlideShow":"TrailingGroup",
+"DumpsterDiveEmote":"28",
+"DumpsterDiveFriendshipEffect":"-2",
+"FlowerDanceCanDance":true,
+"KissSpriteIndex": 28,
+"HiddenProfileEmoteSound": null,
+"HiddenProfileEmoteDuration": -1,
+"HiddenProfileEmoteStartFrame": 37,
+"HiddenProfileEmoteFrameCount": 3,
+"HiddenProfileEmoteFrameDuration": 360.0,
+"ShakePortraits": [
+    11,12
+],
+"SpouseRoom": {
+"MapAsset": "{{ModID}}_BarronSpouseRoom"
+},
+"SpousePatio":{
+"MapAsset": "{{ModID}}_BarronPatio",
+},
+
+"SpouseFloors": [ 
+      "2",
+      "1",
+      "3",
+      "2",
+      "3",
+      "2",
+      "6",
+      "4",
+      "6",
+      "4",
+      "5",
+      "6",
+      "4",
+      "7",
+      "7",
+      "1",
+      "0",
+      "6",
+      "1",
+      "0",
+      "7"],
+"SpouseWallpapers": [],
+"FriendsAndFamily": {
+},
+"WinterStarGifts": [
+],
+"WinterStarParticipant": true,
+"UnlockConditions": null,
+"SpawnIfMissing": true,
+"Home": [
+{
+"Id": "Default",
+"Condition": null,
+"Location": "{{ModID}}_TravelingTrailerDecker",
+"Tile": {
+"X": 23,
+"Y": 12
+},
+"Direction": "right"
+}
+],
+"Appearance": [
+    {
+"ID": "{{ModID}}.Barron_spring",
+"Season": "spring",
+"Portrait": "{{InternalAssetKey: Assets/Npcs/Portraits/FC.Barron/FC.Barron_spring.png}}",
+"Sprite": "{{InternalAssetKey: Assets/Npcs/Characters/FC.Barron/FC.Barron_spring.png}}"
+},
+{
+"ID": "{{ModID}}.Barron_winter",
+"Season": "winter",
+"Portrait": "{{InternalAssetKey:Assets/Npcs/Portraits/FC.Barron/FC.Barron_winter.png}}",
+"Sprite": "{{InternalAssetKey: Assets/Npcs/Characters/FC.Barron/FC.Barron_winter.png}}"
+},
+{
+"ID": "{{ModID}}.Barron_flowerfestival",
+"Condition": "EVENT_ID festival_spring24",
+"Portrait": "{{InternalAssetKey: Assets/Npcs/Portraits/FC.Barron/Festivals/flower dance.png}}",
+"Sprite": "{{InternalAssetKey: Assets/Npcs/Characters/FC.Barron/Festivals/flower dance.png}}",
+"Precedence": -10,
+},
+{
+"ID": "{{ModID}}.Barron_spiritseve",
+"Condition": "EVENT_ID festival_fall3",
+"Portrait": "{{InternalAssetKey: Assets/Npcs/Portraits/FC.Barron/Festivals/spirit's eve.png}}",
+"Sprite": "{{InternalAssetKey: Assets/Npcs/Characters/FC.Barron/Festivals/spirit's eve.png}}",
+"Precedence": -10,
+},
+{
+"ID": "{{ModID}}.Barron_SwimWear",
+"IsIslandAttire": true,
+"Portrait": "{{InternalAssetKey: Assets/Npcs/Portraits/FC.Barron/FC.Barron_SwimWear.png}}",
+"Sprite": "{{InternalAssetKey: Assets/Npcs/Characters/FC.Barron/FC.Barron_SwimWear.png}}",
+"Precedence": -10,
+},
+],
+}
+}
+},
+ {
+"LogName": "GiftTastes",
+"Action": "EditData",
+"Target": "Data/NPCGiftTastes",
+"Entries": {
+"FC.Barron": "{{i18n:Barron.gift.love}}/Fellowclown.TD_GemBirdPatties 60 84 208/{{i18n:Barron.gift.like}}/211 307 340/{{i18n:Barron.gift.dislike}}/399 403 416/{{i18n:Barron.gift.hate}}/426 445 542/{{i18n:Barron.gift.neutral}}/346 350/ ",
+}
+ },
+]
+}

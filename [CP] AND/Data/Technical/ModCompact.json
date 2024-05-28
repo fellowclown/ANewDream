@@ -1,0 +1,109 @@
+{
+   "Changes": [
+        
+      {
+"LogName": "Farmhouse Visits",
+"Action": "EditData",
+"Target": "mistyspring.farmhousevisits/Schedules",
+ "Update": "OnTimeChange",
+"Entries": {
+"FC.John": {
+"From": 1000, //start hour
+"To": 1300, //end hour. if empty, defaults to max visit time
+"EntryQuestion": "{{i18n:FarmhouseVisit.EntryQuestion.{{TargetWithoutPath}}.{{season}}}}", //text when knocking (optional)
+"EntryBubble": "{{i18n:FarmhouseVisit.EntryBubble.{{TargetWithoutPath}}.{{season}}}}",  //text over head (optional)
+"EntryDialogue": "{{i18n:FarmhouseVisit.EntryDialogue.{{TargetWithoutPath}}.{{season}}}}", //text after entering
+"ExitDialogue": "{{i18n:FarmhouseVisit.ExitDialogue.{{TargetWithoutPath}}.{{season}}}}",  //text when leaving
+"Dialogues":  //dialogues (loaded every 10 min (optional))
+[
+"{{i18n:FarmhouseVisit.Dialogue1.{{TargetWithoutPath}}.{{season}}}}",,
+"{{i18n:FarmhouseVisit.Dialogue2.{{TargetWithoutPath}}.{{season}}}}",
+"{{i18n:FarmhouseVisit.Dialogue3.{{TargetWithoutPath}}.{{season}}}}",
+]
+}
+},
+"When": {
+"HasSeenEvent |contains={{ModID}}_JohnIntroduction": true,
+ "HasMod |contains=mistyspring.farmhousevisits": true//contentpatcher conditions
+}
+},
+     {
+"LogName": "Farmhouse Visits",
+"Action": "EditData",
+"Target": "mistyspring.farmhousevisits/Schedules",
+ "Update": "OnTimeChange",
+"Entries": {
+"FC.Barron": {
+"From": 1000, //start hour
+"To": 1300, //end hour. if empty, defaults to max visit time
+"EntryQuestion": "{{i18n:FarmhouseVisit.EntryQuestion.{{TargetWithoutPath}}.{{season}}}}", //text when knocking (optional)
+"EntryBubble": "{{i18n:FarmhouseVisit.EntryBubble.{{TargetWithoutPath}}.{{season}}}}",  //text over head (optional)
+"EntryDialogue": "{{i18n:FarmhouseVisit.EntryDialogue.{{TargetWithoutPath}}.{{season}}}}", //text after entering
+"ExitDialogue": "{{i18n:FarmhouseVisit.ExitDialogue.{{TargetWithoutPath}}.{{season}}}}",  //text when leaving
+"Dialogues":  //dialogues (loaded every 10 min (optional))
+[
+"{{i18n:FarmhouseVisit.Dialogue1.{{TargetWithoutPath}}.{{season}}}}",,
+"{{i18n:FarmhouseVisit.Dialogue2.{{TargetWithoutPath}}.{{season}}}}",
+"{{i18n:FarmhouseVisit.Dialogue3.{{TargetWithoutPath}}.{{season}}}}",
+]
+}
+},
+"When": {
+    "HasSeenEvent |contains={{ModID}}_BarronIntroduction": true,
+ "HasMod |contains=mistyspring.farmhousevisits": true//contentpatcher conditions
+}
+},
+     {
+"LogName": "Farmhouse Visits",
+"Action": "EditData",
+"Target": "mistyspring.farmhousevisits/Schedules",
+ "Update": "OnTimeChange",
+"Entries": {
+"FC.Phoebe": {
+"From": 1000, //start hour
+"To": 1300, //end hour. if empty, defaults to max visit time
+"EntryQuestion": "{{i18n:FarmhouseVisit.EntryQuestion.{{TargetWithoutPath}}.{{season}}}}", //text when knocking (optional)
+"EntryBubble": "{{i18n:FarmhouseVisit.EntryBubble.{{TargetWithoutPath}}.{{season}}}}",  //text over head (optional)
+"EntryDialogue": "{{i18n:FarmhouseVisit.EntryDialogue.{{TargetWithoutPath}}.{{season}}}}", //text after entering
+"ExitDialogue": "{{i18n:FarmhouseVisit.ExitDialogue.{{TargetWithoutPath}}.{{season}}}}",  //text when leaving
+"Dialogues":  //dialogues (loaded every 10 min (optional))
+[
+"{{i18n:FarmhouseVisit.Dialogue1.{{TargetWithoutPath}}.{{season}}}}",,
+"{{i18n:FarmhouseVisit.Dialogue2.{{TargetWithoutPath}}.{{season}}}}",
+"{{i18n:FarmhouseVisit.Dialogue3.{{TargetWithoutPath}}.{{season}}}}",
+]
+}
+},
+"When": {
+ "HasMod |contains=mistyspring.farmhousevisits": true,//contentpatcher conditions
+ "HasSeenEvent |contains={{ModID}}_PhoebesIntroduction": true,
+}
+},
+     {
+"LogName": "Farmhouse Visits",
+"Action": "EditData",
+"Target": "mistyspring.farmhousevisits/Schedules",
+ "Update": "OnTimeChange",
+"Entries": {
+"FC.Popper": {
+"From": 1000, //start hour
+"To": 1300, //end hour. if empty, defaults to max visit time
+"EntryQuestion": "{{i18n:FarmhouseVisit.EntryQuestion.{{TargetWithoutPath}}.{{season}}}}", //text when knocking (optional)
+"EntryBubble": "{{i18n:FarmhouseVisit.EntryBubble.{{TargetWithoutPath}}.{{season}}}}",  //text over head (optional)
+"EntryDialogue": "{{i18n:FarmhouseVisit.EntryDialogue.{{TargetWithoutPath}}.{{season}}}}", //text after entering
+"ExitDialogue": "{{i18n:FarmhouseVisit.ExitDialogue.{{TargetWithoutPath}}.{{season}}}}",  //text when leaving
+"Dialogues":  //dialogues (loaded every 10 min (optional))
+[
+"{{i18n:FarmhouseVisit.Dialogue1.{{TargetWithoutPath}}.{{season}}}}",,
+"{{i18n:FarmhouseVisit.Dialogue2.{{TargetWithoutPath}}.{{season}}}}",
+"{{i18n:FarmhouseVisit.Dialogue3.{{TargetWithoutPath}}.{{season}}}}",
+]
+}
+},
+"When": {
+    "HasSeenEvent |contains={{ModID}}_PopsBeachVisit": true,
+ "HasMod |contains=mistyspring.farmhousevisits": true//contentpatcher conditions
+}
+},
+   ]
+}

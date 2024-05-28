@@ -1,0 +1,42 @@
+{
+"Changes": [
+ {
+"LogName": "Animations",
+"Action": "EditData",
+"Target": "Data/animationDescriptions",
+"Entries": {
+    "{{ModId}}_JinxRelax": "16/16 16 16 16 17 17 17 17 18 18 18 18 19 19 19 19 18 18 18 18 17 17 17/17",
+    "{{ModId}}_JinxSleep": "16/16 17 17 18 18 19/19",
+    "{{ModId}}_JinxRummage": "16/16 17 17 18 18 19/19",
+    "{{ModId}}_JinxSit": "16/16 17 17 18 18 19/19",
+    "{{ModId}}_JinxStretch": "27/27 27 27 26 25 24 24 24 24 24 24 25 26 27 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4/4",
+}
+ },
+  {
+"LogName": "Jinx Schedule Dialogue Default",
+"Action": "EditData",
+"Target": "Strings/schedules/FC.Jinx",
+  "Entries": {
+"Jinx.GreenRain": "{{i18n:Jinx.GreenRain}}",
+
+}
+ },
+ {
+"Action": "EditData",
+"Target": "Characters/schedules/FC.Jinx",
+"Entries": {
+"spring": "1100  EastScarp_Village 21 118 3 {{ModId}}_JinxSit/1300 EastScarp_Village 63 111 3 {{ModId}}_JinxStretch/1330 EastScarp_Village 89 68 3 {{ModId}}_JinxRelax/1500 {{ModID}}_TravelingTrailer 13 17 2 {{ModId}}_JinxRelax/2000 {{ModID}}_TravelingTrailerDecker 17 11 2 {{ModId}}_JinxSleep",
+"summer": "GOTO spring",
+"fall": "GOTO spring",
+"winter": "1200 {{ModID}}_TravelingTrailer 13 17 2 {{ModId}}_JinxRelax/1600 EastScarp_Village 63 111 3 {{ModId}}_JinxRelax/2000 {{ModID}}_TravelingTrailerDecker 17 11 2 {{ModId}}_JinxSleep",
+
+"rain": "1200 {{ModID}}_TravelingTrailer 14 17 2 {{ModId}}_JinxRelax/2000 {{ModID}}_TravelingTrailerDecker 17 11 2 {{ModId}}_JinxSleep",
+},
+
+     "When": {
+ "HasSeenEvent |contains={{ModID}}_BarronIntroduction": true,
+}
+},
+        
+]
+}

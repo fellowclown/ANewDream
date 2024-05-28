@@ -1,0 +1,25 @@
+{
+"Changes": [
+{
+"LogName": "CraftingRecipes",
+"Action": "EditData",
+"Target": "Data/CraftingRecipes",
+"Entries": {
+"{{ModID}}_GlassDisplay": "{{ModID}}_Seaglass 5/Home/{{ModID}}_SeaglassFlowerDisplay/false/none/{{i18n:FC.JohnsGiftRecipe}}",
+}
+},
+{
+"LogName": "CookingRecipes",
+"Action": "EditData",
+"Target": "Data/CookingRecipes",
+"Entries": {
+"{{ModID}}_FrostedCake": "245 6 246 2 442 2/1 10/{{ModID}}_FrostedCake/f FC.John 500/{{i18n:FC.FrostedCakeRecipe}}",
+"{{ModID}}_HotCereal": "245 2 271 2/1 10/{{ModID}}_HotCereal/f FC.John 250/{{i18n:FC.HotCerealRecipe}}",
+"{{ModID}}_CheesyWhiteRisotto": "{{ModID}}_WhiteTruffleOil 1 424 3 271 2 399 1 {{ModID}}_WhiteTruffle 2/1 10/{{ModID}}_CheesyWhiteRisotto/e Current {{ModID}}_MotherHog/{{i18n:FC.CheesyWhiteRisotto}}",
+"{{ModID}}_TastyPastry": "398 2 246 2 245 2 268 2/1 10/{{ModID}}_TastyPastry/f FC.Barron 500/{{i18n:FC.TastyPastry}}",
+"{{ModID}}_GemBirdPatties": "{{ModID}}_GemBirdMeat 1 772 1 256 1/1 2/{{ModID}}_GemBirdPatties/f FC.Phoebe 250/{{i18n:FC.GemBirdPatties}}",
+"{{ModID}}_VoidJuice": "350 2 769 1/1 10/{{ModID}}_VoidJuice/f FC.Barron 800/{{i18n:FC.VoidJuice}}",
+}
+},
+]
+}

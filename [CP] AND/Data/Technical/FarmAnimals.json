@@ -1,0 +1,357 @@
+{
+    "Changes": [
+ {
+ "LogName": "Thylacine",
+"Action": "EditData",
+"Target": "Data/FarmAnimals",
+"Entries": {
+
+"{{ModID}}_Thylacine": {
+    "DisplayName": "{{i18n:FC.Thylacine}}",
+    "House": "Fellowclown.ClownCore_TropicalHutch",
+    "Gender": "MaleOrFemale",
+    "PurchasePrice": 8000,
+    "SellPrice": 16000,
+    "ShopTexture": "LooseSprites\\FC.Tazzy_Icon",
+    "ShopSourceRect": {
+      "X": 0,
+      "Y": 0,
+      "Width": 32,
+      "Height": 16
+    },
+    "ShopDisplayName": "{{i18n:FC.Thylacine}}",
+    "ShopDescription": "{{i18n:FC.Thylacine.Desc}}",
+    "ShopMissingBuildingDescription": "{{i18n:FC.MissingTropicalHutch}}",
+    "RequiredBuilding": null,
+    "UnlockCondition": "PLAYER_HAS_SEEN_EVENT Current {{ModID}}_JinxSituation",
+    "AlternatePurchaseTypes": null,
+    "EggItemIds": null,
+    "IncubationTime": -1,
+    "IncubatorParentSheetOffset": 1,
+    "BirthText": "{{i18n:FC.ThylacineBirth}}",
+    "DaysToMature": 10,
+    "CanGetPregnant": true,
+    "DaysToProduce": 1,
+    "HarvestType": "DropOvernight",
+    "HarvestTool": null,
+    "ProduceItemIds": [
+      {
+        "Id": "Default",
+        "Condition": null,
+        "MinimumFriendship": 200,
+        "ItemId": "{{ModID}}_GemBirdMeat"
+      }
+    ],
+    "DeluxeProduceItemIds": null,
+    "ProduceOnMature": true,
+    "FriendshipForFasterProduce": 1,
+    "DeluxeProduceMinimumFriendship": 200,
+    "DeluxeProduceCareDivisor": 1200.0,
+    "DeluxeProduceLuckMultiplier": 0.0,
+    "ProfessionForHappinessBoost": 3,
+    "ProfessionForQualityBoost": 3,
+    "ProfessionForFasterProduce": -1,
+    "Sound": "{{ModID}}_Thylacine",
+    "BabySound": "{{ModID}}_Thylacine",
+    "Texture": "Animals\\FC.Thylacine_Adult_Black",
+    "HarvestedTexture": null,
+    "BabyTexture": "Animals\\FC.Thylacine_Baby_Black",
+    "UseFlippedRightForLeft": true,
+    "UseDoubleUniqueAnimationFrames": false,
+    "SleepFrame": 12,
+    "SpriteWidth": 32,
+    "SpriteHeight": 32,
+    "EmoteOffset": {
+      "X": 0,
+      "Y": 0
+    },
+     "Skins": [
+        {
+              "ID": "{{ModID}}_BlackThylacine",
+              "Weight": 0.001,
+              "Texture": "Animals\\FC.Thylacine_Adult_Black",
+              "BabyTexture": "Animals\\FC.Thylacine_Baby_Black"
+            },
+             {
+              "ID": "{{ModID}}_BrownThylacine",
+            "Weight": 2.00,
+              "Texture": "Animals\\FC.Thylacine_Adult_Brown",
+              "BabyTexture": "Animals\\FC.Thylacine_Baby_Brown"
+            },
+             {
+              "ID": "{{ModID}}_PaleThylacine",
+              "Texture": "Animals\\FC.Thylacine_Adult_Pale",
+              "Weight": 0.02,
+              "BabyTexture": "Animals\\FC.Thylacine_Baby_Pale"
+            },
+             {
+              "ID": "{{ModID}}_RedThylacine",
+               "Weight": 1.0,
+              "Texture": "Animals\\FC.Thylacine_Adult_Red",
+              "BabyTexture": "Animals\\FC.Thylacine_Baby_Red"
+            },
+          ],
+     "ShadowWhenBaby" :
+   {
+  "Visible" : false, // not actually needed, is true if omitted
+},
+  "ShadowWhenAdult" : {
+  "Visible" : false, // not actually needed, is true if omitted
+},
+  "ShadowWhenBabySwims" : {
+  "Visible" : false, // not actually needed, is true if omitted
+},
+  "ShadowWhenAdultSwims" : {
+  "Visible" : false, // not actually needed, is true if omitted
+},
+    "CanSwim": false,
+    "BabiesFollowAdults": true,
+    "GrassEatAmount": -1,
+    "HappinessDrain": 3,
+    "UpDownPetHitboxTileSize": "1.5, 1.75",
+    "LeftRightPetHitboxTileSize": "1.75, 1.25",
+    "BabyUpDownPetHitboxTileSize": "1, 1.75",
+    "BabyLeftRightPetHitboxTileSize": "1.75, 1",
+    "StatToIncrementOnProduce": null,
+    "ShowInSummitCredits": false,
+    "CustomFields": {}
+   }
+},
+},
+  {
+ "LogName": "Warthog",
+"Action": "EditData",
+"Target": "Data/FarmAnimals",
+"Entries": {
+"{{ModID}}_Warthog": {
+    "DisplayName": "{{i18n:FC.Warthog}}",
+    "House": "Fellowclown.ClownCore_TropicalHutch",
+    "Gender": "MaleOrFemale",
+    "PurchasePrice": 16000,
+    "SellPrice": 14000,
+    "ShopTexture": "LooseSprites\\FC.Warthog_Icon",
+    "ShopSourceRect": {
+      "X": 0,
+      "Y": 0,
+      "Width": 32,
+      "Height": 16
+    },
+    "ShopDisplayName": "{{i18n:FC.Warthog}}",
+    "ShopDescription": "{{i18n:FC.Warthog.Desc}}",
+    "ShopMissingBuildingDescription": "{{i18n:FC.MissingTropicalHutch}}",
+    "RequiredBuilding": null,
+    "UnlockCondition": "PLAYER_HAS_SEEN_EVENT Current {{ModID}}_MotherHog",
+    "AlternatePurchaseTypes": null,
+    "EggItemIds": null,
+    "IncubationTime": -1,
+    "IncubatorParentSheetOffset": 1,
+    "BirthText": "{{i18n:FC.WarthogBirth}}",
+    "DaysToMature": 10,
+    "CanGetPregnant": true,
+    "DaysToProduce": 6,
+    "HarvestType": "DropOvernight",
+    "HarvestTool": null,
+    "ProduceItemIds": [
+      {
+        "Id": "Default",
+        "Condition": null,
+        "MinimumFriendship": 0,
+        "ItemId": "{{ModID}}_WhiteTruffle"
+      }
+    ],
+    "DeluxeProduceItemIds": [],
+    "ProduceOnMature": true,
+    "FriendshipForFasterProduce": -1,
+    "DeluxeProduceMinimumFriendship": 200,
+    "DeluxeProduceCareDivisor": 1200.0,
+    "DeluxeProduceLuckMultiplier": 0.0,
+    "ProfessionForHappinessBoost": 3,
+    "ProfessionForQualityBoost": 3,
+    "ProfessionForFasterProduce": -1,
+    "Sound": "pig",
+    "BabySound": "pig",
+    "Texture": "Animals\\FC.Warthog_Adult_Black",
+    "HarvestedTexture": null,
+    "BabyTexture": "Animals\\FC.Warthog_Baby_Black",
+    "UseFlippedRightForLeft": true,
+    "UseDoubleUniqueAnimationFrames": false,
+    "SleepFrame": 12,
+    "SpriteWidth": 32,
+    "SpriteHeight": 32,
+    "EmoteOffset": {
+      "X": 0,
+      "Y": 0
+    },
+    "Skins": [
+        {
+              "ID": "{{ModID}}_BlackWarthog",
+              "Weight": 1.0,
+              "Texture": "Animals\\FC.Warthog_Adult_Black",
+              "BabyTexture": "Animals\\FC.Warthog_Baby_Black"
+            },
+             {
+              "ID": "{{ModID}}_BrownWarthog",
+              "Weight": 2.00,
+              "Texture": "Animals\\FC.Warthog_Adult_Brown",
+              "BabyTexture": "Animals\\FC.Warthog_Baby_Brown"
+            },
+             {
+              "ID": "{{ModID}}_PaleWarthog",
+              "Texture": "Animals\\FC.Warthog_Adult_Pale",
+              "Weight": 0.001,
+              "BabyTexture": "Animals\\FC.Warthog_Baby_Pale"
+            },
+             {
+              "ID": "{{ModID}}_RedWarthog",
+              "Weight": 0.02,
+              "Texture": "Animals\\FC.Warthog_Adult_Red",
+              "BabyTexture": "Animals\\FC.Warthog_Baby_Red"
+            },
+          ],
+    "ShadowWhenBaby" :
+   {
+  "Visible" : false, // not actually needed, is true if omitted
+},
+  "ShadowWhenAdult" : {
+  "Visible" : false, // not actually needed, is true if omitted
+},
+  "ShadowWhenBabySwims" : {
+  "Visible" : false, // not actually needed, is true if omitted
+},
+  "ShadowWhenAdultSwims" : {
+  "Visible" : false, // not actually needed, is true if omitted
+},
+    "CanSwim": false,
+    "BabiesFollowAdults": true,
+    "GrassEatAmount": 4,
+    "HappinessDrain": 3,
+    "UpDownPetHitboxTileSize": "1.5, 1.75",
+    "LeftRightPetHitboxTileSize": "1.75, 1.25",
+    "BabyUpDownPetHitboxTileSize": "1, 1.75",
+    "BabyLeftRightPetHitboxTileSize": "1.75, 1",
+    "StatToIncrementOnProduce": null,
+    "ShowInSummitCredits": false,
+    "CustomFields": {}
+  },
+},
+},
+ {
+ "LogName": "Shevit",
+"Action": "EditData",
+"Target": "Data/FarmAnimals",
+"Entries": {
+
+"{{ModID}}_Shevit": {
+    "DisplayName": "{{i18n:FC.Shevit}}",
+    "House": "Fellowclown.ClownCore_TropicalHutch",
+    "Gender": "MaleOrFemale",
+    "PurchasePrice": 500,
+    "SellPrice": 600,
+    "ShopTexture": "LooseSprites\\FC.Shevit_Icon",
+    "ShopSourceRect": {
+      "X": 0,
+      "Y": 0,
+      "Width": 32,
+      "Height": 16
+    },
+    "ShopDisplayName": "{{i18n:FC.Shevit}}",
+    "ShopDescription": "{{i18n:FC.Shevit.Desc}}",
+    "ShopMissingBuildingDescription": "{{i18n:FC.MissingTropicalHutch}}",
+    "RequiredBuilding": "Fellowclown.ClownCore_TropicalHutch",
+    "UnlockCondition": "PLAYER_HAS_MAIL current {{ModID}}_PoppersSiblings.Mail Any",
+    "AlternatePurchaseTypes": null,
+    "EggItemIds": null,
+    "IncubationTime": -1,
+    "IncubatorParentSheetOffset": 1,
+    "BirthText": "{{i18n:FC.ShevitBirth}}",
+    "DaysToMature": 7,
+    "CanGetPregnant": true,
+    "DaysToProduce": 5,
+    "HarvestType": "DropOvernight",
+    "HarvestTool": null,
+    "ProduceItemIds": [
+      {
+        "Id": "Default",
+        "Condition": null,
+        "MinimumFriendship": 200,
+        "ItemId": "330"
+      }
+    ],
+    "DeluxeProduceItemIds": null,
+    "ProduceOnMature": true,
+    "FriendshipForFasterProduce": 1,
+    "DeluxeProduceMinimumFriendship": 200,
+    "DeluxeProduceCareDivisor": 1200.0,
+    "DeluxeProduceLuckMultiplier": 0.0,
+    "ProfessionForHappinessBoost": 3,
+    "ProfessionForQualityBoost": 3,
+    "ProfessionForFasterProduce": -1,
+    "Sound": "dustMeep",
+    "BabySound": "dustMeep",
+    "Texture": "Animals\\FC.Shevit_Adult_Gray",
+    "HarvestedTexture": null,
+    "BabyTexture": "Animals\\FC.Shevit_Baby_Gray",
+    "UseFlippedRightForLeft": true,
+    "UseDoubleUniqueAnimationFrames": false,
+    "SleepFrame": 12,
+    "SpriteWidth": 32,
+    "SpriteHeight": 32,
+    "EmoteOffset": {
+      "X": 0,
+      "Y": 0
+    },
+     "Skins": [
+        {
+              "ID": "{{ModID}}_BlackShevit",
+              "Weight": 0.001,
+              "Texture": "Animals\\FC.Shevit_Adult_Gray",
+              "BabyTexture": "Animals\\FC.Shevit_Baby_Gray"
+            },
+             {
+              "ID": "{{ModID}}_BrownShevit",
+            "Weight": 2.00,
+              "Texture": "Animals\\FC.Shevit_Adult_Brown",
+              "BabyTexture": "Animals\\FC.Shevit_Baby_Brown"
+            },
+             {
+              "ID": "{{ModID}}_PaleShevit",
+              "Texture": "Animals\\FC.Shevit_Adult_Pale",
+              "Weight": 0.02,
+              "BabyTexture": "Animals\\FC.Shevit_Baby_Pale"
+            },
+             {
+              "ID": "{{ModID}}_RedShevit",
+               "Weight": 1.0,
+              "Texture": "Animals\\FC.Shevit_Adult_Red",
+              "BabyTexture": "Animals\\FC.Shevit_Baby_Red"
+            },
+          ],
+     "ShadowWhenBaby" :
+   {
+  "Visible" : false, // not actually needed, is true if omitted
+},
+  "ShadowWhenAdult" : {
+  "Visible" : false, // not actually needed, is true if omitted
+},
+  "ShadowWhenBabySwims" : {
+  "Visible" : false, // not actually needed, is true if omitted
+},
+  "ShadowWhenAdultSwims" : {
+  "Visible" : false, // not actually needed, is true if omitted
+},
+    "CanSwim": false,
+    "BabiesFollowAdults": true,
+    "GrassEatAmount": 3,
+    "HappinessDrain": 3,
+    "UpDownPetHitboxTileSize": "1.5, 1.75",
+    "LeftRightPetHitboxTileSize": "1.75, 1.25",
+    "BabyUpDownPetHitboxTileSize": "1, 1.75",
+    "BabyLeftRightPetHitboxTileSize": "1.75, 1",
+    "StatToIncrementOnProduce": null,
+    "ShowInSummitCredits": false,
+    "CustomFields": {}
+   }
+},
+},
+],
+}

@@ -1,0 +1,69 @@
+{
+"Changes": [
+	 {
+"Action": "EditData",
+"Target": "Data/AudioChanges",
+"Entries": {
+"{{ModID}}_Tensions": {
+"ID": "{{ModID}}_Tensions",
+"Category": "Music",
+"FilePaths": [ "{{AbsoluteFilePath:Assets/Music/Tensions.ogg}}" ],
+"StreamedVorbis": true,
+"Looped": true
+}
+}
+},
+ {
+"Action": "EditData",
+"Target": "Data/AudioChanges",
+"Entries": {
+"{{ModID}}_Game": {
+"ID": "{{ModID}}_Game",
+"Category": "Music",
+"FilePaths": [ "{{AbsoluteFilePath:Assets/Music/CraneGame.ogg}}" ],
+"StreamedVorbis": true,
+"Looped": true
+}
+}
+},
+ {
+"Action": "EditData",
+"Target": "Data/AudioChanges",
+"Entries": {
+"{{ModID}}_Thylacine": {
+"ID": "{{ModID}}_Thylacine",
+"Category": "Sound",
+"FilePaths": [ "{{AbsoluteFilePath:Assets/Music/Thylacine.ogg}}" ],
+"StreamedVorbis": true,
+"Looped": false
+}
+}
+},
+ {
+"Action": "EditData",
+"Target": "Data/AudioChanges",
+"Entries": {
+"{{ModID}}_FamilyTies": {
+"ID": "{{ModID}}_FamilyTies",
+"Category": "Sound",
+"FilePaths": [ "{{AbsoluteFilePath:Assets/Music/FamilyTies.ogg}}" ],
+"StreamedVorbis": true,
+"Looped": true
+}
+}
+},
+ {
+"Action": "EditData",
+"Target": "Data/AudioChanges",
+"Entries": {
+"{{ModID}}_Wanderer": {
+"ID": "{{ModID}}_Wanderer",
+"Category": "Sound",
+"FilePaths": [ "{{AbsoluteFilePath:Assets/Music/HalkiasClan.ogg}}" ],
+"StreamedVorbis": true,
+"Looped": true
+}
+}
+},
+]
+}

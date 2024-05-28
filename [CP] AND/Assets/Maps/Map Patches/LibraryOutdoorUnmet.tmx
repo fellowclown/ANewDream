@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" compressionlevel="0" width="9" height="7" tilewidth="16" tileheight="16" infinite="0" nextlayerid="21" nextobjectid="153">
+ <editorsettings>
+  <export format="tmx"/>
+ </editorsettings>
+ <properties>
+  <property name="NPCWarp" value="6 69 Fellowclown.AND_TravelingTrailer 7 18"/>
+ </properties>
+ <tileset firstgid="1" name="spring_Fellowclown_Dreamer" tilewidth="16" tileheight="16" tilecount="5952" columns="93">
+  <image source="spring_Fellowclown_Outdoors.png" width="1488" height="1024"/>
+ </tileset>
+ <layer id="3" name="Buildings" width="9" height="7">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,
+0,0,5736,5737,0,0,0,0,0,
+0,5828,5829,5830,5831,5832,5833,5834,5835,
+0,5921,5922,5923,5924,5925,5926,5927,5928
+</data>
+ </layer>
+ <objectgroup id="4" name="Buildings">
+  <object id="151" name="TileData" x="64" y="96" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;TravelingLibrary.Unmet&quot;"/>
+   </properties>
+  </object>
+  <object id="152" name="TileData" x="80" y="96" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;TravelingLibrary.Unmet&quot;"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <layer id="7" name="Paths" width="9" height="7">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <objectgroup id="8" name="Paths"/>
+ <layer id="9" name="Front" width="9" height="7">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <objectgroup id="10" name="Front"/>
+ <layer id="11" name="AlwaysFront" width="9" height="7">
+  <data encoding="csv">
+0,5363,5364,5365,5366,5367,5368,5369,5370,
+0,5456,5457,5458,5459,5460,5461,5462,5463,
+5548,5549,5550,5551,5552,5553,5554,5555,5556,
+5641,5642,5643,5644,5645,5646,5647,5648,5649,
+5734,5735,0,0,5738,5739,5740,5741,5742,
+0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <objectgroup id="12" name="AlwaysFront"/>
+</map>

@@ -1,0 +1,19 @@
+{
+"Changes": [
+{
+"LogName": "FC.Quests",
+"Action": "EditData",
+"Target": "Data/Quests",
+"Entries": {
+"{{ModID}}_BagOfSeaglass.Quest": "LostItem/{{i18n:FC.BagOfSeaglass.Quest.Title}}/{{i18n:FC.BagOfSeaglass.Quest.Desc}}/{{i18n:FC.BagOfSeaglass.Quest.Obj}}/FC.John {{ModID}}_BagOfSeaglass EastScarp_Village 97 109/-1/250/-1/true/{{i18n:FC.BagOfSeaglass.Quest.Reaction}}#$t Fellowclown_AND_GlassRecipe",
+"{{ModID}}_JohnsWine.Quest": "LostItem/{{i18n:FC.JohnsWine.Quest.Title}}/{{i18n:FC.JohnsWine.Quest.Desc}}/{{i18n:FC.JohnsWine.Quest.Obj}}/FC.John {{ModID}}_JohnsWine EastScarp_Village 97 109/-1/400/-1/true/{{i18n:FC.JohnsWine.Quest.Reaction}}",
+"{{ModID}}_JohnsRing.Quest": "LostItem/{{i18n:FC.JohnsRing.Quest.Title}}/{{i18n:FC.JohnsRing.Quest.Desc}}/{{i18n:FC.JohnsRing.Quest.Obj}}/FC.John {{ModID}}_JohnsRing WizardHouse 8 17/-1/620/-1/true/{{i18n:FC.JohnsRing.Quest.Reaction}}",
+"{{ModID}}_JohnsNecklace.Quest": "LostItem/{{i18n:FC.JohnsNecklace.Quest.Title}}/{{i18n:FC.JohnsNecklace.Quest.Desc}}/{{i18n:FC.JohnsNecklace.Quest.Obj}}/FC.John {{ModID}}_JohnsNecklace Woods 47 28/-1/500/-1/true/{{i18n:FC.JohnsNecklace.Quest.Reaction}}",
+"{{ModID}}_BarronsBook": "LostItem/{{i18n:Quest.BarronsBook.Title}}/{{i18n:Quest.BarronsBook.Description}}/{{i18n:Quest.BarronsBook.Objective}}/FC.Barron {{ModID}}_BarronsBook EastScarp_DeepMountains 22 25/-1/1000/-1/true/{{i18n:Quest.BarronsBook.Reaction}}",
+"{{ModID}}_TheCuff": "LostItem/{{i18n:Quest.TheCuff.Title}}/{{i18n:Quest.TheCuff.Description}}/{{i18n:Quest.TheCuff.Objective}}/FC.Phoebe {{ModID}}_TheCuff Desert 2 53/-1/1000/-1/true/{{i18n:Quest.TheCuff.Reaction}}",
+"{{ModID}}_PhoebesPackage": "LostItem/{{i18n:Quest.PhoebesPackage.Title}}/{{i18n:Quest.PhoebesPackage.Description}}/{{i18n:Quest.PhoebesPackage.Objective}}/FC.Phoebe {{ModID}}_PhoebesPackage ManorHouse 2 6/-1/500/-1/true/{{i18n:Quest.PhoebesPackage.Reaction}}",
+
+}
+},
+]
+}

@@ -1,0 +1,100 @@
+{
+"Changes": [
+{
+ "LogName": "Conversation Topics",
+ "Action": "EditData",
+ "Target": "Characters/Dialogue/Barron,Characters/Dialogue/John,Characters/Dialogue/Phoebe,Characters/Dialogue/Pop",
+ "Entries": 
+    {
+       // JUNA
+"BigFootWizard": "{{i18n:{{TargetWithoutPath}}.BigFootWizard}}",
+
+       // LUCIKIEL
+"LucikielArrives": "{{i18n:{{TargetWithoutPath}}.LucikielArrives}}",
+"ReputationIncreased": "{{i18n:{{TargetWithoutPath}}.ReputationIncreased}}",
+
+       // JASPER
+"JasperGone2": "{{i18n:{{TargetWithoutPath}}.JasperGone2}}",
+"JasperHomeA": "{{i18n:{{TargetWithoutPath}}.JasperHomeA}}",
+
+       // CRABS?
+"PTJ03": "{{i18n:{{TargetWithoutPath}}.PTJ03}}",
+
+       // VANILLA
+"wedding": "{{i18n:{{TargetWithoutPath}}.wedding}}",
+"luauBest": "{{i18n:{{TargetWithoutPath}}.luauBest}}",
+"babyBoy": "{{i18n:{{TargetWithoutPath}}.BabyBoy}}",
+"babyGirl": "{{i18n:{{TargetWithoutPath}}.BabyGirl}}",
+"jojaMartStruckByLightning": "{{i18n:{{TargetWithoutPath}}.jojaMartStruckByLightning}}",
+"willyBoatRepaired": "{{i18n:{{TargetWithoutPath}}.willyBoatRepaired}}",
+"islandResortUnlocked": "{{i18n:{{TargetWithoutPath}}.islandResortUnlocked}}",
+"leoValleyArrival": "{{i18n:{{TargetWithoutPath}}.leoValleyArrival}}",
+"railroadEarthquake": "{{i18n:{{TargetWithoutPath}}.railroadEarthquake}}",
+"AfterProposal": "{{i18n:{{TargetWithoutPath}}.AfterProposal}}", 
+"cc_Complete": "{{i18n:{{TargetWithoutPath}}.cc_Complete}}",
+"cc_Boulder": "{{i18n:{{TargetWithoutPath}}.cc_Boulder}}",
+"cc_Bridge": "{{i18n:{{TargetWithoutPath}}.cc_Bridge}}",
+"cc_Bus": "{{i18n:{{TargetWithoutPath}}.cc_Bus}}",
+"cc_Greenhouse": "{{i18n:{{TargetWithoutPath}}.cc_Greenhouse}}",
+"cc_Minecart": "{{i18n:{{TargetWithoutPath}}.cc_Minecart}}",
+"joja_Begin": "{{i18n:{{TargetWithoutPath}}.joja_Begin}}",
+"movieTheater": "{{i18n:{{TargetWithoutPath}}.movieTheater}}",
+"dumped_Guys": "{{i18n:{{TargetWithoutPath}}.dumped_Guys}}",
+"secondChance_Guys": "{{i18n:{{TargetWithoutPath}}.secondChance_Guys}}",
+"dumped_Girls": "{{i18n:{{TargetWithoutPath}}.dumped_Girls}}",
+"secondChance_Girls": "{{i18n:{{TargetWithoutPath}}.secondChance_Girls}}",
+"pamHouseUpgrade": "{{i18n:{{TargetWithoutPath}}.pamHouseUpgrade}}",
+"pamHouseUpgradeAnonymous": "{{i18n:{{TargetWithoutPath}}.pamHouseUpgradeAnonymous}}",
+"SpouseStardrop": "{{i18n:{{TargetWithoutPath}}.SpouseStardrop}}",
+"WipedMemory": "{{i18n:{{TargetWithoutPath}}.WipedMemory}}",
+"dating_John": "{{i18n:{{TargetWithoutPath}}.Dating.FCJohn}}",
+"divorced_John": "{{i18n:{{TargetWithoutPath}}.Divorced.FCJohn}}",
+"married_John": "{{i18n:{{TargetWithoutPath}}.Married.FCJohn}}",
+
+       // ELI AND DYLAN
+"EliIntro": "{{i18n:{{TargetWithoutPath}}.EliIntro}}",
+"DylanIntro": "{{i18n:{{TargetWithoutPath}}.DylanIntro}}",
+       // EAST SCARP
+"Aideen_Garden": "{{i18n:{{TargetWithoutPath}}.MeetPlum}}",
+       // FORREST FAMILY
+"MeetPlum": "{{i18n:{{TargetWithoutPath}}.AideenGarden}}",
+
+       // DIAMOND IN THE ROUGH 
+"DitR_CT_ShadowPlay": "{{i18n:{{TargetWithoutPath}}.ShadowPlay}}",
+"DitR_CT_PipoShorts": "{{i18n:{{TargetWithoutPath}}.PipoShorts}}",
+       // BEAR FAMILY 
+"SigHatesCrowds": "{{i18n:{{TargetWithoutPath}}.SigHatesCrowds}}",
+       // NORA THE HERPETOLOGIST
+"NoraIntro": "{{i18n:{{TargetWithoutPath}}.NoraIntro}}",
+"NoraSad": "{{i18n:{{TargetWithoutPath}}.NoraSad}}",
+       // THE WRITER, THE WITCH, AND THE WARDROBE ASSISTANT 
+"RodneyBirthaySuit": "{{i18n:{{TargetWithoutPath}}.RodneyBirthaySuit}}", //Farmer walks in on Rodney walking around naked in his house.
+       // CLOWNCORE
+"JohnsArrival": "{{i18n:{{TargetWithoutPath}}.JohnsArrival}}",
+"BusFire":"{{i18n:{{TargetWithoutPath}}.BusFire}}",
+"FindingPhoebe":"{{i18n:{{TargetWithoutPath}}.FindingPhoebe}}",
+"FaintingIncident":"{{i18n:{{TargetWithoutPath}}.FaintingIncident}}",
+"WildHog":"{{i18n:{{TargetWithoutPath}}.WildHog}}",
+"TheIllness":"{{i18n:{{TargetWithoutPath}}.TheIllness}}",
+"TheTemple":"{{i18n:{{TargetWithoutPath}}.TheTemple}}",
+"HouseParty":"{{i18n:{{TargetWithoutPath}}.HouseParty}}",
+"PhoebeArrives":"{{i18n:{{TargetWithoutPath}}.PhoebeArrives}}",
+"JinxIllness":"{{i18n:{{TargetWithoutPath}}.JinxIllness}}",
+"OldFriends":"{{i18n:{{TargetWithoutPath}}.OldFriends}}",
+"VillainInTheValley":"{{i18n:{{TargetWithoutPath}}.VillainInTheValley}}",
+"ChasePopOff":"{{i18n:{{TargetWithoutPath}}.ChasePopOff}}",
+"EncouragePop":"{{i18n:{{TargetWithoutPath}}.EncouragePop}}",
+"BarronsGoodSide":"{{i18n:{{TargetWithoutPath}}. BarronsGoodSide}}",
+"BarronsBadSide":"{{i18n:{{TargetWithoutPath}}.BarronsBadSide}}",
+"JohnsBadSide":"{{i18n:{{TargetWithoutPath}}.JohnsBadSide}}",
+"JohnsGoodSide":"{{i18n:{{TargetWithoutPath}}.JohnsGoodSide}}",
+
+ "MateoAdmission":"{{i18n:{{TargetWithoutPath}}.MateoAdmission}}",
+ "MateoPain": "{{i18n:{{TargetWithoutPath}}.MateoPain}}",
+ "CGuildComplete": "{{i18n:{{TargetWithoutPath}}.CGuildComplete}}",
+ "HectorGender": "{{i18n:{{TargetWithoutPath}}.HectorGender}}",
+ "DandelionLeaves":"{{i18n:{{TargetWithoutPath}}.DandelionLeaves}}",
+    }
+ },
+]
+}

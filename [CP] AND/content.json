@@ -1,0 +1,65 @@
+{
+"Format":"2.0.0",
+// CONFIG OPTIONS
+  "ConfigSchema": {
+    "ExcludePerfection": {
+       "Description": "Excludes modded content from perfection",
+      "AllowValues": "true, false",
+      "Default": "false",
+      "AllowBlank": false,
+     
+    },
+  },
+"DynamicTokens": [
+       {
+        "Name": "YearCheck",
+         "Value": ""
+        },
+       {
+    "Name": "YearCheck",
+    "Value": "_y2",
+     "When": { "Query: {{Year}} % 2 = 1": false,
+    }
+   },
+    ],
+"Changes":[
+/************************************************
+ ** Includes
+ ************************************************/
+ {
+"LogName": "Data Information",
+"Action": "Include",
+"FromFile": "Data/Technical/ConversationTopics.json,Data/Technical/Overworld Maps.json,Data/Technical/DialogueVanilla.json,Data/Technical/FarmAnimals.json,Data/Technical/Loadables.json,Data/Technical/Locational Maps.json,Data/Technical/MailTriggers.json,Data/Technical/Map Patches.json,Data/Technical/Meep.json,Data/Technical/Music.json,Data/Technical/Objects.json,Data/Technical/Quest.json,Data/Technical/Recipes.json,Data/Technical/Shops.json"
+ },
+ {
+"LogName": "Barron Info",
+"Action": "Include",
+"FromFile": "Data/Characters/Barron/Dialogue.json,Data/Characters/Barron/DispositionsGiftTaste.json,Data/Characters/Barron/Events.json,Data/Characters/Barron/Movies.json,Data/Characters/Barron/Schedules.json,Data/Characters/Barron/Festivals.json"
+ },
+  {
+"LogName": "Phoebe Info",
+"Action": "Include",
+"FromFile": "Data/Characters/Phoebe/Festivals.json,Data/Characters/Phoebe/Dialogue.json,Data/Characters/Phoebe/DispositionsGiftTaste.json,Data/Characters/Phoebe/Events.json,Data/Characters/Phoebe/Movies.json,Data/Characters/Phoebe/Schedules.json,"
+ },
+  {
+"LogName": "John Info",
+"Action": "Include",
+"FromFile": "Data/Characters/John/Festivals.json,Data/Characters/John/Dialogue.json,Data/Characters/John/DispositionsGiftTaste.json,Data/Characters/John/Events.json,Data/Characters/John/Movies.json,Data/Characters/John/Schedules.json,"
+ },
+  {
+"LogName": "Pop Info",
+"Action": "Include",
+"FromFile": "Data/Characters/Pop/Festivals.json,Data/Characters/Pop/Dialogue.json,Data/Characters/Pop/DispositionsGiftTaste.json,Data/Characters/Pop/Events.json,Data/Characters/Pop/Schedules.json,"
+ },
+  {
+"LogName": "Jinx Info",
+"Action": "Include",
+"FromFile": "Data/Characters/Jinx/Events.json,Data/Characters/Jinx/Dialogue.json,Data/Characters/Jinx/DispositionsGiftTaste.json,Data/Characters/Jinx/Schedules.json,"
+ },
+ {
+"LogName": "Bubba Info",
+"Action": "Include",
+"FromFile": "Data/Characters/Bubba/Dialogue.json,Data/Characters/Bubba/DispositionsGiftTaste.json,Data/Characters/Bubba/Schedules.json,"
+ },
+],
+}

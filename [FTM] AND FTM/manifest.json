@@ -1,0 +1,13 @@
+{
+  "Name": "AND FTM",
+  "Author": "Fellowclown",
+  "Version": "1.41.0",
+  "Description": "Foragbles for AND",
+  "UniqueID": "Fellowclown.ANDFTM",
+  "MinimumApiVersion": "3.0.0",
+  "UpdateKeys": ["Nexus:20295"],
+  "ContentPackFor": {
+    "UniqueID": "Esca.FarmTypeManager",
+    "MinimumVersion": "1.10.1"
+  }
+}
