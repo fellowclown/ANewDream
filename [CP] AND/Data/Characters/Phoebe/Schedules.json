@@ -36,7 +36,7 @@
 "Fri": "GOTO Sat",
 
 "Tue": "700 {{ModID}}_TravelingTrailer 22 13 2/1300 {{ModID}}_TravelingTrailer 3 18 0/1430 EastScarp_VillageInn 28 9 2/1600 EastScarp_Village 45 123 3/1900 EastScarp_Village 89 68 0/2130 {{ModID}}_TravelingTrailer 5 12 2",
-"Thu": "700 {{ModID}}_TravelingTrailer 22 13 2/1300 EastScarp_Village 87 105 1/1530 {{ModID}}_TravelingTrailer 23 12 0/1700 EastScarp_VillageIn 34 9 3/2130 {{ModID}}_TravelingTrailer 5 12 2",
+"Thu": "700 {{ModID}}_TravelingTrailer 22 13 2/1300 EastScarp_Village 87 105 1/1530 {{ModID}}_TravelingTrailer 23 12 0/1700 EastScarp_VillageInn 34 9 3/2130 {{ModID}}_TravelingTrailer 5 12 2",
 "Sat": "1000 {{ModID}}_TravelingTrailer 3 18 0/1200 EastScarp_Village 87 105 1/1530 {{ModID}}_TravelingTrailer 23 12 /1700 EastScarp_Village 45 123 3/2130 {{ModID}}_TravelingTrailer 5 12 2",
 "Sun": "1200 EastScarp_Village 87 105 1/1400 EastScarp_VillageInn 34 9 3/1600 {{ModID}}_TravelingTrailer 3 18 0/1800 {{ModID}}_TravelingTrailer 14 11 0/1900 {{ModID}}_TravelingTrailer 23 12 0/2130 {{ModID}}_TravelingTrailer 5 12 2",
 

@@ -76,7 +76,7 @@
 
 "Thu": "700 {{ModID}}_TravelingTrailer 11 12 3/800 {{ModID}}_TravelingTrailer 18 14 0/1000 {{ModID}}_TravelingTrailer 12 11 2/1300 EastScarp_Village 18 120 2/1600 EastScarp_InnBath 11 5 2 {{ModID}}_sit_John_forward/2000 EastScarp_InnBath 11 5 2 {{ModID}}_sit_John_forward/2230 {{ModID}}_TempleRuins 10 17 2",
 
-"Sat": "1430 EastScarp_VillageInn 28 26 2 {{ModID}}_sit_John_forward/1800 EastScarp_Village 25 8 2 {{ModID}}_sit_John_forward/2000 EastScarp_InnBath 11 5 2 {{ModID}}_sit_John_forward/2230 {{ModID}}_JohnsTempRoom 3 7 2 {{ModID}}_John_sleep",
+"Sat": "1430 EastScarp_VillageInn 28 26 2 {{ModID}}_sit_John_forward/1800 EastScarp_Village 25 8 2 {{ModID}}_sit_John_forward/2000 EastScarp_InnBath 11 5 2 {{ModID}}_sit_John_forward/2230 {{ModID}}_TempleRuins 10 17 2",
 "Sun": "1430 EastScarp_VillageInn 28 26 2 {{ModID}}_sit_John_forward/1800 EastScarp_VillageInn 74 72 0/2000 EastScarp_VillageInn 25 31 2 {{ModID}}_sit_John_forward/2230 {{ModID}}_TempleRuins 10 17 2",
 "rain": "1430 EastScarp_VillageInn 25 8 2 {{ModID}}_sit_John_forward/1800 EastScarp_Village 28 26 2 {{ModID}}_sit_John_forward/2000 EastScarp_InnBath 11 5 2 {{ModID}}_sit_John_forward/2230 {{ModID}}_TempleRuins 10 17 2",
 
@@ -84,7 +84,7 @@
 
      "When": {
 "HasSeenEvent |contains={{ModID}}_TheTemple": "true",
-"HasFlag |contains={{ModID}}_TempleRuins": "true",
+"HasFlag |contains={{ModID}}_Temple.Mail": "true",
 }
 },
 ]

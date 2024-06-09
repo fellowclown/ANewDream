@@ -96,6 +96,11 @@
 "Direction": "right"
 }
 ],
+  "Size": { "X": 32, "Y": 32 },
+                    "CustomFields": {
+                          "poohnhi.PoohCore/WideCharacter": "true",
+                        "poohnhi.PoohCore/HighCharacter": "true"
+                    },
 "Appearance": [
     {
 "ID": "{{ModID}}.Barron_spring",
