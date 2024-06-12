@@ -31,7 +31,7 @@
 "SpouseAdopts":null,
 "SpouseWantsChildren":null,
 "SpouseGiftJealousy":false,
-"IntroductionsQuest":false,
+"IntroductionsQuest":"{{ExcludePerfection}}",
 "ItemDeliveryQuests":true,
 "PerfectionScore":"{{ExcludePerfection}}",
 "EndSlideShow":"TrailingGroup",

@@ -31,7 +31,7 @@
 "SpouseAdopts":false,
 "SpouseWantsChildren":true,
 "SpouseGiftJealousy":true,
-"IntroductionsQuest":false,
+"IntroductionsQuest":"{{ExcludePerfection}}",
 "ItemDeliveryQuests":true,
 "PerfectionScore":"{{ExcludePerfection}}",
 "EndSlideShow":"TrailingGroup",
@@ -147,5 +147,25 @@
 "FC.Barron": "{{i18n:Barron.gift.love}}/Fellowclown.TD_GemBirdPatties 60 84 208/{{i18n:Barron.gift.like}}/211 307 340/{{i18n:Barron.gift.dislike}}/399 403 416/{{i18n:Barron.gift.hate}}/426 445 542/{{i18n:Barron.gift.neutral}}/346 350/ ",
 }
  },
+  {
+            "LogName": "Add gift tastes data",
+            "Action": "EditData",
+            "Target": "Data/NPCGiftTastes",
+             "When": {
+"HasMod |contains=TheFrenchDodo.RodneyOBrien": true,
+ },
+            "TextOperations": [
+                //Universal gift tastes
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "FC.Barron"
+                    ],
+                    "Value": "(O)WWWA.AutographedPhoto" ,
+                    "Delimiter": " "
+      },
+   ]
+},
 ]
 }

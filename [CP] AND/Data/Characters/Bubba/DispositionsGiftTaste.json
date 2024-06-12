@@ -32,7 +32,7 @@
 "SpouseWantsChildren":false,
 "SpouseGiftJealousy":false,
 "IntroductionsQuest":"{{ExcludePerfection}}",
-"ItemDeliveryQuests":false,
+"ItemDeliveryQuests":"{{ExcludePerfection}}",
 "PerfectionScore":false,
 "EndSlideShow":"TrailingGroup",
 "DumpsterDiveEmote":"32",

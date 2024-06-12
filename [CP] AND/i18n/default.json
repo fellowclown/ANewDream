@@ -426,13 +426,13 @@ Poppers's Information
 "RejectBouquet_NotDatable.Popper":"Haha, never!$1#$b#Silly human!$1",
 "HitBySlingshot.Popper":"Is hit! Is hit!$5#$b#Someone save Pop!$5",
 "intro.Popper":"Oh!$5#$b#...#$b#Huh, you are safe?$1#$b#Yes, safe!",
-"Resort_wntering.Popper":"Look! Sand!",
+"Resort_Entering.Popper":"Look! Sand!",
 "Resort_leaving.Popper":"So sleepy, wanna sleep.",
 "Resort_shore.Popper":"Sand is so good!$1#$b#Nice and crunchy.$6",
-"umbrella.Popper":"Sun was too hot, don't like getting too hot.$2#$b#It makes me feel sick!$5",
-"wander.Popper":"I saw a bug, it was very big.#$b#Looked tasty.$6",
-"bar.Popper":"Shh, don't tell am here.#$b#I am sneaking.$6",
-"resort.Popper":"Nice place, but animals here are very scary...$5",
+"Resort_Umbrella.Popper":"Sun was too hot, don't like getting too hot.$2#$b#It makes me feel sick!$5",
+"Resort_Wander.Popper":"I saw a bug, it was very big.#$b#Looked tasty.$6",
+"Resort_Bar.Popper":"Shh, don't tell am here.#$b#I am sneaking.$6",
+"Resort.Popper":"Nice place, but animals here are very scary...$5",
 //Everyday Dialogue
 "mon.Popper.spring":"Hey, I don't belong in this town.$2#$b#But I'll make it perfect$6",
 "tue.Popper.spring":"@!@!#$b#Bald man has best trash.$1#$b#Very strange, why throw away good things?$2",
@@ -1390,6 +1390,166 @@ Vanilla Editions
 "FaintingIncident.Marnie":"Poor John, he doesn't look disabled but I guess he really does struggle.$2#$b#Hope he feels better soon.$2",
 "FaintingIncident.Jodi":"I've fainted before, I have anemia so I get pretty dizzy sometimes.$2#$b#Maybe that's what John has too, I should mention it to him.$2",
 "FaintingIncident.Harvey":"If I can't help John, I want to at least tell him what's wrong with him.$2",
+
+"Mon.Abigail": "Jinx is so pretty, but I don't think I've ever met such a nervous animal before.$2#$b#I want to get closer but I'm scared of stressing the poor thing out.$2",
+"Wed.Abigail": "Barron always has such interesting facts to share, I can really just sit and listen to her ramble if she lets me.$1",
+"Fri.Abigail": "Don't get me wrong, I'm glad Barron found her mom...#$b#But she seems pretty shadey to me.$5",
+
+"Mon.Alex": "Jinx doesn't seem to like me much, I think scare her.#$b#I can't help it though, I'm sort of a loud dude.",
+"Wed.Alex": "Did you know John isn't elderly?!$7#$b#I totally thought he was, he has about as much pep as my grandfather.$1",
+"Fri.Alex": "I saw this crazy big rat last night!$7#$b#Like, as big as a cat!$7#$b#Grandma tried petting it though, so I don't know, maybe it wasn't a rat afterall?",
+
+"Mon.Caroline": "Barron is just the sweetest girl, I love bringing some tea leaves by occasionally and reading with her.$1",
+"Wed.Caroline": "Phoebe is...An intersting person, I don't know how I feel about her yet though...$2",
+"Fri.Caroline": "Can rats...talk?$2#$b#I swear I saw this rat talking a lot of trash towards Dusty the other day.$2",
+
+"Mon.Clint": "Barron is real sweet, but she's way to smart for me.#$b#I'd feel like a real dumbass next to her.$3",
+"Wed.Clint": "Have you met Jinx?#$b#She's a great Thylacine, I sort of can relate with her.$1",
+"Fri.Clint": "Do you think Phoebe would consider dating someone younger then her?#$b#I mean, I guess that's weird but she makes me laugh.$1",
+
+"Mon.Demetrius": "I have uncovered a invasive species of rodent in the valley.#$b#It's important not to confuse the Arkanomys lingua with common Valley rats, they are highly intelligent animals. In fact, some Shevit's are as smart as three year old human beings.$1",
+"Wed.Demetrius": "As much as I appreciate the efforts to save the Thylacine.#$b#I can't help but disagree with the attempts to domesticate them.#$b#Thylacine's are carnivorious and it takes many hundreds of years to fully domesticate wild animals...$2#$b#It seems unwise to try and make them a everyday pet.$2",
+"Fri.Demetrius": "I've been researching Arcánia, I am very concerned about that nation's wild life crossing intot he valley...$2",
+
+"Mon.Elliott": "I would love to visit the Bookworm Mobile and get to know Barron, but she seems far too busy to socialize.$2#$b#I can admire such a intelligent and driven woman though.$4",
+"Wed.Elliott": "I was bitten! I was bitten by some sort of giant, mutated rat!$8#$b#I need to get to the hospital.$8",
+"Fri.Elliott": "I wonder if John would like to join Barron and I for drinks at the saloon.#$b#He seems so shy, I think the man could use a friend.$1",
+
+"Mon.Emily": "Barron has such a old soul.#$b#I can tell by her gaze.$1",
+"Wed.Emily": "Jinx loves fish you know, that and gem bird...But I don't think I could give her that...$2",
+"Fri.Emily": "I wish Haley would stop gossiping so much, she's going to offend someone one day.$2",
+
+"Mon.Evelyn": "John is a sweet gentleman, I would love to hear a sermon from him.$1",
+"Wed.Evelyn": "Barron is interesting, she's very quirky.$1",
+"Fri.Evelyn": "There's a new kitty in town, he's so precious.#$b#He loves my cookies.$1",
+
+"Mon.George": "Evelyn keeps on doting on this damn felid rat, I keep telling her to stop feeding it but she keeps on saying it's just a cat.$3#$b#She needs to find her glasses I swear.$2",
+"Wed.George": "Sometimes Barron bring's over that Tazzy, it's nice I guess. Jinx is a real sweet animal.$1",
+"Fri.George": "That Phoebe is up to no good, I know it. She's a real character, if she turns out to be scamming that sweet young lady, I might just snap.$3",
+
+"Mon.Haley": "I love the Bookworm Mobile, there's actually some really beautiful vintage books on fashion there.",
+"Wed.Haley": "Do you think there's a limit to how many books Barron will let me check out?$1#$b#I wonder if she would let me buy some books actually.",
+"Fri.Haley": "John is a little off putting, I guess it's just because of his expression.$2#$b#He always looks so angry.$2",
+
+"Mon.Harvey": "I worry about John, I hope I can figure out his condition.$2#$b#I would really hate to waste his time.$2",
+"Wed.Harvey": "With the neighbor growing to the east, I've been noticing a influx of patient's visiting my office.$1#$b#I worry a bit less about bills now, it's really nice.$1",
+"Fri.Harvey": "A few people have come into the office suffering from similar looking bites.#$b#I think the Valley might be developing a wild life issue.$2",
+
+"Mon.Jas": "I love visiting the Bookworm Mobile for story time, Barron is a great story teller.$1",
+"Wed.Jas": "I have a new friend!#$b#His name is pop, he was scary at first but he ended up being a nice little guy.#$b#Don't tell him that though, he gets mad for some reason.$1",
+"Fri.Jas": "I love Jinx so much! She's so sweet and soft.$1",
+
+"Mon.Jodi": "Ever since I started taking Vincent to the Bookworm Mobile, he's been using much more complex words.$1#$b#I'm proud of my little boy.$1",
+"Wed.Jodi": "Sam can be difficult sometimes, but he seems to always be willing to take Vincent to East scarp to read book with Barron.$1#$b#I really appreciate the time to myself too.$1",
+"Fri.Jodi": "I think John might have eyes for Robin, but don't tell anyone I said that.$1#$b#It's just a guess anyway, he's always blushing when he sees her.$1",
+
+"Mon.Kent": "Phoebe's from Arcánia, her accent is real thick.#$b#I have a hard time understanding the woman, but she seems really kind.$1",
+"Wed.Kent": "I don't mind the Bookworm, it's real quiet and peaceful. A man can actually relax there.$1",
+"Fri.Kent": "I don't think I'd ever adopt one of those Tazzy's.#$b#But Jinx is close to changing my mind.$1#$b#We both seem to be pretty anxious and I can relate honestly.$2",
+
+"Mon.Leah": "Barron asked if I'd be willing to paint a mural for her in the Bookworm Mobile. I think it'd be pretty fun, I'm waiting for her to bring me some rough drafts of what she's wanting.$1",
+"Wed.Leah": "I can't help but be curious about John, he seems sort of mysterious.$1",
+"Fri.Leah": "Do you think Barron would like some books on art for the Bookworm Mobile?$1#$b#I've so many beginner guides, I really could use the extra space.$1",
+
+"Mon.LeoMainland": "I can't read so well, but Barron has been teaching me with Miss Penny.#$b#They're both very kind.$1",
+"Wed.LeoMainland": "I like visiting the Bookworm Mobile, but Jinx is scary...Her kind eats Birds!$2",
+"Fri.LeoMainland": "Do you think Pop would like to stay at my tree? He's seems so lonely out on his own.$2",
+
+"Mon.Lewis": "The town is really growing, I wonder how this years election will go...$2",
+"Wed.Lewis": "I keep telling Demetrius to catch that rat somehow, but I think he's purposely letting that pest run loose.$3",
+"Fri.Lewis": "Barron is sweet, she reminds me of someone though...I just can't put my finger on it.$2",
+
+"Mon.Linus": "I like it when John comes by, he usually shares his coffee with me.#$b#Such a kind soul, I'm not used to such good treatment.",
+"Wed.Linus": "I woke up to some type of animal cuddled against my stomach.#$b#I didn't mind though, I just went back to sleep.$1",
+"Fri.Linus": "Barron reminds me of this sweet man I met a long while ago, don't know what happened to him but makes me curious if they're related.$1",
+
+"Mon.Marnie": "With the adoption angency by my side, I've been feeling way more confident about my business.#$b#Plus, it's nice meeting people who love animals as much as I do.$1",
+"Wed.Marnie": "Barron has a beautiful heart, I admire her for adopting a difficult case like Jinx.$1",
+"Fri.Marnie": "Pheobe seems to be warming up to Jinx, I'm starting to wonder if she'll be adopting a Thylacine of her own.$1",
+
+"Mon.Maru": "I wonder why Phoebe gave Barron up for adoption all those years ago.$2#$b#I can't help but be curious.$2",
+"Wed.Maru": "I've been researching Arcánia and those islands seem to be extremely dangerous even to it's own wild life.$2",
+"Fri.Maru": "I usually don't condone bringing invasive species over to the valley, but with how hazardous the enviroment is in Arcánia, I sort of hope we can bring the weaker animals here.$2",
+
+"Mon.Pam": "That Phoebe thinks she so great, at least I had enough heart not to abandon my kid.$3",
+"Wed.Pam": "Reading isn't really my thing, but I do admire Penny for loving it so much. Think that's why she's so smart, always visiting that Bookworm Mobile and reading the day away.$1.",
+"Fri.Pam": "I could use a stout drink, I would really love some Arcánian Whiskey. Maybe Phoebe has a bottle.$1",
+
+"Mon.Penny": "I think it's pretty neat, a traveling library.$1",
+"Wed.Penny": "I have issues with my mother, but I'm really glad she stuck around...Poor Barron grew up all alone.$2",
+"Fri.Penny": "Do you think Barron would let me work at her library? I would love to be surronded by books all day.$1",
+
+"Mon.Pierre": "Business has been booming lately, glad for the extra cash if I honest.$1",
+"Wed.Pierre": "John mentioned taking a vacation with my family, but I don't know...that would be a lot of missed out revenue.$2",
+"Fri.Pierre": "Wonder if Barron would let me post some advertisment's inside her library.$1",
+
+"Mon.Robin": "East Scarp could be a big opportunity for me, if I can figure out how to offer my services over there.",
+"Wed.Robin": "I wonder if John would consider running for mayor, I think he would make a pretty good leader if he applied himself.$1#$e#Don't tell Lewis I said that though...$2",
+"Fri.Robin": "Phoebe really is the life of the party, I swear wherever she goes excitement just follows.$1",
+
+"Mon.Sam": "Vincent has been learning a lot about dinosaurs lately, I think it's because he looks up to Barron.#$b#She seems really into that stuff too.$1",
+"Wed.Sam": "I don't like hanging out at the Bookworm Mobile, but my mom seems happier after some time alone so, I guess it's not too bad.$1",
+"Fri.Sam": "Barron makes this pastry treat that's just really freaking good.#$b#I think I'm addicted to it.$1",
+
+"Mon.Sebstian": "Barron has a lot of books on the occult in her library. It's sort of cool considering how conservative Pelican Town can be.",
+"Wed.Sebstian": "I would seriously invite John and Barron to hang out, but I don't know if they would want to hang out with people much younger then them.$2",
+"Fri.Sebstian":"I learned the other day that Thylacine's weren't originally found in tropical areas.#$b#Wonder how they ended up in Arcánia.",
+
+"Mon.Shane": "Bah, the way Pam and Phoebe bicker is annoying. I wish they'd take it outside the saloon.$5",
+"Wed.Shane": "Maybe if I put my headphones on, people won't talk to me as much. Barron really seems to think I want to socialize.$2",
+"Fri.Shane": "Maybe I'm just good at being angry, but if I was Barron I wouldn't have forgiven Phoebe for abadoning me so quickly.$5",
+
+"Mon.Vincent": "Did you know that there are really tiny dinosaurs? I always thought they were all huge but Barron showed me a book about smaller ones.$1",
+"Wed.Vincent": "I wonder if Jinx can be ridden like a pony, I think that would be so cool to ride her into town like a warrior!$1",
+"Fri.Vincent": "Phoebe said, that her grandfather won lots of battles. I hope my daddy wins his battles too, so he can come home.$2",
+
+"Mon.Wizard": "Someone with an interesting bloodline is visiting the valley. I can feel their prescence.",
+"Wed.Wizard": "Long ago I knew a man who was older then any living being in the world. I wonder what has happened to him, if he's still alive and wandering.",
+"Fri.Wizard": "Long ago, a group of Arcánian people, ventured from their hazardous homeland to the valley. They have vanished with time, much like the elves...But their influence stays.",
+
+"Mon.Krobus": "The people from the sea, they brought many spices and artifacts. I don't know where they went, but their stuff remains.$2",
+"Wed.Krobus": "I sneak around, sometimes in East Scarp. There are intersting humans there...But I think a giant has arrived? She is much too tall to be human, right?",
+"Fri.Krobus": "What is it like to drink void juice? What is it void juice?$2",
+
+"Mon.Mister Qi": "Isn't it fascinating how easily history can be forgotten?#$b#It's too bad, the sea nomads of Arcánia were very knowledgable. The people of today could learn a thing or two from them.",
+"Wed.Mister Qi": "Keep your eyes peeled @, there are things in this valley that are far to easy to over look.",
+"Fri.Mister Qi": "A girl and her Thylacine.#4b#What a wonderful little story.",
+
+"Mon.FC.Alan": "The animals of the valley, they keep talking about a woman of ancient blood.$5#$b#I've no clue what they're going on about, what woman?$2",
+"Wed.FC.Alan": "At first I thought only I could hear Pop when he spoke, but it turns out he's of the animal variety that has been gifted the skill of speech.$1",
+"Fri.FC.Alan": "My mother and Phoebe do not like eachother at all.#$b#They just glare at eachother.$2",
+
+"Mon.FC.Dezerie": "I'm sick of Phoebe, she's very irresponsible and extremely obnoxious.$3",
+"Wed.FC.Dezerie": "At least Phoebe's daughter is tolerable, I can actually hold a conversation with her.$1",
+"Fri.FC.Dezerie": "What a gentle soul John is, have you met him? Do tell him hello for me if you see him around dear.$1",
+
+"Mon.FC.Grady": "Phoebe and Maverick, they definitely had a fling. I can absoutely tell.$1",
+"Wed.FC.Grady": "Barron is a sweetheart, I would be tickled to have a daughter like her.",
+"Fri.FC.Grady": "Barron looks familiar to me, I think it's her eyes. They remind me of Lyells sometimes.$1",
+
+"Mon.FC.Kaia": "Phoebe asked a lot of weird questions, she seems pretty interested in getting to know me.#$b#I guess that's sweet though, I could use a friend.$1",
+"Wed.FC.Kaia": "Nikolai and Barron are such good friends, I'm glad he has her.$1",
+"Fri.FC.Kaia": "I overheard Phoebe talking about traveling, it sounds nice...But she had to give up Barron to do that...$2",
+
+"Mon.FC.Lyell": "John's such a old soul, I can see it in his face and hear it in his voice.#$b#I hope he is finding time to rest.$2",
+"Wed.FC.Lyell": "Barron is...Important I think, I don't know why but I feel like I should protect her.#$b#Maybe it's just because she looks a lot like my daughter, Amanda.$1",
+"Fri.FC.Lyell": "I saw a baby Shevit in town. Wasn't expecting that at all, but it was such a cute little thing, made me happy to see one so far from home.$1",
+
+"Mon.FC.Maverick": "Phoebe being back is...Nice...I've missed her.$1",
+"Wed.FC.Maverick": "I think a traveling library is a great idea, what a fun way to spread the joy of reading.$1",
+"Fri.FC.Maverick": "That damn rat was back last night, digging through my trash.#$b#Little bastard!$3",
+
+"Mon.FC.Nikolai": "I love visiting Barron's place, she's such a great friend to me. Plus, she's a great cook when she's not catching the stove on fire.$6",
+"Wed.FC.Nikolai": "John seems really interested in ancient religious practices.#$b#I think it's neat too but sometimes reading  about it gives me a headache.$2",
+"Fri.FC.Nikolai": "Jinx is probably the sweetest thylacine I know. Even the ones at the refuge aren't as gentle as she is.$1",
+
+"Mon.FC.Valerie": "Barron has so many books on the occult and spirit magic. Some of them are even vintage, I've been trying to talk her into letting me buy them.$1",
+"Wed.FC.Valerie": "I think John might be scared of me, he can barely even look at me in the eyes.$2",
+"Fri.FC.Valerie": "That little shevit is such a rascal, even though he's a sweetie, make sure to call him evil or you'll hurt his feelings.$1",
+
+"Mon.FC.Zuuie": "I have seen many years pass, but there is someone who's seen more then me!$1#$b#They are peaceful and resting, but still they watch.",
+"Wed.FC.Zuuie": "I do not understand, I thought humans kept their young?$2",
+"Fri.FC.Zuuie": "Do you hear it, the winds are changes. The chimes are different, the souls of this land are waking up.$1",
 /************************************************
 Technical Information
 ************************************************/
@@ -2246,7 +2406,7 @@ Technical Information
 "PhoebesColdness.00": "Phoebe, I've got something speical for you.$1",
 "PhoebesColdness.01": "Oh, okay that's cool...What is it.",
 "PhoebesColdness.02": "Well, I made this.$1",
-"PhoebesColdness.03": "I remembered you mentioned the family photo album had been destoryed in a fire, so I wanted to make you a new one!$1#$b#See look, I added our most recent photo!$1",
+"PhoebesColdness.03": "I remembered you mentioned the family photo album had been destroyed in a fire, so I wanted to make you a new one!$1#$b#See look, I added our most recent photo!$1",
 "PhoebesColdness.04": "Oh, that's neat.$1",
 "PhoebesColdness.05": "#Aren't you happy for the album?#How do you feel about the Album?",
 "PhoebesColdness.06": "Huh, Of course I am!$1#$b#Thank you Barron.$1",

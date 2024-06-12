@@ -32,7 +32,7 @@
 "GreenRain": "700 EastScarp_Lighthouse {{Random:5 6 3,17 4 3,7 9 3}} \"Strings\\schedules\\FC.Popper:Popper.GreenRain\"",
  },
    "When": {
- "HasSeenEvent |contains={{ModID}}_PopsBeachVisit": "true"            }
+ "HasSeenEvent |contains={{ModID}}_PopsBeachVisit": true            }
         },
           {
 "Action": "EditData",
@@ -43,7 +43,7 @@
 },
     "When": {
                 "HasMod |contains=TenebrousNova.EliDylan.CP": true,
-                 "HasSeenEvent |contains={{ModID}}_PopsBeachVisit": "true" 
+                 "HasSeenEvent |contains={{ModID}}_PopsBeachVisit": true
             }
         },
            {
@@ -54,7 +54,7 @@
 "Fri":"1000 EastScarp_RodneysHouse {{Random:4 13 3,11 26 1,8 29 1}}/1330 EastScarp_ClearingHouse {{Random:41 9 3,18 17 1,9 8 1}} {{ModID}}_PopRummage/1600 EastScarp_Village {{Random:61 100 3,23 101 3,26 15 3}} {{ModID}}_PopRummage/2000 EastScarp_Village {{Random:5 6 3,17 4 3,7 9 3}}/2400 {{ModID}}_PoppersNest 2 3 2",
 },"When": {
                 "HasMod |contains=TheFrenchDodo.RodneyOBrien": true,
-                 "HasSeenEvent |contains={{ModID}}_PopsBeachVisit": "true" 
+                 "HasSeenEvent |contains={{ModID}}_PopsBeachVisit": true 
             }
         },
            {
@@ -66,7 +66,7 @@
 },
 "When": {
                 "HasMod |contains=DestyNova.Mateo.CP": true,
-                 "HasSeenEvent |contains={{ModID}}_PopsBeachVisit": "true" 
+                 "HasSeenEvent |contains={{ModID}}_PopsBeachVisit": true 
             }
         },
 ]
