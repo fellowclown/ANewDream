@@ -84,7 +84,7 @@
                     },
 "Shadow":{ "Visible": false },
 "EmoteOffset": { "X": -35, "Y": 30 },
-"MugShotSourceRect": { "X": 116, "Y": 131, "Width": 13, "Height": 12 },
+"MugShotSourceRect": {"X": 64, "Y": 175, "Width": 30, "Height": 18 },
 "Appearance": [
  {
 "ID": "{{ModID}}.Jinx_spring",

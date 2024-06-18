@@ -25,12 +25,12 @@
             {
              "Operation": "Append",
              "Target": ["Fields", "set-up{{YearCheck}}", 5],
-             "Value": "/animate FC.Barron false true 360 23 23 23 23 23 23 23 23 23 23 23 24 25 25 25 25 25 25 25 24 23/positionOffset FC.Barron 16 0"
+             "Value": "/animate FC.Barron false true 360 23 23 23 23 23 23 23 23 23 23 23 24 25 25 25 25 25 25 25 24 23/positionOffset FC.Barron -16 0"
             },
             {
              "Operation": "Append",
              "Target": ["Fields", "mainEvent{{YearCheck}}", 5],
-             "Value": "/animate FC.Barron false true 360 23 23 23 23 23 23 23 23 23 23 23 24 25 25 25 25 25 25 25 24 23/positionOffset FC.Barron 16 0",
+             "Value": "/animate FC.Barron false true 360 23 23 23 23 23 23 23 23 23 23 23 24 25 25 25 25 25 25 25 24 23/positionOffset FC.Barron -16 0",
       
         },
         ]
@@ -84,12 +84,12 @@
                        {
              "Operation": "Append",
              "Target": ["Fields", "set-up{{YearCheck}}", 5],
-             "Value": "/animate FC.Barron false true 360 23 23 23 23 23 23 23 23 23 23 23 24 25 25 25 25 25 25 25 24 23/positionOffset FC.Barron 16 0"
+             "Value": "/animate FC.Barron false true 360 23 23 23 23 23 23 23 23 23 23 23 24 25 25 25 25 25 25 25 24 23/positionOffset FC.Barron -16 0"
             },
             {
              "Operation": "Append",
              "Target": ["Fields", "mainEvent{{YearCheck}}", 5],
-             "Value": "/animate FC.Barron false true 360 23 23 23 23 23 23 23 23 23 23 23 24 25 25 25 25 25 25 25 24 23/positionOffset FC.Barron 16 0",
+             "Value": "/animate FC.Barron false true 360 23 23 23 23 23 23 23 23 23 23 23 24 25 25 25 25 25 25 25 24 23/positionOffset FC.Barron -16 0",
       
         },
         ]
@@ -104,7 +104,7 @@
                         "Entries",
                         "Set-Up_additionalCharacters{{YearCheck}}"
                     ],
-                    "Value": "FC.Barron 17 33 2",
+                    "Value": "FC.Barron 19 28 2",
                     "Delimiter": "/"
                 },
                      {
@@ -113,7 +113,7 @@
                         "Entries",
                         "MainEvent_additionalCharacters{{YearCheck}}"
                     ],
-                    "Value": "FC.Barron 17 33 2",
+                    "Value": "FC.Barron 19 28 2",
                     "Delimiter": "/"
                 },
         ]

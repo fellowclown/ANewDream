@@ -94,7 +94,7 @@
                     },
 "Shadow":{ "Visible": false },
 "EmoteOffset": { "X": -35, "Y": 30 },
-"MugShotSourceRect": { "X": 115, "Y": 139, "Width": 13, "Height": 12 },
+"MugShotSourceRect": { "X": 99, "Y": 139, "Width": 28, "Height": 21 },
 "Appearance": [
  {
 "ID": "{{ModID}}.Bubba_spring",
