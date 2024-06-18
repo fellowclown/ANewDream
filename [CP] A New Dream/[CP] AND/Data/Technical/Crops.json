@@ -1,0 +1,379 @@
+{
+"Changes": [
+  {
+"Action": "EditData",
+"Target": "Data/Crops",
+"Entries": { ///Plant these in summer. Takes 10 days to mature and continues producing after that.
+"{{ModID}}_PuckerWortSeeds": {
+"Seasons": [ "spring","summer" ],
+"DaysInPhase": [ 1,1,1,1,1 ], 
+"HarvestItemId": "{{ModID}}_PuckerWort",
+"RegrowDays": "-1",
+"IsRaised": false,
+"HarvestMaxIncreasePerFarmingLevel": "0.1",
+"Texture": "Mods/{{ModID}}/Crops",
+"SpriteIndex": 2
+}
+}
+},
+{
+"Action": "EditData",
+"Target": "Data/Objects",
+"Entries": {
+ "{{ModID}}_PuckerWortSeeds": {
+  "Name": "{{ModID}}_PuckerWortSeeds",
+  "DisplayName": "{{i18n:FC.PuckerWortSeeds}}",
+  "Description": "{{i18n:FC.PuckerWortSeeds.Desc}}",
+  "Type": "Seed",
+  "Category": -74,
+  "Price": 350,
+   "Texture": "Mods/{{ModID}}/Objects",
+  "SpriteIndex": 45,
+  "Edibility": -300,
+  "IsDrink": false,
+    "CanBeGivenAsGift": true,
+  "CanBeTrashed": true,
+  "Buffs": [
+    {
+      "Id": null,
+      "BuffId": null,
+      "IconTexture": null,
+      "IconSpriteIndex": 0,
+      "Duration": 0,
+      "IsDebuff": false,
+      "GlowColor": null,
+      "CustomAttributes": {
+        "FarmingLevel": 0.0,
+        "FishingLevel": 0.0,
+        "MiningLevel": 0.0,
+        "LuckLevel": 0.0,
+        "ForagingLevel": 0.0,
+        "MaxStamina": 0.0,
+        "MagneticRadius": 0.0,
+        "Speed": 0.0,
+        "Defense": 0.0,
+        "Attack": 0.0
+      },
+      "CustomFields": null
+    }
+  ],
+  "GeodeDropsDefaultItems": false,
+  "GeodeDrops": null,
+  "ArtifactSpotChances": null,
+  "ExcludeFromFishingCollection": true,
+  "ExcludeFromShippingCollection": true,
+  "ExcludeFromRandomSale": true,
+  "ContextTags": [
+    "category_seeds",
+  ],
+  "CustomFields": null
+  }
+}
+},
+{
+"Action": "EditData",
+"Target": "Data/Objects",
+"Entries": {
+ "{{ModID}}_PuckerWort": {
+  "Name": "{{ModID}}_PuckerWort",
+  "DisplayName": "{{i18n:FC.PuckerWort}}",
+  "Description": "{{i18n:FC.PuckerWort.Desc}}",
+  "Type": "Vegetable",
+  "Category": -75,
+  "Price": 5,
+   "Texture": "Mods/{{ModID}}/Objects",
+  "SpriteIndex": 42,
+  "Edibility": 10,
+  "IsDrink": false,
+  "CanBeGivenAsGift": true,
+  "CanBeTrashed": true,
+  "Buffs": [
+    {
+      "Id": null,
+      "BuffId": null,
+      "IconTexture": null,
+      "IconSpriteIndex": 0,
+      "Duration": 0,
+      "IsDebuff": false,
+      "GlowColor": null,
+      "CustomAttributes": {
+        "FarmingLevel": 0.0,
+        "FishingLevel": 0.0,
+        "MiningLevel": 0.0,
+        "LuckLevel": 0.0,
+        "ForagingLevel": 0.0,
+        "MaxStamina": 0.0,
+        "MagneticRadius": 0.0,
+        "Speed": 0.0,
+        "Defense": 0.0,
+        "Attack": 0.0
+      },
+      "CustomFields": null
+    }
+  ],
+  "GeodeDropsDefaultItems": false,
+  "GeodeDrops": null,
+  "ArtifactSpotChances": null,
+  "ExcludeFromFishingCollection": true,
+  "ExcludeFromShippingCollection": "{{ExcludePerfection}}",
+  "ExcludeFromRandomSale": true,
+  "ContextTags": [
+    "category_vegetable",
+    "category_ingredients",
+  ],
+  "CustomFields": null
+  }
+}
+},
+ {
+"Action": "EditData",
+"Target": "Data/Crops",
+"Entries": { ///Plant these in summer. Takes 10 days to mature and continues producing after that.
+"{{ModID}}_BiteBackMelonsSeeds": {
+"Seasons": [ "fall","summer" ],
+"DaysInPhase": [ 1,1,1,1,1 ], 
+"HarvestItemId": "{{ModID}}_BiteBackMelons",
+"RegrowDays": "3",
+"IsRaised": false,
+"HarvestMaxIncreasePerFarmingLevel": "0.1",
+"Texture": "Mods/{{ModID}}/Crops",
+"SpriteIndex": 1
+}
+}
+},
+{
+"Action": "EditData",
+"Target": "Data/Objects",
+"Entries": {
+ "{{ModID}}_BiteBackMelons": {
+  "Name": "{{ModID}}_BiteBackMelons",
+  "DisplayName": "{{i18n:FC.BiteBackMelons}}",
+  "Description": "{{i18n:FC.BiteBackMelons.Desc}}",
+  "Type": "Fruit",
+  "Category": -79,
+  "Price": 5,
+   "Texture": "Mods/{{ModID}}/Objects",
+  "SpriteIndex": 43,
+  "Edibility": 10,
+  "IsDrink": false,
+  "CanBeGivenAsGift": true,
+  "CanBeTrashed": true,
+  "Buffs": [
+    {
+      "Id": null,
+      "BuffId": null,
+      "IconTexture": null,
+      "IconSpriteIndex": 0,
+      "Duration": 0,
+      "IsDebuff": false,
+      "GlowColor": null,
+      "CustomAttributes": {
+        "FarmingLevel": 0.0,
+        "FishingLevel": 0.0,
+        "MiningLevel": 0.0,
+        "LuckLevel": 0.0,
+        "ForagingLevel": 0.0,
+        "MaxStamina": 0.0,
+        "MagneticRadius": 0.0,
+        "Speed": 0.0,
+        "Defense": 0.0,
+        "Attack": 0.0
+      },
+      "CustomFields": null
+    }
+  ],
+  "GeodeDropsDefaultItems": false,
+  "GeodeDrops": null,
+  "ArtifactSpotChances": null,
+  "ExcludeFromFishingCollection": true,
+  "ExcludeFromShippingCollection": "{{ExcludePerfection}}",
+  "ExcludeFromRandomSale": true,
+  "ContextTags": [
+    "category_vegetable",
+    "category_ingredients",
+  ],
+  "CustomFields": null
+  }
+}
+},
+{
+"Action": "EditData",
+"Target": "Data/Objects",
+"Entries": {
+ "{{ModID}}_BiteBackMelonsSeeds": {
+  "Name": "{{ModID}}_BiteBackMelonsSeeds",
+  "DisplayName": "{{i18n:FC.BiteBackMelonsSeeds}}",
+  "Description": "{{i18n:FC.BiteBackMelonsSeeds.Desc}}",
+  "Type": "Seed",
+  "Category": -74,
+  "Price": 350,
+   "Texture": "Mods/{{ModID}}/Objects",
+  "SpriteIndex": 46,
+  "Edibility": -300,
+  "IsDrink": false,
+    "CanBeGivenAsGift": true,
+  "CanBeTrashed": true,
+  "Buffs": [
+    {
+      "Id": null,
+      "BuffId": null,
+      "IconTexture": null,
+      "IconSpriteIndex": 0,
+      "Duration": 0,
+      "IsDebuff": false,
+      "GlowColor": null,
+      "CustomAttributes": {
+        "FarmingLevel": 0.0,
+        "FishingLevel": 0.0,
+        "MiningLevel": 0.0,
+        "LuckLevel": 0.0,
+        "ForagingLevel": 0.0,
+        "MaxStamina": 0.0,
+        "MagneticRadius": 0.0,
+        "Speed": 0.0,
+        "Defense": 0.0,
+        "Attack": 0.0
+      },
+      "CustomFields": null
+    }
+  ],
+  "GeodeDropsDefaultItems": false,
+  "GeodeDrops": null,
+  "ArtifactSpotChances": null,
+  "ExcludeFromFishingCollection": true,
+  "ExcludeFromShippingCollection": true,
+  "ExcludeFromRandomSale": true,
+  "ContextTags": [
+    "category_seeds",
+  ],
+  "CustomFields": null
+  }
+}
+},
+ {
+"Action": "EditData",
+"Target": "Data/Crops",
+"Entries": { ///Plant these in summer. Takes 10 days to mature and continues producing after that.
+"{{ModID}}_CuccarootSeeds": {
+"Seasons": [ "fall","winter" ],
+"DaysInPhase": [ 1,1,1,1,1 ], 
+"HarvestItemId": "{{ModID}}_Cuccaroot",
+"RegrowDays": "-1",
+"IsRaised": false,
+"HarvestMaxIncreasePerFarmingLevel": "0.1",
+"Texture": "Mods/{{ModID}}/Crops",
+"SpriteIndex": 0
+}
+}
+},
+{
+"Action": "EditData",
+"Target": "Data/Objects",
+"Entries": {
+ "{{ModID}}_Cuccaroot": {
+  "Name": "{{ModID}}_Cuccaroot",
+  "DisplayName": "{{i18n:FC.Cuccaroot}}",
+  "Description": "{{i18n:FC.Cuccaroot.Desc}}",
+  "Type": "Vegetable",
+  "Category": -75,
+  "Price": 5,
+   "Texture": "Mods/{{ModID}}/Objects",
+  "SpriteIndex": 44,
+  "Edibility": 10,
+  "IsDrink": false,
+  "CanBeGivenAsGift": true,
+  "CanBeTrashed": true,
+  "Buffs": [
+    {
+      "Id": null,
+      "BuffId": null,
+      "IconTexture": null,
+      "IconSpriteIndex": 0,
+      "Duration": 0,
+      "IsDebuff": false,
+      "GlowColor": null,
+      "CustomAttributes": {
+        "FarmingLevel": 0.0,
+        "FishingLevel": 0.0,
+        "MiningLevel": 0.0,
+        "LuckLevel": 0.0,
+        "ForagingLevel": 0.0,
+        "MaxStamina": 0.0,
+        "MagneticRadius": 0.0,
+        "Speed": 0.0,
+        "Defense": 0.0,
+        "Attack": 0.0
+      },
+      "CustomFields": null
+    }
+  ],
+  "GeodeDropsDefaultItems": false,
+  "GeodeDrops": null,
+  "ArtifactSpotChances": null,
+  "ExcludeFromFishingCollection": true,
+  "ExcludeFromShippingCollection": "{{ExcludePerfection}}",
+  "ExcludeFromRandomSale": true,
+  "ContextTags": [
+    "category_vegetable",
+    "category_ingredients",
+  ],
+  "CustomFields": null
+  }
+}
+},
+{
+"Action": "EditData",
+"Target": "Data/Objects",
+"Entries": {
+ "{{ModID}}_CuccarootSeeds": {
+  "Name": "{{ModID}}_CuccarootSeeds",
+  "DisplayName": "{{i18n:FC.CuccarootSeeds}}",
+  "Description": "{{i18n:FC.CuccarootSeeds.Desc}}",
+  "Type": "Seed",
+  "Category": -74,
+  "Price": 350,
+   "Texture": "Mods/{{ModID}}/Objects",
+  "SpriteIndex": 47,
+  "Edibility": -300,
+  "IsDrink": false,
+    "CanBeGivenAsGift": true,
+  "CanBeTrashed": true,
+  "Buffs": [
+    {
+      "Id": null,
+      "BuffId": null,
+      "IconTexture": null,
+      "IconSpriteIndex": 0,
+      "Duration": 0,
+      "IsDebuff": false,
+      "GlowColor": null,
+      "CustomAttributes": {
+        "FarmingLevel": 0.0,
+        "FishingLevel": 0.0,
+        "MiningLevel": 0.0,
+        "LuckLevel": 0.0,
+        "ForagingLevel": 0.0,
+        "MaxStamina": 0.0,
+        "MagneticRadius": 0.0,
+        "Speed": 0.0,
+        "Defense": 0.0,
+        "Attack": 0.0
+      },
+      "CustomFields": null
+    }
+  ],
+  "GeodeDropsDefaultItems": false,
+  "GeodeDrops": null,
+  "ArtifactSpotChances": null,
+  "ExcludeFromFishingCollection": true,
+  "ExcludeFromShippingCollection": true,
+  "ExcludeFromRandomSale": true,
+  "ContextTags": [
+    "category_seeds",
+  ],
+  "CustomFields": null
+  }
+}
+},
+]
+}

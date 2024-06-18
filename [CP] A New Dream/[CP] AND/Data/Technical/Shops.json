@@ -402,7 +402,28 @@
 "Price": 90000,
 "AvailableStock":2,
 "AvailableStockLimit": "player"
-},                  
+}, 
+                           {
+"Id": "{{ModID}}_CuccarootSeeds",
+"ItemId": "{{ModID}}_CuccarootSeeds",
+"Price": 250,
+"AvailableStock":2,
+"AvailableStockLimit": "player"
+},  
+                           {
+"Id": "{{ModID}}_PuckerWortSeeds",
+"ItemId": "{{ModID}}_PuckerWortSeeds",
+"Price": 250,
+"AvailableStock":2,
+"AvailableStockLimit": "player"
+},  
+                           {
+"Id": "{{ModID}}_BiteBackMelonsSeeds",
+"ItemId": "{{ModID}}_BiteBackMelonsSeeds",
+"Price": 350,
+"AvailableStock":2,
+"AvailableStockLimit": "player"
+},               
                     ]
                 }
             }
