@@ -102,7 +102,7 @@
                         "poohnhi.PoohCore/HighCharacter": "true"
                     },
                     "Shadow":{ "Visible": true },
-"EmoteOffset": { "X": -35, "Y": 30 },
+"EmoteOffset": { "X": 35, "Y": -30 },
 "MugShotSourceRect": { "X": 7, "Y": 0, "Width": 17, "Height": 24 },
 "Appearance": [
     {

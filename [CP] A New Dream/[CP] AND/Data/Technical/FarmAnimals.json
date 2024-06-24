@@ -8,7 +8,7 @@
 
 "{{ModID}}_Thylacine": {
     "DisplayName": "{{i18n:FC.Thylacine}}",
-    "House": "Fellowclown.ClownCore_TropicalHutch",
+    "House": "{{AnimalHouse}}",
     "Gender": "MaleOrFemale",
     "PurchasePrice": 8000,
     "SellPrice": 16000,
@@ -21,7 +21,7 @@
     },
     "ShopDisplayName": "{{i18n:FC.Thylacine}}",
     "ShopDescription": "{{i18n:FC.Thylacine.Desc}}",
-    "ShopMissingBuildingDescription": "{{i18n:FC.MissingTropicalHutch}}",
+    "ShopMissingBuildingDescription": "{{ShopDesc}}",
     "RequiredBuilding": null,
     "UnlockCondition": "PLAYER_HAS_SEEN_EVENT Current {{ModID}}_JinxSituation",
     "AlternatePurchaseTypes": null,
@@ -125,7 +125,7 @@
 "Entries": {
 "{{ModID}}_Warthog": {
     "DisplayName": "{{i18n:FC.Warthog}}",
-    "House": "Fellowclown.ClownCore_TropicalHutch",
+    "House": "{{AnimalHouse}}",
     "Gender": "MaleOrFemale",
     "PurchasePrice": 16000,
     "SellPrice": 14000,
@@ -138,7 +138,7 @@
     },
     "ShopDisplayName": "{{i18n:FC.Warthog}}",
     "ShopDescription": "{{i18n:FC.Warthog.Desc}}",
-    "ShopMissingBuildingDescription": "{{i18n:FC.MissingTropicalHutch}}",
+    "ShopMissingBuildingDescription": "{{ShopDesc}}",
     "RequiredBuilding": null,
     "UnlockCondition": "PLAYER_HAS_SEEN_EVENT Current {{ModID}}_MotherHog",
     "AlternatePurchaseTypes": null,
@@ -243,7 +243,7 @@
 
 "{{ModID}}_Shevit": {
     "DisplayName": "{{i18n:FC.Shevit}}",
-    "House": "Fellowclown.ClownCore_TropicalHutch",
+    "House": "{{AnimalHouse}}",
     "Gender": "MaleOrFemale",
     "PurchasePrice": 500,
     "SellPrice": 600,
@@ -256,8 +256,8 @@
     },
     "ShopDisplayName": "{{i18n:FC.Shevit}}",
     "ShopDescription": "{{i18n:FC.Shevit.Desc}}",
-    "ShopMissingBuildingDescription": "{{i18n:FC.MissingTropicalHutch}}",
-    "RequiredBuilding": "Fellowclown.ClownCore_TropicalHutch",
+    "ShopMissingBuildingDescription": "{{ShopDesc}}",
+    "RequiredBuilding": null,
     "UnlockCondition": "PLAYER_HAS_MAIL current {{ModID}}_PoppersSiblings.Mail Any",
     "AlternatePurchaseTypes": null,
     "EggItemIds": null,

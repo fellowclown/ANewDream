@@ -561,8 +561,8 @@ Trailer Floor One
                     },
                     "Layer": "Buildings",
                     "SetProperties": {
-                        "Action": "MEEP_CloseupInteraction_Image {{ModID}}/Book_Cover_FoliageOfArcanian",
-                        "MEEP_CloseupInteraction_Text": "{{i18n:FC.Bookcase.Book_FoliageOfArcánia}}",
+                        "Action": "MEEP_CloseupInteraction_Image {{ModID}}/Book_Cover_FoliageOfArcania",
+                        "MEEP_CloseupInteraction_Text": "{{i18n:FC.Bookcase.Book_FoliageOfArcania}}",
                     }
                 }
             ]
