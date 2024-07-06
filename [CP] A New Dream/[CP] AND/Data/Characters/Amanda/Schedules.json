@@ -1,0 +1,55 @@
+{
+"Changes": [
+ {
+"LogName": "Animations",
+"Action": "EditData",
+"Target": "Data/animationDescriptions",
+"Entries": {
+"{{ModID}}_Amanda_sleep": "28/28/28",
+"{{ModID}}_Amanda_Knit": "16/16 16 17 17 17 18 18 18 19 19 19 18 18 18 17 17/17",
+"{{ModID}}_Amanda_Cook": "20/20 20 21 21 21 22 22 22 23 23 23 22 22 22 21 21/21",
+"{{ModID}}_Amanda_Peer": "24/24 24 25 25 26 26 26 26 26 26 26 26 26 27 27 27 26 26 26 26 26 26 26 26 26 26 26 26 25 25 25 25 25/25",
+"{{ModID}}_Amanda_Sit": "29/29/29",
+}
+ },
+ {
+"LogName": "Amanda Schedule Dialogue Default",
+"Action": "EditData",
+"Target": "Strings/schedules/FC.Amanda",
+  "Entries": {
+"Amanda.GreenRain": "{{i18n:Amanda.GreenRain}}",
+}
+ },
+        {
+"LogName": "Schedule Edit",
+"Action": "EditData",
+"Target": "Characters/schedules/FC.Amanda",
+"Update": "OnTimeChange, OnLocationChange",
+
+"Entries": {
+"spring": "GOTO Mon",
+
+"Mon": "800 {{ModID}}_TravelingTrailer 2 17 1 {{ModID}}_Amanda_Cook/900 {{ModID}}_TravelingTrailer 11 13 3/1300 {{ModID}}_TravelingTrailerDecker 19 11 1 {{ModID}}_Amanda_Peer/1600 EastScarp_Village 76 99 2 {{ModID}}_Amanda_Knit/1900 EastScarp_Village 51 128 2 {{ModID}}_Amanda_Sit/2200 {{ModID}}_TravelingTrailer 1 12 2 {{ModID}}_Amanda_sleep",
+
+"Tue": "800 {{ModID}}_TravelingTrailer 2 17 1 {{ModID}}_Amanda_Cook/900 {{ModID}}_TravelingTrailer 12 17 2 {{ModID}}_Amanda_Knit/1300 EastScarp_VillageInn 12 30 2 {{ModID}}_Amanda_Sit/1600 Beach 43 34 2 {{ModID}}_Amanda_Sit/1900 Town 71 91 2 {{ModID}}_Amanda_Knit/2200 {{ModID}}_TravelingTrailer 1 12 2 {{ModID}}_Amanda_sleep",
+
+"Wed": "800 {{ModID}}_TravelingTrailerDecker 19 11 1 {{ModID}}_Amanda_Peer/900 {{ModID}}_TravelingTrailer 2 17 1 {{ModID}}_Amanda_Cook/1300 {{ModID}}_TravelingTrailer 2 17 1 {{ModID}}_Amanda_Cook/1600 Town 78 81 3/1900 SeedShop 2 19 3/2200 {{ModID}}_TravelingTrailer 1 12 2 {{ModID}}_Amanda_sleep",
+
+"Thu": "800 Town 22 100 2/900 Beach 43 34 2 {{ModID}}_Amanda_Knit/1300 EastScarp_Village 43 14 2 {{ModID}}_Amanda_Knit/1600 EastScarp_VillageInn 2 30 2 {{ModID}}_Amanda_Knit/1900 {{ModID}}_TravelingTrailerDecker 9 11 1 {{ModID}}_Amanda_Peer/2200 {{ModID}}_TravelingTrailer 1 12 2 {{ModID}}_Amanda_sleep",
+
+"Fri": "GOTO Mon",
+
+"Sat": "GOTO Wed",
+
+"Sun": "GOTO Tue",
+
+"rain": "610 {{ModID}}_TravelingTrailer 2 17 1 {{ModID}}_Amanda_Cook/900 {{ModID}}_TravelingTrailer 11 13 3/1300 {{ModID}}_TravelingTrailerDecker 19 11 1 {{ModID}}_Amanda_Peer/1900 {{ModID}}_TravelingTrailer 2 17 1 {{ModID}}_Amanda_Cook/2200 {{ModID}}_TravelingTrailer 1 12 2 {{ModID}}_Amanda_sleep",
+
+"GreenRain": "610 {{ModID}}_TravelingTrailer 2 17 1 {{ModID}}_Amanda_Cook \"Strings\\schedules\\FC.Amanda:Amanda.GreenRain\"/900 {{ModID}}_TravelingTrailer 11 13 3/1300 {{ModID}}_TravelingTrailerDecker 19 11 1 {{ModID}}_Amanda_Peer/1900 {{ModID}}_TravelingTrailer 2 17 1 {{ModID}}_Amanda_Cook/2200 {{ModID}}_TravelingTrailer 1 12 2 {{ModID}}_Amanda_sleep",
+},
+"When": {
+        "HasSeenEvent |contains={{ModID}}_AmandasIntroduction": true,
+            },
+},  
+]
+}

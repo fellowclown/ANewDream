@@ -1,5 +1,125 @@
 {
 /************************************************
+Amanda's Information ///WIP NOT IMPLEMENTED
+************************************************/
+//Display Name
+"FC.Amanda": "Amanda",
+//Gift Related Dialogue
+"AcceptGift_(O)StardropTea.Amanda": "Oh, what a interesting taste, I quite like this tea.$1",
+"AcceptBirthdayGift_Loved.Amanda": "How darling of you, thank you for the birthday gift @.$1",
+"AcceptBirthdayGift_Liked.Amanda": "This is wonderful, I was wondering where to get one just the other day.$1",
+"AcceptBirthdayGift_Disliked.Amanda": "Oh, hmm...Thank you @, this was a thoughtful birthday gift.$2",
+"AcceptBirthdayGift_Hated.Amanda": "Well, if you wanted to wish me a terrible birthday, you certainly did just that.$3",
+"AcceptBirthdayGift_Neutral.Amanda": "Oh, I wasn't expecting a birthday gift from you. Thank you @.$1",
+"Amanda.gift.love": "Absolutely wonderful @, I love this.$1",
+"Amanda.gift.like": "Why, this is just what I was thinking about. Thank you @.$1",
+"Amanda.gift.dislike": "Are you sure? Maybe you'd need it more then me?$2",
+"Amanda.gift.hate": "Where I'm from, such poorly gifts are considered a insult.$3",
+"Amanda.gift.neutral": "What a pleasant surprise, thank you @.$1",
+"RejectMovieTicket_AlreadyInvitedBySomeoneElse.Amanda": "I'm sorry dear, but I already have plans.$2",
+"RejectMovieTicket_AlreadyWatchedThisWeek.Amanda": "Oh I would love to, but I do have things I must attend to.$2",
+"RejectMovieTicket_DontWantToSeeThatMovie.Amanda": "I've never been fond of reruns, maybe Barron would be interested?$2",
+"MovieInvitation.Amanda": "You want to go with me? Why, I don't see why not...I'd love to go see a movie with you.$1",
+//Special Dialogue
+"Introduction.Amanda": "So'ali! It's so nice to see you again @, please visit whenever you like.#1",
+"Saloon_Amanda_RareGreeting.Amanda": "So'ali! Everyone.",
+"HitBySlingshot.Amanda": "%She smacks you across the face.#$action spacechase0.SpaceCore_DamageCurrentFarmer 2",
+"DumpsterDiveComment.Amanda": "Oh dear, do you need help? Here, buy something to eat sweetheart.#2#$action AddMoney 150",
+"Amanda.AcceptGift_(O)WWWA.AutographedPhoto": "Erm, well I know Barron would love this.$1#$b#Never been too fond of Mister O'Brien's novel's though.#2#$b#They're just a smidge too tacky.$2",
+//Everyday Dialogue
+"Mon.Amanda.LowHeart.spring": " When I was a young woman, I lived here in the valley but as soon as I realized I was pregnant I moved back to Arcania to start my family.$1#$b#I raised Phoebe in the same home I was raised in you know.$1#$b#Didn't continue the family buiness though, I decided to work with food instead.$1",
+"Mon.Amanda.LowHeart.summer": "You know my mother owned and operated a morgue when I was a child. In fact, our living quarters was above it.#$b#I never enjoyed the family buiness, but as a older woman I really appreciate my mother and father's work.$1",
+"Mon.Amanda.LowHeart.fall": "Barron and Phoebe keeps pressuring me to attend the valley's festivals but I really rather not.$2#$b#I never liked big events like that, it overwhelms me so much.$2#$e#I'm really not sure why, I've just never been good with that much stimulation all at once.$2",
+"Mon.Amanda.LowHeart.winter": "My father always seemed to love every season that came around, but I did notice he seemed more depressed during winter.$2#$b#Personally, I love winter. The snow is so beautiful and the cool air is so refreshing.$1",
+"Tue.Amanda.LowHeart.spring": "I'm happy to be here with my daughter and granddaughter.$1#$b#I think they're happy I'm here too, I seem to be the only one who can cook well in the homestead.$1",
+"Tue.Amanda.LowHeart.summer": "The valley is very beautiful and East Scarp is quite interesting too.#$b#I can feel something is different there.$1",
+"Tue.Amanda.LowHeart.fall": "The people of this neighborhood are so kind hearted and I love going to see those precious black goats over yonder.$1",
+"Tue.Amanda.LowHeart.winter": "I love seeing that there's Shevit's in the valley, but I never expected to meet one as smart as Pop.#$b#Shevit's are master's at mimicking sounds, but I think Pop is actually speaking to us.$1#$b#It's amazing...And has intense implications too...$2 ",
+"Wed.Amanda.LowHeart.spring": "Barron is such a smart girl, just today she was telling about a nomadic group of Arcanian's that traveled across the gem sea to Ferngill.$1#$b#It's a sad ending though, apparently they all went missing, all that's left is whatever artifacts people come across...$2",
+"Wed.Amanda.LowHeart.summer": "When I heard that my dear Phoebe had reconnected with Barron, I knew I had to make my way over here. I used to live in the valley anyway, why not settled back down here? It's so nice.$1",
+"Wed.Amanda.LowHeart.fall": "It's funny, people assume I am much younger then I really am.$1#$b#Today someone suggested I was in my sixties, how kind of them.$1",
+"Wed.Amanda.LowHeart.winter": "I know the secret to staying young, don't be afraid to live.$1#$b#I used to travel all around the world, even tried sky diving once a upon a time.$1#$b#Would love to do it again actually.$1#$e#Oh, how old am I?#$b$I doubt you'd believe me but...I'm 99 years old dear.$1",
+"Thu.Amanda.LowHeart.spring": "I used to play many different instruments growing up, music was simply my way of communication.$1#$b#But now that I'm older, my hands just hurt too often for me to play anything.$2",
+"Thu.Amanda.LowHeart.summer": "Barron suggested I might have autism?$2#$b#I never really considered it, not sure what to do with the information either.$1#$b#But I suppose talking to Doctor Harvey wouldn't hurt.$1",
+"Thu.Amanda.LowHeart.fall": "Here's a secret, just for you.#$b#Phoebe has a beautiful singing voice. She's just too shy to sing outloud.$1#$b#One day though, I'll talk her into it.$1#$b#She used to sing to me when she was a little girl you know.$1",
+"Thu.Amanda.LowHeart.winter": "There's family of ours her in the valley you know, I would love to talk to them soon.#$b#It's been so long though, I worry they wouldn't recognize me anymore.#1",
+"Fri.Amanda.LowHeart.spring": "If I still have a fully functioning hip I would play football with Alex.$1#$b#Poor thing, he seems so lonely.$2",
+"Fri.Amanda.LowHeart.summer": "Did you know Tuuwe Arcania and the Republic have started negotiations towards an allyship?#$b#Tuuwe is a very small country, but our military forces are very skilled.$1#$b#Maybe this war will end soon afterall.$1",
+"Fri.Amanda.LowHeart.fall": "It's funny, I wasn't born in Arcania you know. I was born in the empire, but we all decided to move to my father's home country when I turned ten.$1#$b#The ship ride there was so magical.$1",
+"Fri.Amanda.LowHeart.winter": "It's a shame Barron doesn't want to live in a actual home.$2#$b#The bus is so small...$2#$b#The lack of space is worth it though, I'm so happy to be here with my daughter and granddaughter.$1",
+"Sat.Amanda.LowHeart.spring": "The flower dance is a tempting occasion, I do love to dance so much.$1#$b#But I hear it's just as crowded as the other festivals.#2",
+"Sat.Amanda.LowHeart.summer": "Little bubba is really the sweetest little thing isn't he?$1#$b#I'm just a bit worried though, he doesn't seem to be growing at a normal rate at all.$2",
+"Sat.Amanda.LowHeart.fall": "Sweet little Vincent, she reminds me so much of Phoebe when she was a little one.$1#$b#Except Phoebe was a bit, erm, mean spirited sometimes.$1",
+"Sat.Amanda.LowHeart.winter": "Do you think Barron and Phoebe would be interested in getting a little kitty for the Bus, I do love cats.$1",
+"Sun.Amanda.LowHeart.spring": "I feel like Vincent needs more space to be himself, when I was a child my parent's were very supportive of nearly everything I wanted to do and say.$1",
+"Sun.Amanda.LowHeart.summer": "You know I'm the only child between my parent's, sometimes I wonder what it would have been like to have siblings.$1",
+"Sun.Amanda.LowHeart.fall": "I used to have a thylacine of my own growing up, I raised him from a pup.#$b#I'm happy to be here to help Phoebe and Barron with Bubba.",
+"Sun.Amanda.LowHeart.winter": "My father and Phoebe are very similar you know, I think the only difference is Phoebe was never as much of a family woman.$1",
+"Mon.Amanda.MidHeart.spring": "I was thinking of cooking some Loma cakes for Barron and Phoebe.#$b#I don't think Barron has ever tried our homelands food before.$2",
+"Mon.Amanda.MidHeart.summer": "My mother was always obsessed with the macabre, but personally I never liked the darker things in life.$2#$b#I love life and flowers...I love beautiful things.$1",
+"Mon.Amanda.MidHeart.fall": "Such a pretty season fall, but I never liked the holidays for this time of year. I get scared far too easily for anything that goes bump in the night.$1",
+"Mon.Amanda.MidHeart.winter": "I often wonder, if Barron and Phoebe would like to move to Tuuwe Arcania...$2#$b#I still own land there after all, it'd be better than living in a bus.#$b#Hm, oh Tuuwe Arcania? It's the main island of the three Arcanian isles.$1#$b#See we call each island something different and then Arcania is the surname to those islands.$1#$b#Arcanian's view the islands as their own people, with thoughts and feelings. So they each have a full name, just like we do.$1",
+"Tue.Amanda.MidHeart.spring": "So'ali @!#$b#It's beautiful today, even the ocean looks different.#$b#The waters here are such a interesting shade.$1",
+"Tue.Amanda.MidHeart.summer": "I love foliage of East Scarp, it's so diverse and interesting.#$b#Plus, it's nice that so many of the plants aren't dangerous here.$1",
+"Tue.Amanda.MidHeart.fall": "I studied botany for a long time, but I;ve been considering researching anthrolopgy. Barron talks so much about the past, that I'm wanting to hear more.$1",
+"Tue.Amanda.MidHeart.winter": "So'ali @.$1#$b#Sorry I am feeling a bit down today, I love snow and I love the seasons here. But I woke up in a lot of pain, these old bones have been complaining since I woke up.$2",
+"Wed.Amanda.MidHeart.spring": "I have to admit, the longer I'm living in Barron's bus. The more I'm starting to like it.$1#$b#I really do love the idea of being able to take home wherever I want to go.$1",
+"Wed.Amanda.MidHeart.summer": "My father moved to Ferngill soon after I left to travel the world.#$b#We kept in contact through letters, but I believe there was a point where I lost track of his addresses.$2#$b#He tended to move around quite often...$2",
+"Wed.Amanda.MidHeart.fall": "Phoebe, she got her need to wander from my father. I am most certain of it.$1#$b#My father he settled down to care for me and mother.$1#$b#He was happy with us, but I could always tell he wanted to travel.$2",
+"Wed.Amanda.MidHeart.winter": "Wandering really is in the family bloodline it seems, I look back and realize even I started wander.#$b#Though, after I realized I was pregnant with Phoebe I just knew I had to settled somewhere,#$b#It's not good for children to be withuot a proper home.",
+"Thu.Amanda.MidHeart.spring": "I wonder...If Barron will be having children of her own one day.$2#$b#She still has time to...But I don't want to bring it up, not really my business.$1#$b#I can hope though.$1",
+"Thu.Amanda.MidHeart.summer": "We weren't always known as the Alkias family, when I married my husband and I combined last names to honor both our families. His was Altsetter originally, I do love my last name very much. Feels like he's here with me whenever I hear the name.$1",
+"Thu.Amanda.MidHeart.fall": "I hear Passerby has land for sell, I don't know how I would feel about living in a cemetery though.#$b3My family already owned a morgue I really rather keep my distance from the dead these days.$1",
+"Thu.Amanda.MidHeart.winter": "I'm hoping to go into town tomorrow, Zuzu I mean. It's been a while since I've seen the area, I'm curious how much it's changed.$1",
+"Fri.Amanda.MidHeart.spring": "I've been dying for some warproot tea lately. I might buy some soon, heard there's a fella in Passerby that sells the root.$1",
+"Fri.Amanda.MidHeart.summer": "Barron has interesting taste in music...#$b#Interesting as in very varied and somewhat....Vulgar..$2",
+"Fri.Amanda.MidHeart.fall": "It drives me crazy knowing Barron didn't have a well off childhood like I did.$2#$b$She comes from wealth you know, she should at least be living comfortably.$3",
+"Fri.Amanda.MidHeart.winter": "I love swimming, you know, Arcania stays pretty warm all year round too. It was always wonderful being able to swim whenever I liked.$1",
+"Sat.Amanda.MidHeart.spring": "My husband Andrew, he was a sweet man. I met him here in Ferngill, he decided to move to Arcania with me once we married.$1#$b#I sometimes consider finding love again…but I'm so old, I always talk myself out of dating again because of that $1",
+"Sat.Amanda.MidHeart.summer": "There's very few older women in this town.#$b#And even less older men, I wonder why that is…",
+"Sat.Amanda.MidHeart.fall": "Evelyn is a darling individual, I love her spirit and loving nature.$1",
+"Sat.Amanda.MidHeart.winter": "I overheard George saying some very ignorant things.$3#$b# I thank the gods my parents raised me right.$1",
+"Sun.Amanda.MidHeart.spring": "Sunday has quickly become family day for us. I love spending time with my girls.$1",
+"Sun.Amanda.MidHeart.summer": "Barron mentioned feeling nonbinary, I'm not sure what that means exactly but I'm happy for her.$1",
+"Sun.Amanda.MidHeart.fall": "I would love to go into town but I hate doing things alone. It's no fun without someone to talk with.$2",
+"Sun.Amanda.MidHeart.winter": "So’ali @, you're looking wonderful today. Very bright and beautiful.$1",
+"Amanda.PhoneCall.1": "I hope you don't mind but I got your number from Barron. I was just calling to check on you, make sure you've eaten today and drank plenty of water. I do worry about you from time to time.$2#$b# Well, I hear Bubba whining, I think he's hungry. I'll call you another day dear, Fa’ali!$1",
+"Amanda.PhoneCall.2": "So’ali @, I had to call and tell you what Bubba just did.$1#$b#It was so precious, he put his whole paw in his mouth and started chewing himself. It was very cute.$1#$b#Oh, I have to go, Phoebe is calling for me.#$b#Fa’ali @!$1 ",
+"Amanda.PhoneCall.3": "Just calling to check in, you were on my mind.#$b#I would love for you to come visit, you know, it's always so wonderful having company.$2#$b#Oh, maybe tomorrow ? I could throw together a snack for you $1#$b#Ill call you back, I'm going to see what I can whip up for you in the morning.$1",
+"Amanda.GreenRain": "The rain is really coming down hard today and it's color is so dreadful...$2",
+//Movies
+"Amanda.movies.0.before":"I admit I'm not much of a movie person. But this does look cute.$1", 
+"Amanda.movies.0.during":"Oh, hmm...I don't think this is what I expected.$2",   //sapling
+"Amanda.movies.0.after":"I don't know, maybe that just wasn't my cup of tea.",
+
+"Amanda.movies.1.before":"I do love animals, I hope to learn a lot from this movie.$1", 
+"Amanda.movies.1.during":"Interesting, I love how gentle this countries animals look.",   //Natural Wonders
+"Amanda.movies.1.after":"I wouldn't mind watching a sequal to that, hopefully another is made.$1",
+
+"Amanda.movies.2.before":"This looks, odd...$2",
+"Amanda.movies.2.during":"Oh my, very intense...$2",   //Prairie King
+"Amanda.movies.2.after":"I really enjoyed that one, I didn't think I would but it was fun.$1",
+
+"Amanda.movies.3.before":"Wumbus?#$b#Sounds like a street drug...$2",
+"Amanda.movies.3.during":"Maybe I'm on a street drug, what is this movie?$2",   //Wumbus
+"Amanda.movies.3.after":"That was terrible, I don't think I want to see that one again.$3",
+
+"Amanda.movies.4.before":"this movie looks really interesting, I'm so curious about it.$1",
+"Amanda.movies.4.during":"She stares intently at the screen.",   //Mysterium
+"Amanda.movies.4.after":"That was amazing, I could watch it again honestly.$1",
+
+"Amanda.movies.5.before":"...Is this a horror movie? I really don't know about this.$2",
+"Amanda.movies.5.during":"Oh no, I can't watch this.$3",  //It Howls In The Rain
+"Amanda.movies.5.after":"I don't want to see that again, I hate feeling so scared.$2",
+
+"Amanda.movies.6.before":"Sentimental movies are very try hard to me, but I'll give it a chance.$1",
+"Amanda.movies.6.during":"She look's very bored.",   //Miracle At Coldstar Ranch
+"Amanda.movies.6.after":"I think I need a nap, I'm very tired now.$2",    
+
+"Amanda.movies.7.before":"A romance? Oh dear, I've never been able to take romances seriously.$1",
+"Amanda.movies.7.during":"She's started to giggle.",    //Zuzu City Express
+"Amanda.movies.7.after":"It wasn't awful, but it was very cheesy, yes?$1",
+/************************************************
 John's Information
 ************************************************/
 //Display Name
@@ -401,7 +521,38 @@ John's Information
 "John.PhoneCall.1":"Hey, @, sorry to call so suddenly.$2#$b#I guess I just needed some company.$1#$b#I was walking the shore of Scarp Beach and I saw this piece of Sea glass that reminded me of you.$1#$b#Just the color though, it was pretty similar to your eye color!#$b#Oh, well I need to go now, don’t be a stranger okay?$1",
 "John.PhoneCall.2":"Say @, I hope you’re not too busy.#$b#I know you’re always working, makes a lot of sense considering you’ve got a whole farm to care for.$1#$b#I would love to come over one day and visit. I’ve always wanted to pet a goat!#$b#Well, I need to go now, don’t be a stranger okay?$1",
 "John.PhoneCall.3":"I know this is random, but I wanted to warn you. There’s been this weird...’creature,’ skulking around town.#$b#It’s hard to make out though, because it’s usually lurking around at night...$2#$b#Stay safe, okay? I’ll talk to you later @.$2",
+//Movies
+"John.movies.0.before":"I always loved a good, wholesome children's movie.$1", 
+"John.movies.0.during":"The little sapling...$2",   //sapling
+"John.movies.0.after":"I'm so happy it was a happy ending, I hate sad movies just for the sake of saddness.$1",
 
+"John.movies.1.before":"Documentaries are pretty interesting usually, I'm looking forward to this.$1", 
+"John.movies.1.during":"Look at that little devil.$1",   //Natural Wonders
+"John.movies.1.after":"I want a pet racoon now.$1",
+
+"John.movies.2.before":"Who doesn't like a good cowboy movie!$1",
+"John.movies.2.during":"The bad guy looks like me after a night of coffee and reading.$1",   //Prairie King
+"John.movies.2.after":"Maybe for spirit's eve I should dress up at the bad guy from this movie.$1",
+
+"John.movies.3.before":"I've heard about this one, I'm excited to see what it's about!$1",
+"John.movies.3.during":"Whoa...This is....different.$3",   //Wumbus
+"John.movies.3.after":"That was actually really good, I enjoyed it a lot.$1",
+
+"John.movies.4.before":"Do you think the theater gets their movies late? I swear I saw this movie before.$1",
+"John.movies.4.during":"Okay maybe I haven't seen this one, it's prety good so far.$1",   //Mysterium
+"John.movies.4.after":"I bet Barron would love this movie, maybe? I'm too sure actually, she's hard to read.$1",
+
+"John.movies.5.before":"Nothing like controlled fear to get your heart pumping.$1",
+"John.movies.5.during":"Oh! Oh gods, what even was that!$2",  //It Howls In The Rain
+"John.movies.5.after":"That was pretty scary, think we can watch it again.$1",
+
+"John.movies.6.before":"I remember this story, it's nice to see it has a movie now.$1",
+"John.movies.6.during":"He stares up at the screen with wide, emotional eyes.",   //Miracle At Coldstar Ranch
+"John.movies.6.after":"I loved that, it was so beautiful.$1",    
+
+"John.movies.7.before":"If I start crying, don't laugh. Romances do that to me.",
+"John.movies.7.during":"Oh no, he's really tearing up.",    //Zuzu City Express
+"John.movies.7.after":"That was such a touching movie wasn't it?$4",
 /************************************************
 Poppers's Information
 ************************************************/
@@ -573,12 +724,6 @@ Poppers's Information
 "Popper.PhoneCall.2":"@, Hey!$1#$b#I found speaker stick at beach.#$b#Maybe someone lost it...$2#$b#Should put it back...$5",
 "Popper.PhoneCall.3":"Is your, uh, food box on?$6#$b#Wait, no that’s not right...$2#$b#Gotta go!$6",
 /************************************************
-Titles
-************************************************/
-"BioDaughter":"Biological Daughter",
-"BioMother":"Biological Mother",
-"OldFriend":"Old Friend",
-/************************************************
 Barron's Information
 ************************************************/
 //Display Name
@@ -622,26 +767,7 @@ Barron's Information
 "RejectGift_Divorced.Barron":"Shove it up your backside, I don't want it.$5",
 "SpouseGiftJealous.Barron":"I would love to get to know your friends if it's okay...$3",
 "MovieInvitation.Barron":"Oh!$1#$b#Of course, I would love to join you.$1",
-"JohnsBadSide.Barron":"You know, helping others is much more rewarding than being a jerk all the time.$5",
-"JohnsGoodSide.Barron":"I'm so happy Pop has a real home now, I would have offered my own place but it's pretty packed as it is...$2",
-"JohnsArrival.Barron":"I saw the new guy recently, I didn't approach though he seemed pretty anxious already.$2",
-"FaintingIncident.Barron":"Poor John, I heard from Robin that he fainted during the workout.$2#$b#I can't imagine being so sick all the time.$1",
-"HaleysGossip.Barron":"Haley seemed sort of anxious today, I don't think I’ve ever seen her like that.",
-"WildHog.Barron":"I saw a huge hog in the deep mountains, I hope no one gets attacked by it.$2",
-"TheIllness.Barron":"John seemed so lost in thought today. Wonder what's on his mind.$2",
-"TheTemple.Barron":"John showed me some plans he has for that old temple, I'm excited for him start, he seems so happy now.$1",
-"JohnsDesperation.Barron":"I have this feeling, deep in my guy, that something has happened to John...But I don't know if I should ask if he's okay.$2",
-"JohnsDisappointment.Barron":"There's this feeling deep in my gut, I think something happened to John recently that's left him feeling bad. I want to ask but I'm worried I'll upset him more...$3",
-"HouseParty.Barron":"The party was so fun wasn't it? And it was so sweet seeing John reconnect with his twin brother.$1",
-"VillainInTheValley.Barron":"Sometimes I see Pop running in and out of people's houses. Makes me wonder what he's up to and how he even found a way inside the building.$3",
-"ChasePopOff.Barron":"Pop told me everything, you need to leave that poor thing alone! Let him dig in the trash.$5",
-"EncouragePop.Barron":"Pop has been acting different, he's not exactly well behaved to begin with but he's been extra mischievous lately.$1",
-"BarronsGoodSide.Barron":"Hey @, you should come by for lunch again soon. It was so fun with you and Pop there.$1",
-"BarronsBadSide.Barron":"Starve any animals lately? Since you were so ready to deny Pop a decent meal.$5",
-"FindingPhoebe.Barron":"Maverick is really sweet, I feel bad for making him uncomfortable though.$2#$b#I wasn't sure how to approach him about my mother.$3",
-"PhoebeArrives.Barron":"I can't believe it, I never expected Phoebe to come to me.#$b#I decided to offer her a place at the bookworm mobile!$1#$b#She's even opening a small shop so come visit okay!$1",
-"JinxIllness.Barron":"Jinx is still acting pretty strange, but she's eating and drinking.$2#$b#In fact, now that I think about it. I can't get her to stop eating.$3",
-"BusFire.Barron":"I'm glad I didn't scare you off with that fire!",
+
 //Special Dialogue
 "Introduction.Barron":"Well, everything is tidied up now.$1#$b#Feel free to linger around and read!",
 "danceRejection.Barron":"I'm sorry, maybe ask someone else.#$b#I just don't feel like dancing, I'd rather watch.$2",
@@ -743,6 +869,12 @@ Barron's Information
 "Barron.CGuildComplete":"It's really great what you did, helping Mateo expand that guild on the beach.$1",
 "Barron.HectorGender":"I don't really understand Hector, but I'm really happy for them.#$b#I wish I could figure myself out like that, but I try to think about myself too deeply and I get a little weirded out honestly.$1",
 "Barron.DandelionLeaves":"I heard Dandey left, I hope she comes back...$2",
+"JohnsArrival.Barron":"I saw the new guy recently, I didn't approach though he seemed pretty anxious already.$2",
+"HaleysGossip.Barron":"Haley seemed sort of anxious today, I don't think I’ve ever seen her like that.",
+"TheIllness.Barron":"John seemed so lost in thought today. Wonder what's on his mind.$2",
+"JohnsDesperation.Barron":"I have this feeling, deep in my guy, that something has happened to John...But I don't know if I should ask if he's okay.$2",
+"JohnsDisappointment.Barron":"There's this feeling deep in my gut, I think something happened to John recently that's left him feeling bad. I want to ask but I'm worried I'll upset him more...$3",
+
 "FarmhouseVisit.EntryQuestion.Barron":"@? Do you have time to hang out?$1",
 "FarmhouseVisit.EntryBubble.Barron":"@? You around?",
 "FarmhouseVisit.EntryDialogue.Barron":"I figured since I was in town I would come visit with you.$1",
@@ -1328,61 +1460,6 @@ Jinx's Information
 //Mod Crossovers
 "Jinx.AcceptGift_(O)WWWA.AutographedPhoto": "%She eats the autograph.",
 
-
-/************************************************
-Bubba Dialogue
-************************************************/
-"FC.Bubba": "Bubba",
-//Gift Related dialogue
-"AcceptGift_StardropTea.Bubba": "%He uses his paw to knock the cup from your hand and then he frantically licks the tea up from the ground.",
-"Bubba.gift.love": "Bubba loves this gift, you've earned his favor.$1",
-"Bubba.gift.like": "Bubba likes this gift, you've made him happier.$1",
-"Bubba.gift.dislike": "Bubba is confused by your gift.$2",
-"Bubba.gift.hate": "Bubba is angry, you've offended him.$3",
-"Bubba.gift.neutral": "Bubba has no real reaction to your gift.",
-"AcceptBirthdayGift_Loved.Bubba": "Bubba doesn's know it's his birthday, but he loves the gift.$1",
-"AcceptBirthdayGift_Liked.Bubba": "Bubba doesn's know it's his birthday, but he likes the gift.$1",
-"AcceptBirthdayGift_Disliked.Bubba": "Bubba doesn's know it's his birthday and he dislikes the gift.$2",
-"AcceptBirthdayGift_Hated.Bubba": "Bubba doesn's know it's his birthday and he hates the gift.$3",
-"AcceptBirthdayGift_Neutral.Bubba": "Bubba doesn's know it's his birthday and he has no real reaction to the gift...",
-"Bubba.reject_809": "%Bubba isn't interested in going to the movies.",
-//Special Dialogue
-"DumpsterDiveComment.Bubba": "He yips in approval!$1",
-"RejectBouquet_NotDatable.Bubba": "%Bubba is just a baby-And also an animal.",
-"HitBySlingshot.Bubba": "%He lets out a loud whimper, Bubba is frightened of you.",
-"intro.Bubba": "He seems curious, the world is new to him.$1",
-//Everyday Dialogue
-"mon.Bubba.spring": "There's a fire in his gaze, he thirsts for adventure.$1",
-"tue.Bubba.spring": "Bubba yips at you and then nibbles at your hand.$1",
-"wed.Bubba.spring": "He lets out a sound, it sounds sort of like laughter.$1",
-"thu.Bubba.spring": "Bubba's still damp from a bath, he seems pretty grumpy about it too.$2",
-"fri.Bubba.spring": "He lifted his maw high and then huffs. Someone's feeling sassy today.$1",
-"sat.Bubba.spring": "Bubba has a little nip mark on his snoot, maybe Jinx had to correct his feisty behavior?$2",
-"sun.Bubba.spring": "Bubba wiggles where he stands, he's so excited today.$1",
-"mon.Bubba.summer": "Bubba rushes downward and starts to chew on your shoe.$1",
-"tue.Bubba.summer": "He's looking a little round, maybe even chunky.$1",
-"wed.Bubba.summer": "He has food stuck to his muzzle, maybe he just ate?$1",
-"thu.Bubba.summer": "Bubba acknowledges you with a sniff.$1",
-"fri.Bubba.summer": "%Bubba yawns, his maw gaping widely in a frightening way...He has such sharp teeth.",
-"sat.Bubba.summer": "%There's a bit of gravy on his nose, he sure loves to eat.",
-"sun.Bubba.summer": "You go to pet Bubba, but he growls at you...Guess he's not feeling it.$3",
-"mon.Bubba.fall": "You notice that Bubba has gotten bigger, he's really growing up fast.$1",
-"tue.Bubba.fall": "%Bubba has a piece of cloth in his mouth, he chews it quickly when you reach for it.",
-"wed.Bubba.fall": "There's a look in his eyes, Bubba is planning something, you can tell.%3",
-"thu.Bubba.fall": "He's whimpering and bouncing, wonder what he wants?$1",
-"fri.Bubba.fall": "Bubba lifts a paw to say hello, Barron has been teaching him tricks.$1",
-"sat.Bubba.fall": "Bubba sits and yips at you loudly, he wants something but what could it be?$1",
-"sun.Bubba.fall": "There doesn't seem to be much thought behind his gaze, he's in his own world.",
-"mon.Bubba.winter": "Bubba is shivering, he must be chilly.$2",
-"tue.Bubba.winter": "%He's sticking his tongue out and wiggling it...Why Bubba?",
-"wed.Bubba.winter": "He's not interested in attentioned, Bubba is on an adventure!$1",
-"thu.Bubba.winter": "%He growls at you, something is wrong with Bubba.",
-"fri.Bubba.winter": "%Bubba's in a better mood, he nudges you for pets.",
-"sat.Bubba.winter": "He wiggles where he stands, Bubba's so happy to see you!",
-"sun.Bubba.winter": "Bubba wishes you'd visit more often, he loves it when you come and say hello.$1",
-//Mod Crossovers
-"Bubba.AcceptGift_(O)WWWA.AutographedPhoto": "%Bubba sniffs the autograph and then sneezes against it.",
-
 /************************************************
 Vanilla Editions
 ************************************************/
@@ -1607,7 +1684,7 @@ Technical Information
 "FC.Button.Desc":"Someone lost a button.",
 "FC.SaveTheTazzy":"Save The Thylacine Shirt",
 "FC.SaveTheTazzy.Desc":"Express your desire to save the Thylacine species.",
-"FC.playhouse.shop":"Let's see what we got!",
+"FC.PlayHouse.Shop":"Let's see what we got!",
 "FC.BigCar":"Large Kids Car",
 "FC.SmallTruck":"Small Truck",
 "FC.SmallCar":"Small Car",
@@ -1696,7 +1773,7 @@ Technical Information
 "FC.Shevit": "Shevit",
 "FC.Shevit.Desc": "Adopt a Shevit! Give them a forever home for a small fee.",
 //Recipes
-"FC.JohnsGiftRecipe":"John's Display Recipe",
+"FC.JohnsGiftRecipe":"Sea Glass Display",
 "FC.FrostedCakeRecipe":"Frosted Cake Recipe",
 "FC.HotCerealRecipe":"Hot Cereal Recipe",
 "FC.CheesyWhiteRisotto":"Cheesy White Risotto",
@@ -1886,7 +1963,12 @@ Technical Information
 "TravelingLibrary.JuminoPlushies": "The plushies, they stare at you.",
 "TravelingLibrary.ActionFigures": "Action Figures!",
 "Temple.Panio": "This paino is brand new.",
-
+"Decker.Bubba.01": "He yawns loudly, what a sleepy baby.",
+"Decker.Bubba.02": "Bubba is nice and warm in his speical incubator.",
+"Decker.Bubba.03": "Bubba stares up at you, what's he thinking?",
+"Decker.Bubba.04": "Bubba has milk on his muzzle, he must have just been fed.",
+"Decker.Bubba.05": "Bubba whines before quickly falling back to sleep.",
+"Decker.Bubba.06": "You reach in to pet Bubba, he tries to bite your hand.",
 //Events
 //Intro Event
  "JohnIntroduction.01":"Howdy, @, it's great to see you. I hope you're enjoying exploring East Scarp.",

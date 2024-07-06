@@ -42,10 +42,6 @@
 "RejectMovieTicket_DontWantToSeeThatMovie": "{{i18n:RejectMovieTicket_DontWantToSeeThatMovie.Phoebe}}",
 "AcceptGift_(O)WWWA.AutographedPhoto": "{{i18n:Phoebe.AcceptGift_(O)WWWA.AutographedPhoto}}",
 },
-"When": {
-"Hearts:FC.Phoebe": "0,1,2,3,4",
-  "HasSeenEvent |contains={{ModID}}_PhoebesIntroduction": "true",
-}
 },
        {
             "LogName": "Dialogue - 0-4",
@@ -64,7 +60,7 @@
 },
 "When": {
 "Hearts:FC.Phoebe": "0,4",
-"HasSeenEvent |contains={{ModID}}_PhoebesIntroduction": "true",
+
 }
 },
   {
@@ -83,8 +79,7 @@
 "Saloon":"{{i18n:Saloon.Phoebe.MidHeart.{{season}}}}",
 },
 "When": {
-"Hearts:FC.Phoebe": "5,100",
-"HasSeenEvent |contains={{ModID}}_PhoebesIntroduction": "true", 
+"Hearts:FC.Phoebe": "5,10",
 }
 },
   /************************************************

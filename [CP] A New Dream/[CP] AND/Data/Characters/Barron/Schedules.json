@@ -31,9 +31,6 @@
         {
             "LogName": "Schedule Edit",
 "Action": "EditData",
-"When": {
-        "HasSeenEvent |contains={{ModID}}_BarronIntroduction": "true",
-            },
 "Target": "Characters/schedules/FC.Barron",
 "Update": "OnTimeChange, OnLocationChange",
 "Entries": {

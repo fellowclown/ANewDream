@@ -245,6 +245,7 @@
 "TravelingLibrary.ActionFigures": "{{i18n:TravelingLibrary.ActionFigures}}",
 "Temple.Panio": "{{i18n:Temple.Panio}}",
 "TravelingLibrary.Radio": "{{i18n:TravelingLibrary.Radio}}",
+"Decker.Bubba": "{{i18n:Decker.Bubba.{{Random:01,02,03,04,05,06}}}}",
 }
  },
 ]

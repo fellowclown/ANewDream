@@ -102,7 +102,7 @@
                         "poohnhi.PoohCore/HighCharacter": "true"
                     },
                     "Shadow":{ "Visible": true },
-"EmoteOffset": { "X": 35, "Y": -30 },
+"EmoteOffset": { "X": -35, "Y": 30 },
 "MugShotSourceRect": { "X": 7, "Y": 0, "Width": 17, "Height": 24 },
 "Appearance": [
     {
@@ -151,24 +151,23 @@
 }
  },
   {
-            "LogName": "Add gift tastes data",
-            "Action": "EditData",
-            "Target": "Data/NPCGiftTastes",
+"LogName": "GiftTastes",
+"Action": "EditData",
+"Target": "Data/NPCGiftTastes",
+"Entries": {
+"FC.Barron": "{{i18n:Barron.gift.love}}/Fellowclown.TD_GemBirdPatties 60 84 208/{{i18n:Barron.gift.like}}/211 307 340/{{i18n:Barron.gift.dislike}}/399 403 416/{{i18n:Barron.gift.hate}}/426 445 542/{{i18n:Barron.gift.neutral}}/346 350/ ",
+}
+ },
+   {
+"LogName": "GiftTastes",
+"Action": "EditData",
+"Target": "Data/NPCGiftTastes",
              "When": {
 "HasMod |contains=TheFrenchDodo.RodneyOBrien": true,
  },
-            "TextOperations": [
-                //Universal gift tastes
-                {
-                    "Operation": "Append",
-                    "Target": [
-                        "Entries",
-                        "FC.Barron"
-                    ],
-                    "Value": "(O)WWWA.AutographedPhoto" ,
-                    "Delimiter": " "
-      },
-   ]
-},
+"Entries": {
+"FC.Barron": "{{i18n:Barron.gift.love}}/(O)WWWA.AutographedPhoto Fellowclown.TD_GemBirdPatties 60 84 208/{{i18n:Barron.gift.like}}/211 307 340/{{i18n:Barron.gift.dislike}}/399 403 416/{{i18n:Barron.gift.hate}}/426 445 542/{{i18n:Barron.gift.neutral}}/346 350/ ",
+}
+ },
 ]
 }

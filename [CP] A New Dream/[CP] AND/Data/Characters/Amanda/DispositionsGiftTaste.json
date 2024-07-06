@@ -1,0 +1,109 @@
+{
+"Changes": [
+   {
+"LogName": "Amanda Dispositions",
+"Action": "EditData",
+"Target": "Data/Characters",
+"Entries": {
+"FC.Amanda": {
+"DisplayName":"{{i18n:FC.Amanda}}",
+"Breather": true,
+"Language":"Default",
+"Gender":"Female",
+"Age":"Adult",
+"Manner":"Polite",
+"SocialAnxiety":"Outgoing",
+"Optimism":"Positive",
+"BirthSeason":"winter",
+"Birthday":"3",
+"HomeRegion":"Other",
+"IsDarkSkinned":true,
+"CanSocialize":true,
+"CanBeRomanced":false,
+"CanReceiveGifts":true,
+"CanCommentOnPurchasedShopItems":false,
+"CanGreetNearbyCharacters":true,
+"CanVisitIsland":false,
+"LoveInterest":null,
+"Calendar":"HiddenUntilMet",
+"SocialTab":"UnknownUntilMet",
+"SocialTabIconSourceRect":null,
+"SpouseAdopts":false,
+"SpouseWantsChildren":false,
+"SpouseGiftJealousy":false,
+"IntroductionsQuest":false,
+"ItemDeliveryQuests":true,
+"PerfectionScore":"{{ExcludePerfection}}",
+"EndSlideShow":"TrailingGroup",
+"DumpsterDiveEmote":"28",
+"DumpsterDiveFriendshipEffect":"-2",
+"FlowerDanceCanDance":false,
+"KissSpriteIndex": 28,
+"HiddenProfileEmoteSound": null,
+"HiddenProfileEmoteDuration": -1,
+"HiddenProfileEmoteStartFrame": 37,
+"HiddenProfileEmoteFrameCount": 3,
+"HiddenProfileEmoteFrameDuration": 360.0,
+"ShakePortraits": [
+],
+"SpouseRoom": {},
+"SpousePatio":{},
+
+"SpouseFloors": [ ],
+"SpouseWallpapers": [],
+"FriendsAndFamily": {
+},
+"WinterStarGifts": [
+],
+"WinterStarParticipant": false,
+"UnlockConditions": null,
+"SpawnIfMissing": true,
+"Home": [
+   {
+"Id": "WaitingRoomDefault",
+"Condition": "!PLAYER_HAS_SEEN_EVENT Current {{ModID}}_AmandasIntroduction",
+"Location": "EastScarp_TNPCWaitingWarpRoom",
+"Tile": {
+"X": 12,
+"Y": 8
+},
+"Direction": "right"
+},
+{
+"Id": "DefaultHome",
+"Condition": "PLAYER_HAS_SEEN_EVENT Current {{ModID}}_AmandasIntroduction",
+"Location": "{{ModID}}_TravelingTrailer",
+"Tile": {
+"X": 2,
+"Y": 12
+},
+"Direction": "right"
+}
+],
+"Appearance": [
+    {
+"ID": "{{ModID}}.Amanda.spring",
+"Season": "spring",
+"Portrait": "{{InternalAssetKey: Assets/Npcs/Portraits/FC.Amanda/FC.Amanda_Spring.png}}",
+"Sprite": "{{InternalAssetKey: Assets/Npcs/Characters/FC.Amanda/FC.Amanda_Spring.png}}"
+},
+    {
+"ID": "{{ModID}}.Amanda.winter",
+"Season": "winter",
+"Portrait": "{{InternalAssetKey: Assets/Npcs/Portraits/FC.Amanda/FC.Amanda_Winter.png}}",
+"Sprite": "{{InternalAssetKey: Assets/Npcs/Characters/FC.Amanda/FC.Amanda_Winter.png}}"
+},
+],
+}
+}
+},
+ {
+"LogName": "GiftTastes",
+"Action": "EditData",
+"Target": "Data/NPCGiftTastes",
+"Entries": {
+"FC.Amanda": "{{i18n:Amanda.gift.love}}/Fellowclown.TD_GemBirdPatties {{ModID}}_SeaglassFlowerDisplay {{ModID}}_Seaglass {{ModID}}_TastyPastry/{{i18n:Amanda.gift.like}}/{{ModID}}_Button {{ModID}}_FrostedCake {{ModID}}_HotCereal/{{i18n:Amanda.gift.dislike}}/{{ModID}}_VoidJuice 64 84/{{i18n:Amanda.gift.hate}}/308 340 342/{{i18n:Amanda.gift.neutral}}/344 346/ ",
+}
+ },
+]
+}

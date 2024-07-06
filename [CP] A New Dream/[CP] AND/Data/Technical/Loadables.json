@@ -3,7 +3,7 @@
  {
 "LogName": "TempActor Characters",
 "Action": "Load",
-"Target": "Characters/FC.Ball,Characters/FC.BarronsAlbum,Characters/FC.KingsRangoons,Characters/FC.Window,Characters/FC.FlamesTrailer,Portraits/FC.DezerieCammi,Characters/FC.DezerieCammi,Characters/FC.PopperSteal,Characters/FC.Danni,Portraits/FC.Danni,Characters/FC.Cori,Portraits/FC.Cori,Characters/FC.TrashCan,Characters/FC.Radio,Characters/FC.WanderingHog,Characters/FC.BabyHog,Portraits/FC.BabyHog,Characters/FC.MamaHog,Portraits/FC.MamaHog,Characters/FC.Roger,Portraits/FC.Roger,Characters/FC.SteelyBoat,Characters/FC.SeaGlassBag,Characters/FC.BeetPlot,Characters/FC.MaverickAND,Portraits/FC.MaverickAND",
+"Target": "Characters/FC.Bubba,Characters/FC.Ball,Characters/FC.BarronsAlbum,Characters/FC.KingsRangoons,Characters/FC.Window,Characters/FC.FlamesTrailer,Portraits/FC.DezerieCammi,Characters/FC.DezerieCammi,Characters/FC.PopperSteal,Characters/FC.Danni,Portraits/FC.Danni,Characters/FC.Cori,Portraits/FC.Cori,Characters/FC.TrashCan,Characters/FC.Radio,Characters/FC.WanderingHog,Characters/FC.BabyHog,Portraits/FC.BabyHog,Characters/FC.MamaHog,Portraits/FC.MamaHog,Characters/FC.Roger,Portraits/FC.Roger,Characters/FC.SteelyBoat,Characters/FC.SeaGlassBag,Characters/FC.BeetPlot,Characters/FC.MaverickAND,Portraits/FC.MaverickAND",
 "FromFile": "Assets/Npcs/TempActors/{{TargetPathOnly}}/{{TargetWithoutPath}}.png",
 },
 {
@@ -15,13 +15,13 @@
   {
 "LogName": "Base Portraits and Characters",
 "Action": "Load",
-"Target": "Portraits/FC.John,Characters/FC.John,Portraits/FC.Barron,Characters/FC.Barron,Portraits/FC.Phoebe,Characters/FC.Phoebe",
+"Target": "Portraits/FC.Amanda,Characters/FC.Amanda,Portraits/FC.John,Characters/FC.John,Portraits/FC.Barron,Characters/FC.Barron,Portraits/FC.Phoebe,Characters/FC.Phoebe",
 "FromFile": "Assets/Npcs/{{TargetPathOnly}}/{{TargetWithoutPath}}/{{TargetWithoutPath}}_Spring.png", 
  },
    {
 "LogName": "Base Portraits and Characters",
 "Action": "Load",
-"Target": "Portraits/FC.Jinx,Characters/FC.Jinx,Portraits/FC.Bubba,Characters/FC.Bubba",
+"Target": "Portraits/FC.Jinx,Characters/FC.Jinx",
 "FromFile": "Assets/Npcs/{{TargetPathOnly}}/{{TargetWithoutPath}}/{{TargetWithoutPath}}.png", 
  },
    {
@@ -44,7 +44,7 @@
  },
  {
 "Action": "Load",
-"Target": "Characters/Dialogue/FC.Jinx,Characters/Dialogue/FC.Barron,Characters/Dialogue/FC.John,Characters/Dialogue/FC.Phoebe,Characters/Dialogue/FC.Popper,Characters/Dialogue/FC.Bubba",
+"Target": "Characters/Dialogue/FC.Amanda,Characters/Dialogue/FC.Jinx,Characters/Dialogue/FC.Barron,Characters/Dialogue/FC.John,Characters/Dialogue/FC.Phoebe,Characters/Dialogue/FC.Popper",
 "FromFile": "Data/Empty.json"
  },
    {
@@ -55,7 +55,7 @@
 {
 "LogName": "Schedule loads",
 "Action": "Load",
-"Target": "Strings/schedules/FC.Jinx,Strings/schedules/FC.John,Strings/schedules/FC.Barron,Strings/schedules/FC.Phoebe,Strings/schedules/FC.Popper,Characters/schedules/FC.Jinx,Characters/schedules/FC.John,Characters/schedules/FC.Popper,Characters/schedules/FC.Barron,Characters/schedules/FC.Phoebe,Characters/schedules/FC.Bubba",
+"Target": "Strings/schedules/FC.Amanda,Strings/schedules/FC.Jinx,Strings/schedules/FC.John,Strings/schedules/FC.Barron,Strings/schedules/FC.Phoebe,Strings/schedules/FC.Popper,Characters/schedules/FC.Jinx,Characters/schedules/FC.John,Characters/schedules/FC.Popper,Characters/schedules/FC.Barron,Characters/schedules/FC.Phoebe,Characters/schedules/FC.Amanda",
 "FromFile": "Data/Empty.json", ///keep the json as empty so you can edit it and use tokens
  },
         {
@@ -73,7 +73,7 @@
      {
 "LogName": "Load Location Maps",
 "Action":"Load",
-"Target":"Maps/{{ModID}}_SecretCave,Maps/{{ModID}}_FamilyTiesMap,Maps/{{ModID}}_TempleHouseParty,Maps/{{ModID}}_Heart2Platonic,Maps/{{ModID}}_LoresRoad",
+"Target":"Maps/{{ModID}}_AmandaIntro,Maps/{{ModID}}_AnimalRefuge,Maps/{{ModID}}_SecretCave,Maps/{{ModID}}_FamilyTiesMap,Maps/{{ModID}}_TempleHouseParty,Maps/{{ModID}}_Heart2Platonic,Maps/{{ModID}}_LoresRoad",
 "FromFile":"Assets/Maps/Event Maps/{{TargetWithoutPath}}.tbin"
 },
  {

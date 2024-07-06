@@ -22,6 +22,27 @@
            "HasMod |contains=Fellowclown.PC": true
             }
         },
+              {
+    "Action": "EditMap",
+    "Target": "Maps/{{ModID}}_TravelingTrailerDecker",
+    "FromFile": "Assets/Maps/Map Patches/Bubba.tbin",
+   "Update": "OnTimeChange",
+    "ToArea": { "X": 20, "Y":10, "Width": 1, "Height": 2 },
+        "When": {
+          "HasFlag |contains={{ModID}}_BubbasBirth.Mail": true,
+
+            }
+        },
+          {
+    "Action": "EditMap",
+    "Target": "Maps/{{ModID}}_TravelingTrailer",
+    "FromFile": "Assets/Maps/Map Patches/AmandasRoom.tbin",
+   "Update": "OnTimeChange",
+    "ToArea": { "X": 0, "Y": 8, "Width": 8, "Height": 8 },
+        "When": {
+         "HasSeenEvent |contains={{ModID}}_AmandasIntroduction": "true",
+            }
+        },
   {
     "Action": "EditMap",
     "Target": "Maps/{{ModID}}_TravelingTrailer",
