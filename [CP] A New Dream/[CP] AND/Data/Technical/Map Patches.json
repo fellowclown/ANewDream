@@ -4,7 +4,7 @@
     "Action": "EditMap",
     "Target": "Maps/Fellowclown.PC_OldGraveYard",
     "FromFile": "Assets/Maps/Map Patches/KingsEdit.tbin",
-    "ToArea": { "X":18, "Y": 44, "Width": 2, "Height":1},
+    "ToArea": { "X":17, "Y": 44, "Width": 2, "Height":1},
     "Update": "OnTimeChange",
     "When": {
           "HasSeenEvent |contains={{ModID}}_TheBooksKey": "true",
