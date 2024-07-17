@@ -77,7 +77,7 @@
            {
     "Action": "EditMap",
     "Target": "Maps/EastScarp_Village",
-    "FromFile": "Assets/Maps/Map Patches/LibraryOutdoor.tmx",
+    "FromFile": "Assets/Maps/Map Patches/LibraryOutdoor.tbin",
     "PatchMode":"overlay",
     "ToArea": { "X": 3, "Y": 63, "Width": 9, "Height": 7 },
       "Update": "OnTimeChange",

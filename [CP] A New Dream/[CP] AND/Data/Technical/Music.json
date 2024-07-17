@@ -1,5 +1,31 @@
 {
 "Changes": [
+			 {
+"Action": "EditData",
+"Target": "Data/AudioChanges",
+"Entries": {
+"{{ModID}}_Poppy": {
+"ID": "{{ModID}}_Poppy",
+"Category": "Music",
+"FilePaths": [ "{{AbsoluteFilePath:Assets/Music/Poppy.ogg}}" ],
+"StreamedVorbis": true,
+"Looped": true
+}
+}
+},
+		 {
+"Action": "EditData",
+"Target": "Data/AudioChanges",
+"Entries": {
+"{{ModID}}_Wumbus": {
+"ID": "{{ModID}}_Wumbus",
+"Category": "Music",
+"FilePaths": [ "{{AbsoluteFilePath:Assets/Music/Wumbus.ogg}}" ],
+"StreamedVorbis": true,
+"Looped": true
+}
+}
+},
 	 {
 "Action": "EditData",
 "Target": "Data/AudioChanges",
@@ -34,6 +60,19 @@
 "ID": "{{ModID}}_Thylacine",
 "Category": "Sound",
 "FilePaths": [ "{{AbsoluteFilePath:Assets/Music/Thylacine.ogg}}" ],
+"StreamedVorbis": true,
+"Looped": false
+}
+}
+},
+ {
+"Action": "EditData",
+"Target": "Data/AudioChanges",
+"Entries": {
+"{{ModID}}_ShevitSqueak": {
+"ID": "{{ModID}}_ShevitSqueak",
+"Category": "Sound",
+"FilePaths": [ "{{AbsoluteFilePath:Assets/Music/ShevitSqueak.ogg}}" ],
 "StreamedVorbis": true,
 "Looped": false
 }

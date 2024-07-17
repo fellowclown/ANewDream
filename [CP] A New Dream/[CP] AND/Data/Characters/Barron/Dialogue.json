@@ -127,7 +127,7 @@
 "Saloon":"{{i18n:Saloon.Barron.HighHeart.{{season}}}}",
 },
 "When": {
-"Relationship:FC.Barron": "Dating"
+"Hearts:FC.John": "{{Range: 9, 10}}" 
 }
 },
 {

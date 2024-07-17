@@ -132,7 +132,7 @@
 "Saloon":"{{i18n:Saloon.Phoebe.HighHeart.{{season}}}}",
 },
 "When": {
-"Relationship:FC.John": "Dating"
+"Hearts:FC.John": "{{Range: 9, 10}}" 
 }
 },
         //Marriage Dialogue

@@ -3,13 +3,13 @@
  {
 "LogName": "TempActor Characters",
 "Action": "Load",
-"Target": "Characters/FC.Bubba,Characters/FC.Ball,Characters/FC.BarronsAlbum,Characters/FC.KingsRangoons,Characters/FC.Window,Characters/FC.FlamesTrailer,Portraits/FC.DezerieCammi,Characters/FC.DezerieCammi,Characters/FC.PopperSteal,Characters/FC.Danni,Portraits/FC.Danni,Characters/FC.Cori,Portraits/FC.Cori,Characters/FC.TrashCan,Characters/FC.Radio,Characters/FC.WanderingHog,Characters/FC.BabyHog,Portraits/FC.BabyHog,Characters/FC.MamaHog,Portraits/FC.MamaHog,Characters/FC.Roger,Portraits/FC.Roger,Characters/FC.SteelyBoat,Characters/FC.SeaGlassBag,Characters/FC.BeetPlot,Characters/FC.MaverickAND,Portraits/FC.MaverickAND",
+"Target": "Characters/FC.ShevitAdult,Portraits/FC.Eve,Characters/FC.Eve,Characters/FC.RockCrab,Characters/FC.Bubba,Characters/FC.Ball,Characters/FC.BarronsAlbum,Characters/FC.KingsRangoons,Characters/FC.Window,Characters/FC.FlamesTrailer,Portraits/FC.DezerieCammi,Characters/FC.DezerieCammi,Characters/FC.PopperSteal,Characters/FC.Danni,Portraits/FC.Danni,Characters/FC.Cori,Portraits/FC.Cori,Characters/FC.TrashCan,Characters/FC.Radio,Characters/FC.WanderingHog,Characters/FC.BabyHog,Portraits/FC.BabyHog,Characters/FC.MamaHog,Portraits/FC.MamaHog,Characters/FC.Roger,Portraits/FC.Roger,Characters/FC.SteelyBoat,Characters/FC.SeaGlassBag,Characters/FC.BeetPlot,Characters/FC.MaverickAND,Portraits/FC.MaverickAND",
 "FromFile": "Assets/Npcs/TempActors/{{TargetPathOnly}}/{{TargetWithoutPath}}.png",
 },
 {
 "LogName": "TempActor Portraits",
 "Action": "Load",
-"Target": "Characters/FC.Ladder",
+"Target": "Characters/FC.AmandaHammer,Characters/FC.Ladder",
 "FromFile": "Assets/Npcs/TempActors/{{TargetPathOnly}}/Seasonal Actors/{{TargetWithoutPath}}_{{season}}.png",
 },
   {
@@ -73,7 +73,7 @@
      {
 "LogName": "Load Location Maps",
 "Action":"Load",
-"Target":"Maps/{{ModID}}_AmandaIntro,Maps/{{ModID}}_AnimalRefuge,Maps/{{ModID}}_SecretCave,Maps/{{ModID}}_FamilyTiesMap,Maps/{{ModID}}_TempleHouseParty,Maps/{{ModID}}_Heart2Platonic,Maps/{{ModID}}_LoresRoad",
+"Target":"Maps/{{ModID}}_BarronDriving,Maps/{{ModID}}_AmandaIntro,Maps/{{ModID}}_AnimalRefuge,Maps/{{ModID}}_SecretCave,Maps/{{ModID}}_FamilyTiesMap,Maps/{{ModID}}_TempleHouseParty,Maps/{{ModID}}_Heart2Platonic,Maps/{{ModID}}_LoresRoad",
 "FromFile":"Assets/Maps/Event Maps/{{TargetWithoutPath}}.tbin"
 },
  {
@@ -88,5 +88,11 @@
 "Target": "Mods/{{ModID}}/BigToys,Mods/{{ModID}}/Objects,Mods/{{ModID}}/Shirts,Mods/{{ModID}}/Crops",
 "FromFile": "Assets/Objects/{{TargetWithoutPath}}.png"
 },
+  {
+        "LogName": "SummonCircle",
+        "Action": "Load",
+        "Target": "{{ModID}}/FC.Lunch",
+        "FromFile": "Assets/Npcs/TempActors/Characters/FC.Lunch.png"
+    },
 ]
 }
