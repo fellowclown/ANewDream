@@ -1,3 +1,4 @@
+
 {
 "Changes": [
    /************************************************
@@ -59,7 +60,7 @@
 "Saloon":"{{i18n:Saloon.Phoebe.LowHeart.{{season}}}}",
 },
 "When": {
-"Hearts:FC.Phoebe": "0,4",
+"Hearts:FC.Phoebe": "{{Range: 0, 4}}",
 
 }
 },
@@ -79,7 +80,7 @@
 "Saloon":"{{i18n:Saloon.Phoebe.MidHeart.{{season}}}}",
 },
 "When": {
-"Hearts:FC.Phoebe": "5,10",
+"Hearts:FC.Phoebe": "{{Range: 5,10}}",
 }
 },
   /************************************************

@@ -94,7 +94,7 @@
                         "Entries",
                         "Set-Up_additionalCharacters{{YearCheck}}"
                     ],
-                    "Value": "FC.Phoebe 19 33 2",
+                    "Value": "FC.Phoebe 18 28 2",
                     "Delimiter": "/"
                 },
                      {
@@ -103,7 +103,7 @@
                         "Entries",
                         "MainEvent_additionalCharacters{{YearCheck}}"
                     ],
-                    "Value": "FC.Phoebe 19 33 2",
+                    "Value": "FC.Phoebe 18 28 2",
                     "Delimiter": "/"
                 },
         ]

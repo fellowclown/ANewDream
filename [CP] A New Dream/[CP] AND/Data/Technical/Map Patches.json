@@ -129,6 +129,7 @@
    "Action": "EditMap",
    "Target": "Maps/EastScarp_Village",
    "FromFile": "Assets/Maps/Map Patches/PoppersNest.tbin",
+       "PatchMode":"overlay",
      "ToArea": { "X":74, "Y":117, "Width": 1, "Height": 2},
    "TextOperations": [
   {

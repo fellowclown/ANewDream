@@ -73,7 +73,7 @@
      {
 "LogName": "Load Location Maps",
 "Action":"Load",
-"Target":"Maps/{{ModID}}_BarronDriving,Maps/{{ModID}}_AmandaIntro,Maps/{{ModID}}_AnimalRefuge,Maps/{{ModID}}_SecretCave,Maps/{{ModID}}_FamilyTiesMap,Maps/{{ModID}}_TempleHouseParty,Maps/{{ModID}}_Heart2Platonic,Maps/{{ModID}}_LoresRoad",
+"Target":"Maps/{{ModID}}_BarronDriving,Maps/{{ModID}}_AmandaIntro,Maps/{{ModID}}_AnimalRefuge,Maps/{{ModID}}_FamilyTiesMap,Maps/{{ModID}}_TempleHouseParty,Maps/{{ModID}}_Heart2Platonic,Maps/{{ModID}}_LoresRoad",
 "FromFile":"Assets/Maps/Event Maps/{{TargetWithoutPath}}.tbin"
 },
  {
