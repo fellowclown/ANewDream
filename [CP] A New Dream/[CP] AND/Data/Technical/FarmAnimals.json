@@ -1,20 +1,5 @@
 {
     "Changes": [
-            {
- "LogName": "ALTFeed",
-"Action": "EditData",
-"Target": "selph.ExtraAnimalConfig/AnimalExtensionData",
-"Entries": {
-"{{ModID}}_Thylacine": {
-"FeedItemId": "(O)Fellowclown.ClownCore_CarnivoreFeed",
-  },
-  "When": {
-        "AnimalHouse": true,
-        "HasMod |contains=selph.ExtraAnimalConfig": true,
-        "AltFeed": true,
-            }
-        },
-},
  {
  "LogName": "Thylacine",
 "Action": "EditData",
@@ -121,7 +106,7 @@
 },
     "CanSwim": false,
     "BabiesFollowAdults": true,
-    "GrassEatAmount": -1,
+    "GrassEatAmount": 3,
     "HappinessDrain": 3,
     "UpDownPetHitboxTileSize": "1.5, 1.75",
     "LeftRightPetHitboxTileSize": "1.75, 1.25",
