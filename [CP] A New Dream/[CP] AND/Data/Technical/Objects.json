@@ -358,7 +358,7 @@
 "Action": "EditData",
 "Target": "Data/Furniture",
 "Entries": {
-"{{ModID}}_BigCar": "{{ModID}}_BigCar/decor/2 3/2 3/1/5000/2/{{i18n:FC.BigCar}}/100/Mods\\{{ModID}}\\BigToys",
+"{{ModID}}_BigCar": "{{ModID}}_BigCar/armchair/2 2/2 2/1/5000/2/{{i18n:FC.BigCar}}/100/Mods\\{{ModID}}\\BigToys",
 "{{ModID}}_SmallTruck": "{{ModID}}_SmallTruck/decor/1 2/1 2/1/300/2/{{i18n:FC.SmallTruck}}/99/Mods\\{{ModID}}\\BigToys",
 "{{ModID}}_SmallCar": "{{ModID}}_SmallCar/decor/1 2/1 2/1/300/2/{{i18n:FC.SmallCar}}/98/Mods\\{{ModID}}\\BigToys",
 "{{ModID}}_PinkShroomTable": "{{ModID}}_PinkShroomTable/long table/3 2/3 1/1/5000/2/{{i18n:FC.PinkShroomTable}}/112/Mods\\{{ModID}}\\BigToys",
@@ -389,12 +389,12 @@
 "{{ModID}}_ChildernsMiniFridge": "{{ModID}}_ChildernsMiniFridge/decor/1 1/1 1/1/50000/2/{{i18n:FC.ChildernsMiniFridge}}/16/Mods\\{{ModID}}\\Objects",
 "{{ModID}}_ChildernsPlayHouse": "{{ModID}}_ChildernsPlayHouse/decor/3 4/3 2/1/80000/2/{{i18n:FC.ChildernsPlayHouse}}/280/Mods\\{{ModID}}\\BigToys",
 
-"{{ModID}}_CherryHighChair": "{{ModID}}_CherryHighChair/decor/1 3/1 1/4/30000/2/{{i18n:FC.CherryHighChair}}/6/Mods\\{{ModID}}\\BigToys",
-"{{ModID}}_BirchHighChair": "{{ModID}}_BirchHighChair/decor/1 3/1 1/4/30000/2/{{i18n:FC.BirchHighChair}}/9/Mods\\{{ModID}}\\BigToys",
-"{{ModID}}_GothHighChair": "{{ModID}}_GothHighChair/decor/1 3/1 1/4/30000/2/{{i18n:FC.GothHighChair}}/0/Mods\\{{ModID}}\\BigToys",
-"{{ModID}}_BlueHighChair": "{{ModID}}_BlueHighChair/decor/1 3/1 1/4/30000/2/{{i18n:FC.BlueHighChair}}/3/Mods\\{{ModID}}\\BigToys",
-"{{ModID}}_OakHighChair": "{{ModID}}_OakHighChair/decor/1 3/1 1/4/30000/2/{{i18n:FC.OakHighChair}}/12/Mods\\{{ModID}}\\BigToys",
-"{{ModID}}_WalnutHighChair": "{{ModID}}_WalnutHighChair/decor/1 3/1 1/4/30000/2/{{i18n:FC.WalnutHighChair}}/15/Mods\\{{ModID}}\\BigToys",
+"{{ModID}}_CherryHighChair": "{{ModID}}_CherryHighChair/chair/1 3/1 1/4/30000/2/{{i18n:FC.CherryHighChair}}/6/Mods\\{{ModID}}\\BigToys",
+"{{ModID}}_BirchHighChair": "{{ModID}}_BirchHighChair/chair/1 3/1 1/4/30000/2/{{i18n:FC.BirchHighChair}}/9/Mods\\{{ModID}}\\BigToys",
+"{{ModID}}_GothHighChair": "{{ModID}}_GothHighChair/chair/1 3/1 1/4/30000/2/{{i18n:FC.GothHighChair}}/0/Mods\\{{ModID}}\\BigToys",
+"{{ModID}}_BlueHighChair": "{{ModID}}_BlueHighChair/chair/1 3/1 1/4/30000/2/{{i18n:FC.BlueHighChair}}/3/Mods\\{{ModID}}\\BigToys",
+"{{ModID}}_OakHighChair": "{{ModID}}_OakHighChair/chair/1 3/1 1/4/30000/2/{{i18n:FC.OakHighChair}}/12/Mods\\{{ModID}}\\BigToys",
+"{{ModID}}_WalnutHighChair": "{{ModID}}_WalnutHighChair/chair/1 3/1 1/4/30000/2/{{i18n:FC.WalnutHighChair}}/15/Mods\\{{ModID}}\\BigToys",
 
 "{{ModID}}_PinkBearRight": "{{ModID}}_PinkBearRight/decor/2 3/2 1/1/10000/2/{{i18n:FC.PinkBearRight}}/24/Mods\\{{ModID}}\\BigToys",
 "{{ModID}}_YellowBearRight": "{{ModID}}_YellowBearRight/decor/2 3/2 1/1/10000/2/{{i18n:FC.YellowBearRight}}/22/Mods\\{{ModID}}\\BigToys",
