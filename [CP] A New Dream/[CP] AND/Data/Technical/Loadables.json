@@ -85,7 +85,7 @@
  {
 "LogName": "Objects Loads",
 "Action": "Load",
-"Target": "Mods/{{ModID}}/BigToysFront,Mods/{{ModID}}/BigToys,Mods/{{ModID}}/Objects,Mods/{{ModID}}/Shirts,Mods/{{ModID}}/Crops",
+"Target": "Mods/{{ModID}}/Hats,Mods/{{ModID}}/BigToysFront,Mods/{{ModID}}/BigToys,Mods/{{ModID}}/Objects,Mods/{{ModID}}/Shirts,Mods/{{ModID}}/Crops",
 "FromFile": "Assets/Objects/{{TargetWithoutPath}}.png"
 },
   {

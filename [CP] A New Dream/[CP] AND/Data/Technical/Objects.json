@@ -358,7 +358,7 @@
 "Action": "EditData",
 "Target": "Data/Furniture",
 "Entries": {
-"{{ModID}}_BigCar": "{{ModID}}_BigCar/armchair/2 2/2 2/1/5000/2/{{i18n:FC.BigCar}}/100/Mods\\{{ModID}}\\BigToys",
+"{{ModID}}_BigCar": "{{ModID}}_BigCar/couch/1 2/1 2/1/5000/2/{{i18n:FC.BigCar}}/100/Mods\\{{ModID}}\\BigToys",
 "{{ModID}}_SmallTruck": "{{ModID}}_SmallTruck/decor/1 2/1 2/1/300/2/{{i18n:FC.SmallTruck}}/99/Mods\\{{ModID}}\\BigToys",
 "{{ModID}}_SmallCar": "{{ModID}}_SmallCar/decor/1 2/1 2/1/300/2/{{i18n:FC.SmallCar}}/98/Mods\\{{ModID}}\\BigToys",
 "{{ModID}}_PinkShroomTable": "{{ModID}}_PinkShroomTable/long table/3 2/3 1/1/5000/2/{{i18n:FC.PinkShroomTable}}/112/Mods\\{{ModID}}\\BigToys",
@@ -415,6 +415,15 @@
 "{{ModID}}_PinkChungus": "{{ModID}}_PinkChungus/couch/3 2/3 1/4/60000/0/{{i18n:FC.PinkChungus}}/208/Mods\\{{ModID}}\\BigToys",
   }
 },
+       {
+            "Logname": "Hats",
+            "Action": "EditData",
+            "Target": "Data/hats",
+            "Entries": {
+                "{{ModID}}_JohnsHat": "{{ModID}}_JohnsHat/{{i18n:FC.JohnsHat.Desc}}/false/true//{{i18n:FC.JohnsHat}}/0/Mods\\{{ModID}}\\Hats",
+
+            }
+        },
   {
             "Action": "EditData",
             "Target": "Data/Objects",

@@ -1625,6 +1625,8 @@ Technical Information
 "Quest.PhoebesPackage.Objective":"Deliver Phoebe's package.",
 "Quest.PhoebesPackage.Reaction":"Oh!$1#$b#A package for me?#4b#It must be the new stock. Here, take one home with you.#$b#Think of it as a thank you gift!$1[Fellowclown.AND_PinkWarthog]",
 //Mail
+"FC.JohnsHat.Mail": "Let's be twins this egg festival, I made this hat just for you.^-John Lovejoy",
+"FC.JohnsHat.Title": "Wanna be twins?",
 "FC.BagOfSeaglass.Title":"John's Bag Of Sea glass.",
 "FC.BagOfSeaglass.Mail":"After collecting an entire bag of Sea Glass, I realized on my way home that I lost it.^If you could find it and return it to me I would be very grateful.^-John",
 "FC.FrostedCake.Title":"Father's Frosted Cake Recipe.",
@@ -1745,6 +1747,10 @@ Technical Information
 "FC.TheCuff.Desc":"Phoebe's Golden Bracelet",
 "FC.PhoebesPackage.Desc":"It's Phoebe's Package.",
 "FC.ChildernsPlayHouse": "Childern's Play House",
+///Hats
+"FC.JohnsHat": "Bunny Ears",
+"FC.JohnsHat.Desc": "A hat made by John just for you.",
+
 //Custom Artisan Goods
 "FC.FrostedCake":"Frosted Cake",
 "FC.FrostedCake.Desc":"A heavily frosted cake, it's very sweet.",
